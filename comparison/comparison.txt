@@ -3,33 +3,33 @@ DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF har
 110 sheet instances; 54 non-DXF instances.
 Boolean-difference tolerance: 0.00001 mm³ in each direction.
 
-walnut_19/Chest_Side1_left.dxf
+walnut_19/Chest_Side_1_Left.dxf
   Extra material: 1230.499011 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 9; matches after those drills: True.
-walnut_19/Chest_Side1_right.dxf
+walnut_19/Chest_Side_1_Right.dxf
   Extra material: 1230.499011 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 9; matches after those drills: True.
-walnut_19/Chest_Middle1.dxf
+walnut_19/Chest_Middle_1.dxf
   Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 6; matches after those drills: True.
-walnut_19/Chest_Bottom1.dxf
+walnut_19/Chest_Bottom_1.dxf
   Extra material: 2261.946711 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 4; matches after those drills: True.
-walnut_19/Chest_Side2.dxf
+walnut_19/Chest_Side_2.dxf
   Extra material: 2827.433388 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 5; matches after those drills: True.
-walnut_19/Chest_Middle2.dxf
+walnut_19/Chest_Middle_2.dxf
   Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 6; matches after those drills: True.
-walnut_19/Chest_Side3_left.dxf
+walnut_19/Chest_Side_3_Left.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
-walnut_19/Chest_Side3_right.dxf
+walnut_19/Chest_Side_3_Right.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
-oak_13/Chest_Back2.dxf
+oak_13/Chest_Back_2.dxf
   Extra material: 1914.109572 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 14; matches after those drills: True.
-walnut_19/Table_Side2.dxf
+walnut_19/Table_Side_2.dxf
   Extra material: 1130.973355 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 2; matches after those drills: True.
