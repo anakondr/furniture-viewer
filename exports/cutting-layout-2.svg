@@ -3,7 +3,7 @@
   <rdf:RDF>
    <ns2:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:date>2026-10-09T23:43:28.359373</dc:date>
+    <dc:date>2026-10-09T23:59:12.396570</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <ns2:Agent>
@@ -25,97 +25,97 @@
     <path d="M 53.650781 271.219414  L 386.208438 271.219414  L 386.208438 104.940586  L 53.650781 104.940586  z " style="fill: #ffffff" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_3">
-    <path d="M 53.650781 271.219414  L 386.208437 271.219414  L 386.208437 104.940586  L 53.650781 104.940586  L 53.650781 271.219414  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 271.219414  L 386.208437 271.219414  L 386.208437 104.940586  L 53.650781 104.940586  L 53.650781 271.219414  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_4">
-    <path d="M 53.650781 271.219414  L 214.886727 271.219414  L 214.886727 196.66653  L 53.650781 196.66653  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 271.219414  L 214.886727 271.219414  L 214.886727 196.66653  L 53.650781 196.66653  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_5">
-    <path d="M 215.159315 271.219414  L 376.395261 271.219414  L 376.395261 232.103001  L 215.159315 232.103001  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.159315 271.219414  L 376.395261 271.219414  L 376.395261 232.103001  L 215.159315 232.103001  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_6">
-    <path d="M 215.159315 231.830413  L 376.395261 231.830413  L 376.395261 208.387824  L 215.159315 208.387824  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.159315 231.830413  L 376.395261 231.830413  L 376.395261 208.387824  L 215.159315 208.387824  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_7">
-    <path d="M 215.159315 208.115236  L 367.945025 208.115236  L 367.945025 184.536353  L 215.159315 184.536353  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.159315 208.115236  L 367.945025 208.115236  L 367.945025 184.536353  L 215.159315 184.536353  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_8">
-    <path d="M 53.650781 196.393941  L 206.436491 196.393941  L 206.436491 172.815058  L 53.650781 172.815058  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 196.393941  L 206.436491 196.393941  L 206.436491 172.815058  L 53.650781 172.815058  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_9">
-    <path d="M 53.650781 172.54247  L 134.064313 172.54247  L 134.064313 148.418411  L 53.650781 148.418411  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 172.54247  L 134.064313 172.54247  L 134.064313 148.418411  L 53.650781 148.418411  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_10">
-    <path d="M 53.650781 148.145822  L 134.064313 148.145822  L 134.064313 124.021763  L 53.650781 124.021763  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 148.145822  L 134.064313 148.145822  L 134.064313 124.021763  L 53.650781 124.021763  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_11">
-    <path d="M 134.336901 172.54247  L 214.750433 172.54247  L 214.750433 148.418411  L 134.336901 148.418411  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 134.336901 172.54247  L 214.750433 172.54247  L 214.750433 148.418411  L 134.336901 148.418411  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_12">
-    <path d="M 134.336901 148.145822  L 214.750433 148.145822  L 214.750433 124.021763  L 134.336901 124.021763  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 134.336901 148.145822  L 214.750433 148.145822  L 214.750433 124.021763  L 134.336901 124.021763  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_13">
-    <path d="M 215.023021 184.263765  L 295.436553 184.263765  L 295.436553 160.684882  L 215.023021 160.684882  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.023021 184.263765  L 295.436553 184.263765  L 295.436553 160.684882  L 215.023021 160.684882  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_14">
-    <path d="M 295.709141 184.263765  L 376.122673 184.263765  L 376.122673 160.684882  L 295.709141 160.684882  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 295.709141 184.263765  L 376.122673 184.263765  L 376.122673 160.684882  L 295.709141 160.684882  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_15">
-    <path d="M 215.023021 160.412293  L 287.258905 160.412293  L 287.258905 136.288234  L 215.023021 136.288234  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.023021 160.412293  L 287.258905 160.412293  L 287.258905 136.288234  L 215.023021 136.288234  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_16">
-    <path d="M 215.023021 136.015646  L 287.258905 136.015646  L 287.258905 111.891586  L 215.023021 111.891586  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 215.023021 136.015646  L 287.258905 136.015646  L 287.258905 111.891586  L 215.023021 111.891586  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_17">
-    <path d="M 287.531494 160.412293  L 359.767378 160.412293  L 359.767378 136.288234  L 287.531494 136.288234  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 287.531494 160.412293  L 359.767378 160.412293  L 359.767378 136.288234  L 287.531494 136.288234  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_18">
-    <path d="M 287.531494 136.015646  L 359.767378 136.015646  L 359.767378 111.891586  L 287.531494 111.891586  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 287.531494 136.015646  L 359.767378 136.015646  L 359.767378 111.891586  L 287.531494 111.891586  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_19">
-    <path d="M 53.650781 123.749175  L 156.007666 123.749175  L 156.007666 116.934469  L 53.650781 116.934469  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 123.749175  L 156.007666 123.749175  L 156.007666 116.934469  L 53.650781 116.934469  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_20">
-    <path d="M 53.650781 116.66188  L 156.007666 116.66188  L 156.007666 109.847174  L 53.650781 109.847174  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 116.66188  L 156.007666 116.66188  L 156.007666 109.847174  L 53.650781 109.847174  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_21">
-    <path d="M 156.280255 123.749175  L 185.447197 123.749175  L 185.447197 115.98041  L 156.280255 115.98041  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 156.280255 123.749175  L 185.447197 123.749175  L 185.447197 115.98041  L 156.280255 115.98041  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_22">
-    <path d="M 156.280255 115.707822  L 185.447197 115.707822  L 185.447197 107.939057  L 156.280255 107.939057  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 156.280255 115.707822  L 185.447197 115.707822  L 185.447197 107.939057  L 156.280255 107.939057  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_23">
-    <path d="M 368.217613 208.115236  L 385.118085 208.115236  L 385.118085 201.30053  L 368.217613 201.30053  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 368.217613 208.115236  L 385.118085 208.115236  L 385.118085 201.30053  L 368.217613 201.30053  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_24">
-    <path d="M 368.217613 201.027942  L 385.118085 201.027942  L 385.118085 194.213235  L 368.217613 194.213235  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 368.217613 201.027942  L 385.118085 201.027942  L 385.118085 194.213235  L 368.217613 194.213235  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_25">
-    <path d="M 368.217613 193.940647  L 385.118085 193.940647  L 385.118085 187.125941  L 368.217613 187.125941  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 368.217613 193.940647  L 385.118085 193.940647  L 385.118085 187.125941  L 368.217613 187.125941  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_26">
-    <path d="M 360.039966 160.412293  L 376.940437 160.412293  L 376.940437 153.597587  L 360.039966 153.597587  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 360.039966 160.412293  L 376.940437 160.412293  L 376.940437 153.597587  L 360.039966 153.597587  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_27">
-    <path d="M 360.039966 153.324999  L 376.940437 153.324999  L 376.940437 146.510293  L 360.039966 146.510293  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 360.039966 153.324999  L 376.940437 153.324999  L 376.940437 146.510293  L 360.039966 146.510293  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_28">
-    <path d="M 360.039966 146.237705  L 376.940437 146.237705  L 376.940437 139.422999  L 360.039966 139.422999  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 360.039966 146.237705  L 376.940437 146.237705  L 376.940437 139.422999  L 360.039966 139.422999  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_29">
-    <path d="M 360.039966 139.15041  L 376.940437 139.15041  L 376.940437 132.335704  L 360.039966 132.335704  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 360.039966 139.15041  L 376.940437 139.15041  L 376.940437 132.335704  L 360.039966 132.335704  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_30">
-    <path d="M 360.039966 132.063116  L 376.940437 132.063116  L 376.940437 125.24841  L 360.039966 125.24841  z " clip-path="url(#cutting-layout-2-p2e5f7279c4)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 360.039966 132.063116  L 376.940437 132.063116  L 376.940437 125.24841  L 360.039966 125.24841  z " clip-path="url(#cutting-layout-2-pd06908b15a)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-matplotlib.axis_1">
     <g id="cutting-layout-2-xtick_1">
      <g id="cutting-layout-2-line2d_1">
       <defs>
-       <path id="cutting-layout-2-ma0cfd8c706" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-2-md457c39ee9" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </defs>
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="53.650781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="53.650781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_1">
@@ -131,7 +131,7 @@
     <g id="cutting-layout-2-xtick_2">
      <g id="cutting-layout-2-line2d_2">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="121.797842" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="121.797842" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_2">
@@ -149,7 +149,7 @@
     <g id="cutting-layout-2-xtick_3">
      <g id="cutting-layout-2-line2d_3">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="189.944903" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="189.944903" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_3">
@@ -168,7 +168,7 @@
     <g id="cutting-layout-2-xtick_4">
      <g id="cutting-layout-2-line2d_4">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="258.091963" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="258.091963" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_4">
@@ -184,7 +184,7 @@
     <g id="cutting-layout-2-xtick_5">
      <g id="cutting-layout-2-line2d_5">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="326.239024" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="326.239024" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_5">
@@ -245,10 +245,10 @@
     <g id="cutting-layout-2-ytick_1">
      <g id="cutting-layout-2-line2d_6">
       <defs>
-       <path id="cutting-layout-2-md050e7c459" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-2-mfc275b5f64" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </defs>
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_7">
@@ -261,7 +261,7 @@
     <g id="cutting-layout-2-ytick_2">
      <g id="cutting-layout-2-line2d_7">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="243.96059" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="243.96059" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_8">
@@ -276,7 +276,7 @@
     <g id="cutting-layout-2-ytick_3">
      <g id="cutting-layout-2-line2d_8">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="216.701765" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="216.701765" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_9">
@@ -294,7 +294,7 @@
     <g id="cutting-layout-2-ytick_4">
      <g id="cutting-layout-2-line2d_9">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="189.442941" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="189.442941" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_10">
@@ -312,7 +312,7 @@
     <g id="cutting-layout-2-ytick_5">
      <g id="cutting-layout-2-line2d_10">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="162.184117" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="162.184117" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_11">
@@ -330,7 +330,7 @@
     <g id="cutting-layout-2-ytick_6">
      <g id="cutting-layout-2-line2d_11">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="134.925293" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="134.925293" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_12">
@@ -346,7 +346,7 @@
     <g id="cutting-layout-2-ytick_7">
      <g id="cutting-layout-2-line2d_12">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="53.650781" y="107.666468" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="53.650781" y="107.666468" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_13">
@@ -410,7 +410,7 @@
     <path d="M 53.650781 104.940586  L 386.208437 104.940586  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-text_15">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(116.327154 232.081569) scale(0.0547 -0.0547)">
       <defs>
@@ -432,7 +432,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-14" transform="translate(592.375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(119.795903 238.646638) scale(0.0547 -0.0547)">
       <defs>
@@ -452,7 +452,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_16">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(279.377288 249.959743) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -469,7 +469,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-15" transform="translate(592.375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(282.547991 255.960719) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-14" vector-effect="non-scaling-stroke" />
@@ -484,7 +484,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_17">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(279.377288 218.407654) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -501,7 +501,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-16" transform="translate(592.375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(282.547991 224.40863) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-14" vector-effect="non-scaling-stroke" />
@@ -516,7 +516,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_18">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(262.633811 194.62433) scale(0.05 -0.05)">
       <defs>
@@ -548,7 +548,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1098.828125 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(278.322873 200.625306) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-14" vector-effect="non-scaling-stroke" />
@@ -563,7 +563,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_19">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(101.125277 182.903035) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -589,7 +589,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1098.828125 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(116.814339 188.904012) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-14" vector-effect="non-scaling-stroke" />
@@ -604,7 +604,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_20">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(50.56536 158.778976) scale(0.05 -0.05)">
       <defs>
@@ -649,7 +649,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1692.484375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(82.218875 164.779952) scale(0.05 -0.05)">
       <defs>
@@ -666,7 +666,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_21">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(48.686063 134.382328) scale(0.05 -0.05)">
       <defs>
@@ -709,7 +709,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1767.65625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(82.218875 140.383304) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -723,7 +723,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_22">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(129.372183 158.778976) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -763,7 +763,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1767.65625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(162.904995 164.779952) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -777,7 +777,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_23">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(127.492886 134.382328) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -818,7 +818,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1842.828125 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(162.904995 140.383304) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -832,7 +832,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_24">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(221.47549 170.772858) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -863,7 +863,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1310.96875 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(243.591115 176.773835) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -877,7 +877,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_25">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(300.282313 170.772858) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -909,7 +909,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1386.140625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(324.277235 176.773835) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -923,7 +923,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_26">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(212.684713 146.648799) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -957,7 +957,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1480.34375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(239.502291 152.649775) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -971,7 +971,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_27">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(212.684713 122.252151) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1005,7 +1005,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1480.34375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(239.502291 128.253128) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1019,7 +1019,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_28">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(283.313889 146.648799) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1054,7 +1054,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1555.515625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(312.010764 152.649775) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1068,7 +1068,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_29">
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(283.313889 122.252151) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1103,7 +1103,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1555.515625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-p2e5f7279c4)">
+    <g clip-path="url(#cutting-layout-2-pd06908b15a)">
      
      <g transform="translate(312.010764 128.253128) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1150,91 +1150,91 @@
     <path d="M 444.250781 271.219414  L 776.808438 271.219414  L 776.808438 104.940586  L 444.250781 104.940586  z " style="fill: #ffffff" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_36">
-    <path d="M 444.250781 271.219414  L 776.808438 271.219414  L 776.808438 104.940586  L 444.250781 104.940586  L 444.250781 271.219414  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 271.219414  L 776.808438 271.219414  L 776.808438 104.940586  L 444.250781 104.940586  L 444.250781 271.219414  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_37">
-    <path d="M 444.250781 271.219414  L 516.486666 271.219414  L 516.486666 247.640531  L 444.250781 247.640531  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 271.219414  L 516.486666 271.219414  L 516.486666 247.640531  L 444.250781 247.640531  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_38">
-    <path d="M 444.250781 247.367943  L 516.486666 247.367943  L 516.486666 223.78906  L 444.250781 223.78906  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 247.367943  L 516.486666 247.367943  L 516.486666 223.78906  L 444.250781 223.78906  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_39">
-    <path d="M 444.250781 223.516472  L 516.486666 223.516472  L 516.486666 199.937589  L 444.250781 199.937589  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 223.516472  L 516.486666 223.516472  L 516.486666 199.937589  L 444.250781 199.937589  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_40">
-    <path d="M 444.250781 199.665  L 516.486666 199.665  L 516.486666 176.086117  L 444.250781 176.086117  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 199.665  L 516.486666 199.665  L 516.486666 176.086117  L 444.250781 176.086117  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_41">
-    <path d="M 444.250781 175.813529  L 483.776076 175.813529  L 483.776076 152.234646  L 444.250781 152.234646  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 175.813529  L 483.776076 175.813529  L 483.776076 152.234646  L 444.250781 152.234646  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_42">
-    <path d="M 444.250781 151.962058  L 483.776076 151.962058  L 483.776076 128.383175  L 444.250781 128.383175  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 151.962058  L 483.776076 151.962058  L 483.776076 128.383175  L 444.250781 128.383175  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_43">
-    <path d="M 484.048665 175.813529  L 523.57396 175.813529  L 523.57396 152.234646  L 484.048665 152.234646  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 484.048665 175.813529  L 523.57396 175.813529  L 523.57396 152.234646  L 484.048665 152.234646  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_44">
-    <path d="M 484.048665 151.962058  L 523.57396 151.962058  L 523.57396 128.383175  L 484.048665 128.383175  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 484.048665 151.962058  L 523.57396 151.962058  L 523.57396 128.383175  L 484.048665 128.383175  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_45">
-    <path d="M 444.250781 128.110587  L 521.93843 128.110587  L 521.93843 120.341822  L 444.250781 120.341822  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 128.110587  L 521.93843 128.110587  L 521.93843 120.341822  L 444.250781 120.341822  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_46">
-    <path d="M 444.250781 120.069233  L 521.93843 120.069233  L 521.93843 112.300468  L 444.250781 112.300468  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 120.069233  L 521.93843 120.069233  L 521.93843 112.300468  L 444.250781 112.300468  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_47">
-    <path d="M 522.211019 128.110587  L 599.898668 128.110587  L 599.898668 120.341822  L 522.211019 120.341822  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 522.211019 128.110587  L 599.898668 128.110587  L 599.898668 120.341822  L 522.211019 120.341822  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_48">
-    <path d="M 522.211019 120.069233  L 599.898668 120.069233  L 599.898668 112.300468  L 522.211019 112.300468  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 522.211019 120.069233  L 599.898668 120.069233  L 599.898668 112.300468  L 522.211019 112.300468  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_49">
-    <path d="M 444.250781 112.02788  L 531.479019 112.02788  L 531.479019 105.213174  L 444.250781 105.213174  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 444.250781 112.02788  L 531.479019 112.02788  L 531.479019 105.213174  L 444.250781 105.213174  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_50">
-    <path d="M 531.751607 112.02788  L 618.979845 112.02788  L 618.979845 105.213174  L 531.751607 105.213174  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 531.751607 112.02788  L 618.979845 112.02788  L 618.979845 105.213174  L 531.751607 105.213174  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #ffa500; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_51">
-    <path d="M 619.252433 271.219414  L 702.937024 271.219414  L 702.937024 264.404708  L 619.252433 264.404708  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 619.252433 271.219414  L 702.937024 271.219414  L 702.937024 264.404708  L 619.252433 264.404708  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_52">
-    <path d="M 523.846548 271.219414  L 607.531139 271.219414  L 607.531139 264.404708  L 523.846548 264.404708  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 523.846548 271.219414  L 607.531139 271.219414  L 607.531139 264.404708  L 523.846548 264.404708  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_53">
-    <path d="M 619.252433 264.13212  L 702.664435 264.13212  L 702.664435 257.317414  L 619.252433 257.317414  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 619.252433 264.13212  L 702.664435 264.13212  L 702.664435 257.317414  L 619.252433 257.317414  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_54">
-    <path d="M 523.846548 264.13212  L 607.25855 264.13212  L 607.25855 257.317414  L 523.846548 257.317414  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 523.846548 264.13212  L 607.25855 264.13212  L 607.25855 257.317414  L 523.846548 257.317414  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_55">
-    <path d="M 619.252433 257.044825  L 702.664435 257.044825  L 702.664435 250.230119  L 619.252433 250.230119  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 619.252433 257.044825  L 702.664435 257.044825  L 702.664435 250.230119  L 619.252433 250.230119  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_56">
-    <path d="M 523.846548 257.044825  L 607.25855 257.044825  L 607.25855 250.230119  L 523.846548 250.230119  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 523.846548 257.044825  L 607.25855 257.044825  L 607.25855 250.230119  L 523.846548 250.230119  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_57">
-    <path d="M 703.209612 271.219414  L 732.376554 271.219414  L 732.376554 263.450649  L 703.209612 263.450649  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 703.209612 271.219414  L 732.376554 271.219414  L 732.376554 263.450649  L 703.209612 263.450649  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_58">
-    <path d="M 732.649142 271.219414  L 761.816084 271.219414  L 761.816084 263.450649  L 732.649142 263.450649  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 732.649142 271.219414  L 761.816084 271.219414  L 761.816084 263.450649  L 732.649142 263.450649  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_59">
-    <path d="M 702.937024 263.178061  L 735.647613 263.178061  L 735.647613 256.363355  L 702.937024 256.363355  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 702.937024 263.178061  L 735.647613 263.178061  L 735.647613 256.363355  L 702.937024 256.363355  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_60">
-    <path d="M 735.920201 263.178061  L 768.63079 263.178061  L 768.63079 256.363355  L 735.920201 256.363355  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 735.920201 263.178061  L 768.63079 263.178061  L 768.63079 256.363355  L 735.920201 256.363355  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_61">
-    <path d="M 702.937024 256.090767  L 735.647613 256.090767  L 735.647613 249.276061  L 702.937024 249.276061  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 702.937024 256.090767  L 735.647613 256.090767  L 735.647613 249.276061  L 702.937024 249.276061  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-patch_62">
-    <path d="M 735.920201 256.090767  L 768.63079 256.090767  L 768.63079 249.276061  L 735.920201 249.276061  z " clip-path="url(#cutting-layout-2-pa4660498bb)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 735.920201 256.090767  L 768.63079 256.090767  L 768.63079 249.276061  L 735.920201 249.276061  z " clip-path="url(#cutting-layout-2-p71fbbcb695)" style="fill: #f1e5ac; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-matplotlib.axis_3">
     <g id="cutting-layout-2-xtick_6">
      <g id="cutting-layout-2-line2d_13">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="444.250781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="444.250781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_31">
@@ -1247,7 +1247,7 @@
     <g id="cutting-layout-2-xtick_7">
      <g id="cutting-layout-2-line2d_14">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="512.397842" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="512.397842" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_32">
@@ -1262,7 +1262,7 @@
     <g id="cutting-layout-2-xtick_8">
      <g id="cutting-layout-2-line2d_15">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="580.544903" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="580.544903" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_33">
@@ -1278,7 +1278,7 @@
     <g id="cutting-layout-2-xtick_9">
      <g id="cutting-layout-2-line2d_16">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="648.691963" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="648.691963" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_34">
@@ -1294,7 +1294,7 @@
     <g id="cutting-layout-2-xtick_10">
      <g id="cutting-layout-2-line2d_17">
       <g>
-       <use xlink:href="#cutting-layout-2-ma0cfd8c706" x="716.839024" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-md457c39ee9" x="716.839024" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_35">
@@ -1336,7 +1336,7 @@
     <g id="cutting-layout-2-ytick_8">
      <g id="cutting-layout-2-line2d_18">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="271.219414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_37">
@@ -1349,7 +1349,7 @@
     <g id="cutting-layout-2-ytick_9">
      <g id="cutting-layout-2-line2d_19">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="243.96059" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="243.96059" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_38">
@@ -1364,7 +1364,7 @@
     <g id="cutting-layout-2-ytick_10">
      <g id="cutting-layout-2-line2d_20">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="216.701765" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="216.701765" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_39">
@@ -1379,7 +1379,7 @@
     <g id="cutting-layout-2-ytick_11">
      <g id="cutting-layout-2-line2d_21">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="189.442941" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="189.442941" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_40">
@@ -1394,7 +1394,7 @@
     <g id="cutting-layout-2-ytick_12">
      <g id="cutting-layout-2-line2d_22">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="162.184117" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="162.184117" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_41">
@@ -1409,7 +1409,7 @@
     <g id="cutting-layout-2-ytick_13">
      <g id="cutting-layout-2-line2d_23">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="134.925293" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="134.925293" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_42">
@@ -1425,7 +1425,7 @@
     <g id="cutting-layout-2-ytick_14">
      <g id="cutting-layout-2-line2d_24">
       <g>
-       <use xlink:href="#cutting-layout-2-md050e7c459" x="444.250781" y="107.666468" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-2-mfc275b5f64" x="444.250781" y="107.666468" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-2-text_43">
@@ -1481,7 +1481,7 @@
     <path d="M 444.250781 104.940586  L 776.808438 104.940586  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-2-text_45">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(441.001145 257.728508) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1515,7 +1515,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1516.796875 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(468.730052 263.729484) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1529,7 +1529,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_46">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(441.001145 233.877036) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1563,7 +1563,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1516.796875 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(468.730052 239.878013) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1577,7 +1577,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_47">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(439.121848 210.025565) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1612,7 +1612,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1591.96875 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(468.730052 216.026542) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1626,7 +1626,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_48">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(439.121848 186.174094) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1661,7 +1661,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-4e" transform="translate(1591.96875 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(468.730052 192.175071) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -1675,7 +1675,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_49">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(419.809913 162.322623) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1714,7 +1714,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1728.9375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(452.374757 168.323599) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-15" vector-effect="non-scaling-stroke" />
@@ -1728,7 +1728,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_50">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(417.930616 138.471151) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1768,7 +1768,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1804.109375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(452.374757 144.472128) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-15" vector-effect="non-scaling-stroke" />
@@ -1782,7 +1782,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_51">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(457.7285 162.322623) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1822,7 +1822,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1804.109375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(492.17264 168.323599) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-15" vector-effect="non-scaling-stroke" />
@@ -1836,7 +1836,7 @@
     </g>
    </g>
    <g id="cutting-layout-2-text_52">
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(455.849203 138.471151) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-26" vector-effect="non-scaling-stroke" />
@@ -1877,7 +1877,7 @@
       <use xlink:href="#cutting-layout-2-DejaVuSans-57" transform="translate(1879.28125 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-2-pa4660498bb)">
+    <g clip-path="url(#cutting-layout-2-p71fbbcb695)">
      
      <g transform="translate(492.17264 144.472128) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-2-DejaVuSans-15" vector-effect="non-scaling-stroke" />
@@ -1951,10 +1951,10 @@
   </g>
  </g>
  <defs>
-  <clipPath id="cutting-layout-2-p2e5f7279c4">
+  <clipPath id="cutting-layout-2-pd06908b15a">
    <rect x="53.650781" y="104.940586" width="332.557656" height="166.278828" vector-effect="non-scaling-stroke" />
   </clipPath>
-  <clipPath id="cutting-layout-2-pa4660498bb">
+  <clipPath id="cutting-layout-2-p71fbbcb695">
    <rect x="444.250781" y="104.940586" width="332.557656" height="166.278828" vector-effect="non-scaling-stroke" />
   </clipPath>
  </defs>
