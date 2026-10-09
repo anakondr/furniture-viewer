@@ -9,3 +9,5 @@
 .cutting-plan{margin:20px 0;border:1px solid #cbd5cf;border-radius:7px;overflow:hidden;background:white}.plan-toolbar{display:flex;align-items:center;gap:9px;padding:10px 12px;flex-wrap:wrap;border-bottom:1px solid #d9dfda}.plan-toolbar strong{margin-right:auto;font-size:14px}.plan-toolbar button{padding:5px 11px}.plan-zoom{min-width:45px;font-variant-numeric:tabular-nums}.plan-hint{font-size:12px;color:#617870}.plan-viewport{position:relative;height:clamp(280px,65vh,650px);overflow:hidden;background:#f0f1ee;cursor:grab;touch-action:none}.plan-viewport.dragging{cursor:grabbing}.plan-viewport:focus-visible{outline:2px solid #297962;outline-offset:-2px}#plans .plan-viewport img{position:absolute;left:0;top:0;margin:0;max-width:none;transform-origin:0 0;user-select:none;pointer-events:none}
 
 .plan-viewport>svg{display:block;width:100%;height:100%;user-select:none;pointer-events:none}
+
+.plan-toolbar a{color:#173c32;border:1px solid #b6c7c2;border-radius:5px;padding:5px 11px;text-decoration:none}.plan-toolbar a:hover{background:#e6eee9}
