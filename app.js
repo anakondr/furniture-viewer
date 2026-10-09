@@ -20,6 +20,7 @@ controls.enableDamping=true;
 const assembly=new THREE.Group(), fileGroup=new THREE.Group();scene.add(assembly,fileGroup);fileGroup.visible=false;
 let tab='assembly', source='python', manifest, rows=[], objects=new Map(), values=[], collapsed=new Set(), visibility=new Map(), sourceRequest=0, fileRequest=0, selectedFile=null;
 const geometryCache=new Map();
+const walnutEnabled={value:0};
 function colorAttribute(bytes){
  const a=new Float32Array(bytes.length);const c=new THREE.Color();
  for(let i=0;i<bytes.length;i+=3){c.setRGB(bytes[i]/255,bytes[i+1]/255,bytes[i+2]/255,THREE.SRGBColorSpace);a.set([c.r,c.g,c.b],i);}
@@ -27,7 +28,7 @@ function colorAttribute(bytes){
 }
 function geometries(payload){
  const result={};
- if(payload.positions?.length){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(payload.positions,3));g.setAttribute('color',colorAttribute(payload.colors));if(payload.normals)g.setAttribute('normal',new THREE.Float32BufferAttribute(payload.normals,3));else g.computeVertexNormals();result.surface=g;}
+ if(payload.positions?.length){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(payload.positions,3));g.setAttribute('color',colorAttribute(payload.colors));if(payload.normals)g.setAttribute('normal',new THREE.Float32BufferAttribute(payload.normals,3));else g.computeVertexNormals();const marker=manifest.walnutColor||[89,82,53];const mask=new Float32Array(payload.colors.length/3);for(let i=0;i<mask.length;i++)mask[i]=marker.every((v,c)=>Math.abs(payload.colors[i*3+c]-v)<=1)?1:0;g.setAttribute('walnutMask',new THREE.BufferAttribute(mask,1));result.surface=g;}
  if(payload.lines?.length){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(payload.lines,3));g.setAttribute('color',colorAttribute(payload.lineColors));result.edges=g;}
  return result;
 }
@@ -61,6 +62,31 @@ compositeScene.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),compositeMaterial
 function prepareTransparency(material){
  material.forceSinglePass=true;
  material.onBeforeCompile=shader=>{
+  if(material.isMeshStandardMaterial){
+   shader.uniforms.walnutEnabled=walnutEnabled;
+   shader.vertexShader='attribute float walnutMask;varying float walnutFace;varying vec3 walnutPosition;varying vec3 walnutNormal;\n'+shader.vertexShader;
+   shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nwalnutFace=walnutMask;walnutPosition=position;walnutNormal=normal;');
+   shader.fragmentShader=`uniform float walnutEnabled;varying float walnutFace;varying vec3 walnutPosition;varying vec3 walnutNormal;
+    float walnutHash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+    float walnutNoise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);return mix(mix(walnutHash(i),walnutHash(i+vec2(1,0)),f.x),mix(walnutHash(i+vec2(0,1)),walnutHash(i+vec2(1,1)),f.x),f.y);}
+    float walnutFbm(vec2 p){return .57*walnutNoise(p)+.28*walnutNoise(p*2.03)+.15*walnutNoise(p*4.09);}
+    vec3 walnutColour(vec3 p,vec3 n){
+     vec2 uv=abs(n.z)>.5?p.xy:(abs(n.y)>.5?p.xz:p.yz);
+     float warp=walnutFbm(vec2(uv.x*.004,uv.y*.015));
+     float crown=pow(sin(uv.x*.0025+warp*.65),2.0)*22.0;
+     float across=uv.y+crown+warp*12.0;
+     float broad=walnutFbm(vec2(uv.x*.008,across*.055));
+     float phase=across*.85+walnutNoise(uv*vec2(.01,.09))*3.0;
+     float rings=.5+.5*sin(phase);
+     float grain=pow(rings,12.0)*(1.0-smoothstep(.6,2.0,fwidth(phase)));
+     float fibres=walnutNoise(vec2(uv.x*.035,across*2.5));
+     float tone=clamp(.35+.5*broad+.12*fibres-.25*grain,0.0,1.0);
+     return mix(vec3(.055,.021,.009),vec3(.29,.145,.065),tone);
+    }
+   `+shader.fragmentShader;
+   shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>', '#include <color_fragment>\nif(walnutEnabled>.5&&walnutFace>.99){diffuseColor.rgb=walnutColour(walnutPosition,normalize(walnutNormal));}');
+   shader.fragmentShader=shader.fragmentShader.replace('#include <roughnessmap_fragment>', '#include <roughnessmap_fragment>\nif(walnutEnabled>.5&&walnutFace>.99){roughnessFactor=.48+.12*walnutNoise(walnutPosition.xy*vec2(.02,.8));}');
+  }
   shader.uniforms.transparencyPass=transparencyPass;
   shader.uniforms.transparencyDistance=transparencyDistance;
   shader.uniforms.frontDepth=frontDepth;shader.uniforms.transparencySize=transparencySize;
@@ -80,7 +106,7 @@ function prepareTransparency(material){
    }else if(transparencyPass==2){gl_FragColor=vec4(opacity);}
   `+shader.fragmentShader.slice(end);
  };
- material.customProgramCacheKey=()=> 'furniture-front-peeled-transparency-v2';
+ material.customProgramCacheKey=()=> 'furniture-walnut-transparency-v3';
 }
 function opacity(material,value){
  material.opacity=value;
@@ -118,7 +144,7 @@ function style(){const alpha=+$('alpha').value;for(const [id,obj] of objects){ob
 function motion(){for(const row of rows){if(row.group)continue;const obj=objects.get(row.id),m=[...row.matrix];for(const [index,track] of Object.entries(row.tracks)){const p=track[Math.round(values[+index]*100)];for(let j=0;j<3;j++)m[12+j]+=p[j];}obj.matrix.fromArray(m);obj.matrixWorldNeedsUpdate=true;}}
 async function switchSource(next){const request=++sourceRequest;status(`Loading ${next.toUpperCase()} assembly…`);try{const nextRows=await data(manifest.sources[next]);const built=await Promise.all(nextRows.filter(r=>!r.group).map(async r=>[r.id,await mesh(r.mesh)]));if(request!==sourceRequest){for(const [,o] of built)o.traverse(x=>x.material?.dispose());return;}const firstLoad=objects.size===0;clear(assembly);objects=new Map(built);rows=nextRows;for(const row of rows){if(!visibility.has(row.id))visibility.set(row.id,row.visible);if(!row.group){const o=objects.get(row.id);o.matrixAutoUpdate=false;assembly.add(o);}}source=next;motion();style();tree();$('python').setAttribute('aria-pressed',String(next==='python'));$('dxf').setAttribute('aria-pressed',String(next==='dxf'));$('stp').setAttribute('aria-pressed',String(next==='stp'));if(firstLoad)fit(assembly);status(`${next.toUpperCase()} assembly · ${built.length} part instances`);}catch(e){fail(e);}}
 function tree(){const root=$('tree');root.replaceChildren();for(const row of rows){if([...collapsed].some(id=>row.id.startsWith(id+'/')))continue;const div=document.createElement('div');div.className='tree-row';div.style.paddingLeft=`${row.depth*12}px`;const toggle=document.createElement('button');toggle.textContent=row.group?(collapsed.has(row.id)?'▸':'▾'):'';toggle.disabled=!row.group;toggle.setAttribute('aria-label',`${collapsed.has(row.id)?'Expand':'Collapse'} ${row.name}`);toggle.onclick=()=>{collapsed.has(row.id)?collapsed.delete(row.id):collapsed.add(row.id);tree();};div.append(toggle);const label=document.createElement('label'),check=document.createElement('input');check.type='checkbox';const descendants=row.group?rows.filter(r=>!r.group&&r.id.startsWith(row.id+'/')):[row];check.checked=descendants.every(r=>visibility.get(r.id));check.indeterminate=!check.checked&&descendants.some(r=>visibility.get(r.id));check.onchange=()=>{for(const d of descendants)visibility.set(d.id,check.checked);style();tree();};label.append(check,document.createTextNode(row.name));div.append(label);root.append(div);}}
-function showTab(next){const previous=tab;tab=next;document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));$('assembly-panel').hidden=tab!=='assembly';$('files-panel').hidden=tab!=='files';$('viewport').hidden=!['assembly','files'].includes(tab);$('source-control').hidden=tab!=='assembly';$('comparison').hidden=tab!=='comparison';$('plans').hidden=tab!=='plans';assembly.visible=tab==='assembly';fileGroup.visible=tab==='files'&&selectedFile&&['stp','step','stl'].includes(selectedFile.kind);$('file-toolbar').hidden=tab!=='files'||!selectedFile;$('document').hidden=tab!=='files'||selectedFile?.kind!=='csv';$('dxf-view').hidden=tab!=='files'||selectedFile?.kind!=='dxf';$('fit').hidden=tab==='files'&&!fileGroup.visible;if(['assembly','files'].includes(tab)){resize();if(fileGroup.visible||(tab==='assembly'&&previous==='files'))fit();}if(tab==='files'&&selectedFile?.kind==='dxf')drawDxf();}
+function showTab(next){const previous=tab;tab=next;document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));$('assembly-panel').hidden=tab!=='assembly';$('files-panel').hidden=tab!=='files';$('viewport').hidden=!['assembly','files'].includes(tab);$('source-control').hidden=tab!=='assembly';$('walnut').hidden=tab!=='assembly'&&!(tab==='files'&&selectedFile&&['stp','step','stl'].includes(selectedFile.kind));$('comparison').hidden=tab!=='comparison';$('plans').hidden=tab!=='plans';assembly.visible=tab==='assembly';fileGroup.visible=tab==='files'&&selectedFile&&['stp','step','stl'].includes(selectedFile.kind);$('file-toolbar').hidden=tab!=='files'||!selectedFile;$('document').hidden=tab!=='files'||selectedFile?.kind!=='csv';$('dxf-view').hidden=tab!=='files'||selectedFile?.kind!=='dxf';$('fit').hidden=tab==='files'&&!fileGroup.visible;if(['assembly','files'].includes(tab)){resize();if(fileGroup.visible||(tab==='assembly'&&previous==='files'))fit();}if(tab==='files'&&selectedFile?.kind==='dxf')drawDxf();}
 function table(rows){const t=document.createElement('table');rows.forEach((row,i)=>{const tr=document.createElement('tr');for(const value of row){const cell=document.createElement(i?'td':'th');cell.textContent=value;tr.append(cell);}t.append(tr);});return t;}
 function files(){const filter=$('filter').value.toLowerCase();const list=manifest.files.filter(f=>f.name.toLowerCase().includes(filter));$('file-count').textContent=`${list.length} exported files`;$('file-list').replaceChildren();for(const f of list){const button=document.createElement('button');button.textContent=f.name;button.classList.toggle('selected',selectedFile===f);button.onclick=()=>openFile(f);$('file-list').append(button);}}
 async function openFile(f){const request=++fileRequest;status(`Loading ${f.name}…`);try{const payload=await data(f.preview);let object;if(['stp','step','stl'].includes(f.kind))object=await mesh(f.preview);if(request!==fileRequest){object?.traverse(o=>o.material?.dispose());return;}selectedFile=f;clear(fileGroup);if(object){fileGroup.add(object);fileOpacity();}else if(f.kind==='dxf')setupDxf(payload);else $('document').replaceChildren(table(payload));$('download').href=f.url;$('download').download=f.name.split('/').pop();$('file-alpha').parentElement.hidden=!object;files();showTab('files');status(f.name);}catch(e){fail(e);}}
@@ -134,7 +160,7 @@ $('drawing').onpointerdown=e=>{if(!svg)return;drag=point(e.clientX,e.clientY);$(
 $('zoom-in').onclick=()=>zoom(1/1.25);$('zoom-out').onclick=()=>zoom(1.25);$('zoom-fit').onclick=()=>{view=[...full];drawDxf();};for(const [id,checked] of [['layers-all',true],['layers-none',false]])$(id).onclick=()=>{for(const c of $('layers').querySelectorAll('input')){c.checked=checked;c.onchange();}};
 function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
 renderer.setAnimationLoop(()=>{if(['assembly','files'].includes(tab)&&!document.hidden){controls.update();renderView();}});
-document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));$('fit').onclick=()=>fit();$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('python').onclick=()=>{if(source!=='python')switchSource('python');};$('dxf').onclick=()=>{if(source!=='dxf')switchSource('dxf');};$('stp').onclick=()=>{if(source!=='stp')switchSource('stp');};$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));tree();};
-try{manifest=await json('manifest.json?v=sources-8');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
+document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));$('fit').onclick=()=>fit();$('walnut').onclick=()=>{walnutEnabled.value=1-walnutEnabled.value;$('walnut').setAttribute('aria-pressed',String(!!walnutEnabled.value));};$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('python').onclick=()=>{if(source!=='python')switchSource('python');};$('dxf').onclick=()=>{if(source!=='dxf')switchSource('dxf');};$('stp').onclick=()=>{if(source!=='stp')switchSource('stp');};$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));tree();};
+try{manifest=await json('manifest.json?v=walnut-9');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
 manifest.labels.forEach((name,i)=>{const label=document.createElement('label'),out=document.createElement('output'),input=document.createElement('input');input.type='range';input.min=0;input.max=1;input.step=.01;input.value=values[i];out.value=`${Math.round(values[i]*100)}%`;input.setAttribute('aria-label',name);input.oninput=()=>{values[i]=+input.value;out.value=`${Math.round(values[i]*100)}%`;motion();};label.append(document.createTextNode(name),out,input);$('sliders').append(label);});
 files();for(const f of manifest.files.filter(f=>f.kind==='csv')){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=f.name;details.append(summary,table(await data(f.preview)));$('plans').append(details);}for(const url of manifest.plans){const img=document.createElement('img');img.src=url;img.alt=url.split('/').pop();img.loading='lazy';$('plans').append(img);}const report=await fetch('comparison/comparison.txt');if(!report.ok)throw Error('Cannot load comparison report');$('report').textContent=await report.text();await switchSource('python');}catch(e){fail(e);}
