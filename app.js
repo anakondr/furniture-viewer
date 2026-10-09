@@ -34,18 +34,70 @@ function geometries(payload){
 async function mesh(url){if(!geometryCache.has(url))geometryCache.set(url,data(url).then(geometries));const gs=await geometryCache.get(url);const group=new THREE.Group();
  if(gs.surface)group.add(new THREE.Mesh(gs.surface,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.8,metalness:0,side:THREE.DoubleSide,polygonOffset:true,polygonOffsetFactor:1,polygonOffsetUnits:1})));
  if(gs.edges)group.add(new THREE.LineSegments(gs.edges,new THREE.LineBasicMaterial({vertexColors:true})));
+ group.traverse(o=>{if(o.material)prepareTransparency(o.material);});
  return group;
 }
 function clear(group){for(const child of [...group.children]){child.traverse(o=>o.material?.dispose());group.remove(child);}}
 function fit(group=tab==='files'?fileGroup:assembly){const box=new THREE.Box3().setFromObject(group);if(box.isEmpty())return;const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const radius=size.length()/2;const distance=radius/Math.sin(THREE.MathUtils.degToRad(camera.fov/2))/Math.min(1,camera.aspect);controls.target.copy(center);camera.position.copy(center).add(new THREE.Vector3(1,.65,1).normalize().multiplyScalar(distance*1.12));camera.near=Math.max(.01,radius/10000);camera.far=Math.max(10000,distance*20);camera.updateProjectionMatrix();controls.update();}
-// Hashed transparency retains depth testing for every triangle instead of sorting
-// whole overlapping parts. Ordinary alpha blending can make CAD faces disappear.
-function opacity(material, value){
- const hashed=value<1;
- if(material.alphaHash!==hashed){material.alphaHash=hashed;material.needsUpdate=true;}
+// Weighted blended transparency accumulates colour and coverage separately.
+// No random pixel discard and no whole-object depth ordering are involved.
+const transparencyPass={value:0}, transparencyDistance={value:1};
+const accumulation=new THREE.WebGLRenderTarget(1,1,{type:THREE.HalfFloatType,depthBuffer:false});
+const revealage=new THREE.WebGLRenderTarget(1,1,{type:THREE.HalfFloatType,depthBuffer:false});
+const compositeScene=new THREE.Scene();
+const compositeCamera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
+const compositeMaterial=new THREE.ShaderMaterial({
+ uniforms:{accumulation:{value:accumulation.texture},revealage:{value:revealage.texture},background:{value:scene.background.clone()}},
+ vertexShader:'varying vec2 uvScreen; void main(){uvScreen=uv;gl_Position=vec4(position.xy,0.,1.);}',
+ fragmentShader:`uniform sampler2D accumulation;uniform sampler2D revealage;uniform vec3 background;varying vec2 uvScreen;
+ void main(){vec4 a=texture2D(accumulation,uvScreen);float r=clamp(texture2D(revealage,uvScreen).r,0.,1.);
+ vec3 colour=a.rgb/max(a.a,0.00001);gl_FragColor=vec4(mix(colour,background,r),1.);
+ #include <colorspace_fragment>
+ }`,depthTest:false,depthWrite:false});
+compositeScene.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),compositeMaterial));
+function prepareTransparency(material){
+ material.forceSinglePass=true;
+ material.onBeforeCompile=shader=>{
+  shader.uniforms.transparencyPass=transparencyPass;
+  shader.uniforms.transparencyDistance=transparencyDistance;
+  shader.fragmentShader='uniform int transparencyPass;uniform float transparencyDistance;\n'+shader.fragmentShader;
+  const end=shader.fragmentShader.lastIndexOf('}');
+  shader.fragmentShader=shader.fragmentShader.slice(0,end)+`
+   if(transparencyPass==1){
+    float alpha=opacity;
+    float depth=1.0/gl_FragCoord.w;
+    float weight=clamp(pow(transparencyDistance/max(depth,0.001),4.0),0.01,100.0);
+    gl_FragColor=vec4(gl_FragColor.rgb*alpha,alpha)*weight;
+   }else if(transparencyPass==2){gl_FragColor=vec4(opacity);}
+  `+shader.fragmentShader.slice(end);
+ };
+ material.customProgramCacheKey=()=> 'furniture-weighted-transparency-v1';
+}
+function opacity(material,value){
  material.opacity=value;
- material.transparent=false;
- material.depthWrite=true;
+ material.alphaHash=false;
+ material.transparent=value<1;
+ material.depthWrite=value>=1;
+}
+function renderView(){
+ const active=tab==='files'?fileGroup:assembly;
+ const translucent=(tab==='files'?+$('file-alpha').value:+$('alpha').value)<1;
+ const materials=[];active.traverse(o=>{if(o.material)materials.push(o.material);});
+ if(!translucent){
+  transparencyPass.value=0;
+  for(const m of materials){m.blending=THREE.NormalBlending;m.transparent=false;m.depthWrite=true;}
+  renderer.render(scene,camera);return;
+ }
+ const size=renderer.getDrawingBufferSize(new THREE.Vector2());
+ if(accumulation.width!==size.x||accumulation.height!==size.y){accumulation.setSize(size.x,size.y);revealage.setSize(size.x,size.y);}
+ transparencyDistance.value=camera.position.distanceTo(controls.target);
+ const background=scene.background;scene.background=null;
+ for(const m of materials){m.transparent=true;m.depthWrite=false;m.blending=THREE.CustomBlending;m.blendEquation=THREE.AddEquation;m.blendSrc=THREE.OneFactor;m.blendDst=THREE.OneFactor;}
+ transparencyPass.value=1;renderer.setRenderTarget(accumulation);renderer.setClearColor(0x000000,0);renderer.clear();renderer.render(scene,camera);
+ for(const m of materials){m.blendSrc=THREE.ZeroFactor;m.blendDst=THREE.OneMinusSrcAlphaFactor;}
+ transparencyPass.value=2;renderer.setRenderTarget(revealage);renderer.setClearColor(0xffffff,1);renderer.clear();renderer.render(scene,camera);
+ renderer.setRenderTarget(null);renderer.render(compositeScene,compositeCamera);
+ scene.background=background;transparencyPass.value=0;
 }
 function style(){const alpha=+$('alpha').value;for(const [id,obj] of objects){obj.visible=visibility.get(id)??true;for(const child of obj.children){child.visible=!child.isLineSegments||$('edges').checked;opacity(child.material,child.isLineSegments?Math.min(1,alpha*1.5):alpha);}}$('alpha-value').value=`${Math.round(alpha*100)}%`;}
 function motion(){for(const row of rows){if(row.group)continue;const obj=objects.get(row.id),m=[...row.matrix];for(const [index,track] of Object.entries(row.tracks)){const p=track[Math.round(values[+index]*100)];for(let j=0;j<3;j++)m[12+j]+=p[j];}obj.matrix.fromArray(m);obj.matrixWorldNeedsUpdate=true;}}
@@ -66,7 +118,7 @@ $('drawing').addEventListener('wheel',e=>{if(!svg)return;e.preventDefault();zoom
 $('drawing').onpointerdown=e=>{if(!svg)return;drag=point(e.clientX,e.clientY);$('drawing').setPointerCapture(e.pointerId);};$('drawing').onpointermove=e=>{if(!drag)return;const p=point(e.clientX,e.clientY);view[0]+=drag.x-p.x;view[1]+=drag.y-p.y;drawDxf();};$('drawing').onpointerup=$('drawing').onpointercancel=()=>drag=null;
 $('zoom-in').onclick=()=>zoom(1/1.25);$('zoom-out').onclick=()=>zoom(1.25);$('zoom-fit').onclick=()=>{view=[...full];drawDxf();};for(const [id,checked] of [['layers-all',true],['layers-none',false]])$(id).onclick=()=>{for(const c of $('layers').querySelectorAll('input')){c.checked=checked;c.onchange();}};
 function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
-renderer.setAnimationLoop(()=>{if(tab!=='plans'&&!document.hidden){controls.update();renderer.render(scene,camera);}});
+renderer.setAnimationLoop(()=>{if(tab!=='plans'&&!document.hidden){controls.update();renderView();}});
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));$('fit').onclick=()=>fit();$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('python').onclick=()=>switchSource('python');$('dxf').onclick=()=>switchSource('dxf');$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));tree();};
 try{manifest=await json('manifest.json');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
 manifest.labels.forEach((name,i)=>{const label=document.createElement('label'),out=document.createElement('output'),input=document.createElement('input');input.type='range';input.min=0;input.max=1;input.step=.01;input.value=values[i];out.value=`${Math.round(values[i]*100)}%`;input.setAttribute('aria-label',name);input.oninput=()=>{values[i]=+input.value;out.value=`${Math.round(values[i]*100)}%`;motion();};label.append(document.createTextNode(name),out,input);$('sliders').append(label);});
