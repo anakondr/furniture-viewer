@@ -159,25 +159,35 @@ function table(rows){const t=document.createElement('table');rows.forEach((row,i
 let selectedPart=null;
 const navigationScrollIds=['plans','parts-table-wrap','files-panel','comparison'];
 function navigationState(){return {tab,part:selectedPart,file:selectedFile?.url,partsFilter:$('parts-filter').value,fileFilter:$('filter').value,scroll:Object.fromEntries(navigationScrollIds.map(id=>[id,[$(id).scrollLeft,$(id).scrollTop]]))};}
-function navigationUrl(state){const hash=new URLSearchParams({tab:state.tab});if(state.part&&state.tab==='parts')hash.set('part',state.part);if(state.file&&state.tab==='files')hash.set('file',state.file);return location.pathname+location.search+'#'+hash;}
+function navigationUrl(state){const hash=new URLSearchParams({tab:state.tab});if(state.part)hash.set('part',state.part);if(state.file&&state.tab==='files')hash.set('file',state.file);return location.pathname+location.search+'#'+hash;}
 function rememberNavigation(){const state=navigationState();history.replaceState(state,'',navigationUrl(state));}
 function pushNavigation(state){rememberNavigation();history.pushState(state,'',navigationUrl(state));}
 function navigationFromUrl(){const hash=new URLSearchParams(location.hash.slice(1));return {tab:hash.get('tab')||'assembly',part:hash.get('part'),file:hash.get('file')};}
-function navigateTab(next){if(next===tab)return;++fileRequest;pushNavigation({tab:next});selectedPart=null;showTab(next);}
+function navigateTab(next){if(next===tab)return;++fileRequest;pushNavigation({...navigationState(),tab:next});showTab(next);syncPartSelection();}
 async function restoreNavigation(state){
  if(!manifest)return;++fileRequest;
  state=state||navigationFromUrl();const next=['assembly','plans','parts','files','comparison'].includes(state.tab)?state.tab:'assembly';
  $('parts-filter').value=state.partsFilter||'';$('filter').value=state.fileFilter||'';selectedPart=state.part||null;
- if(next==='parts'&&selectedPart){openPlanPart(selectedPart,false);}
+ if(next==='parts'&&selectedPart){openPlanPart(selectedPart,false,true);}
  else if(next==='files'&&state.file){const file=manifest.files.find(f=>f.url===state.file);if(file)await openFile(file,false);else showTab('files');}
  else{partsList();files();showTab(next);}
+ syncPartSelection();
  if(state.scroll)requestAnimationFrame(()=>{for(const [id,pos] of Object.entries(state.scroll)){if(navigationScrollIds.includes(id))$(id).scrollTo(pos[0],pos[1]);}});
 }
 window.addEventListener('popstate',e=>restoreNavigation(e.state));
-function openPlanPart(path,recordHistory=true){
+function syncPartSelection(){
+ const url=selectedPart?'exports/cnc/'+selectedPart:null;
+ for(const row of $('parts-table-wrap').querySelectorAll('tbody tr[data-part]')){const active=row.dataset.part===url;row.classList.toggle('part-selected',active);row.setAttribute('aria-selected',String(active));}
+ for(const hit of $('plans').querySelectorAll('.plan-part-hit')){const active=hit.dataset.part===selectedPart;hit.classList.toggle('plan-part-selected',active);}
+}
+function selectPartRow(path){
+ const part=manifest.parts.find(p=>p.downloads.dxf==='exports/cnc/'+path);if(!part)return;
+ if(selectedPart!==path)pushNavigation({...navigationState(),tab:'parts',part:path});selectedPart=path;syncPartSelection();status(part.name);
+}
+function openPlanPart(path,recordHistory=true,preserveFilter=false){
  const url='exports/cnc/'+path,part=manifest.parts.find(p=>p.downloads.dxf===url);if(!part)return;
  ++fileRequest;if(recordHistory)pushNavigation({tab:'parts',part:path});selectedPart=path;
- $('parts-filter').value='';partsList();showTab('parts');
+ if(!preserveFilter)$('parts-filter').value='';partsList();showTab('parts');syncPartSelection();
  const row=[...$('parts-table-wrap').querySelectorAll('tbody tr')].find(r=>r.dataset.part===url);
  if(row){row.classList.add('part-selected');requestAnimationFrame(()=>{if(tab==='parts'&&selectedPart===path){row.scrollIntoView({block:'center'});row.focus({preventScroll:true});}});}status(part.name);
 }
@@ -192,7 +202,7 @@ function cuttingPlan(url,index){
  const tooltip=document.createElement('div');tooltip.className='plan-part-tooltip';tooltip.hidden=true;viewport.append(tooltip);
  let svg=null,planWidth=0,planHeight=0;card.append(toolbar,viewport);
  const layout=(manifest.sheetLayouts||[]).find(s=>'exports/'+s.file===sheetFile?.url);if(layout){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=`Parts on this sheet (${layout.placements.length})`;details.append(summary,table([['Label','Part','Rotated'],...layout.placements.map(p=>[p.label,p.part.split('/').pop().replace(/\.dxf$/,''),p.rotated?'Yes':'No'])]));card.append(details);}
- fetch(url+'?v=history-23').then(r=>{if(!r.ok)throw Error('Cannot load cutting plan');return r.text();}).then(text=>{const doc=new DOMParser().parseFromString(text,'image/svg+xml');svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid cutting plan SVG');const box=svg.viewBox.baseVal;planWidth=box.width;planHeight=box.height;svg.removeAttribute('width');svg.removeAttribute('height');svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('role','group');svg.setAttribute('aria-label',`Cutting layout ${index+1}`);viewport.append(svg);fitPlan();}).catch(fail);
+ fetch(url+'?v=selection-24').then(r=>{if(!r.ok)throw Error('Cannot load cutting plan');return r.text();}).then(text=>{const doc=new DOMParser().parseFromString(text,'image/svg+xml');svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid cutting plan SVG');const box=svg.viewBox.baseVal;planWidth=box.width;planHeight=box.height;svg.removeAttribute('width');svg.removeAttribute('height');svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('role','group');svg.setAttribute('aria-label',`Cutting layout ${index+1}`);viewport.append(svg);syncPartSelection();fitPlan();}).catch(fail);
  let scale=1,x=0,y=0,base=0,lastWidth=0,lastHeight=0,drag=null;
  function draw(){if(svg&&base)svg.setAttribute('viewBox',`${-x/scale} ${-y/scale} ${viewport.clientWidth/scale} ${viewport.clientHeight/scale}`);percent.textContent=base?`${Math.round(scale/base*100)}%`:'';}
  function fitPlan(){if(!planWidth||!viewport.clientWidth)return;lastWidth=viewport.clientWidth;lastHeight=viewport.clientHeight;base=Math.min(lastWidth/planWidth,lastHeight/planHeight);scale=base;x=(lastWidth-planWidth*scale)/2;y=(lastHeight-planHeight*scale)/2;draw();}
@@ -215,7 +225,7 @@ function partsList(){
  const table=document.createElement('table');table.className='parts-table';table.setAttribute('aria-label','Manufacturing parts');
  const head=table.createTHead().insertRow();for(const label of ['Name','Sheet','Quantity required','Image','Can rotate','Preview','Downloads']){const th=document.createElement('th');th.scope='col';th.textContent=label;head.append(th);}
  const body=table.createTBody();
- for(const p of parts){const row=body.insertRow(),name=document.createElement('th');name.scope='row';name.textContent=p.name;row.dataset.part=p.downloads.dxf;row.tabIndex=-1;row.append(name);
+ for(const p of parts){const row=body.insertRow(),name=document.createElement('th');name.scope='row';name.textContent=p.name;row.dataset.part=p.downloads.dxf;row.tabIndex=0;row.append(name);const partPath=p.downloads.dxf.slice('exports/cnc/'.length);row.onclick=e=>{if(!e.target.closest('a,button,input'))selectPartRow(partPath);};row.onkeydown=e=>{if(e.target===row&&['Enter',' '].includes(e.key)){e.preventDefault();selectPartRow(partPath);}};
  row.insertCell().textContent=p.sheet;const quantity=row.insertCell();quantity.textContent=p.quantity;quantity.className='part-quantity';
  const img=document.createElement('img');img.src=p.thumbnail;img.alt=p.name+' preview';img.loading='lazy';img.width=144;img.height=88;row.insertCell().append(img);
  row.insertCell().textContent=p.canRotate?'Yes':'No';
@@ -223,10 +233,10 @@ function partsList(){
  const links=document.createElement('div');links.className='part-downloads';for(const kind of ['stp','stl','dxf']){const a=document.createElement('a');a.href=p.downloads[kind];a.download=p.downloads[kind].split('/').pop();a.textContent=kind.toUpperCase();a.setAttribute('aria-label',`Download ${p.name} as ${kind.toUpperCase()}`);links.append(a);}
  row.insertCell().append(links);}
  if(!parts.length){const cell=body.insertRow().insertCell();cell.colSpan=7;cell.textContent='No parts match your search.';}
- $('parts-table-wrap').replaceChildren(table);
+ $('parts-table-wrap').replaceChildren(table);syncPartSelection();
 }
 function files(){const filter=$('filter').value.toLowerCase();const list=manifest.files.filter(f=>f.name.toLowerCase().includes(filter));$('file-count').textContent=`${list.length} exported files`;$('file-list').replaceChildren();for(const f of list){const button=document.createElement('button');button.textContent=f.name;button.classList.toggle('selected',selectedFile===f);button.onclick=()=>openFile(f);$('file-list').append(button);}}
-async function openFile(f,recordHistory=true){if(recordHistory)pushNavigation({tab:'files',file:f.url});const request=++fileRequest;status(`Loading ${f.name}…`);try{const payload=await data(f.preview);let object;if(['stp','step','stl'].includes(f.kind))object=await mesh(f.preview);if(request!==fileRequest){object?.traverse(o=>o.material?.dispose());return;}selectedFile=f;clear(fileGroup);if(object){fileGroup.add(object);fileOpacity();}else if(f.kind==='dxf')setupDxf(payload);else $('document').replaceChildren(table(payload));$('download').href=f.url;$('download').download=f.name.split('/').pop();$('file-alpha').parentElement.hidden=!object;files();showTab('files');status(f.name);}catch(e){fail(e);}}
+async function openFile(f,recordHistory=true){if(recordHistory)pushNavigation({...navigationState(),tab:'files',file:f.url});const request=++fileRequest;status(`Loading ${f.name}…`);try{const payload=await data(f.preview);let object;if(['stp','step','stl'].includes(f.kind))object=await mesh(f.preview);if(request!==fileRequest){object?.traverse(o=>o.material?.dispose());return;}selectedFile=f;clear(fileGroup);if(object){fileGroup.add(object);fileOpacity();}else if(f.kind==='dxf')setupDxf(payload);else $('document').replaceChildren(table(payload));$('download').href=f.url;$('download').download=f.name.split('/').pop();$('file-alpha').parentElement.hidden=!object;files();showTab('files');status(f.name);}catch(e){fail(e);}}
 function fileOpacity(){fileGroup.traverse(o=>{if(o.material){opacity(o.material,+$('file-alpha').value);}});}
 // DXF layers share one viewBox; wheel zoom preserves the world point under the pointer.
 let dxf=null, svg=null, full=null, view=null, drag=null;
@@ -240,6 +250,6 @@ $('zoom-in').onclick=()=>zoom(1/1.25);$('zoom-out').onclick=()=>zoom(1.25);$('zo
 function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
 renderer.setAnimationLoop(()=>{if(['assembly','files'].includes(tab)&&!document.hidden){controls.update();renderView();}});
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>navigateTab(b.dataset.tab));$('fit').onclick=()=>fit();$('wood-texture').onclick=()=>{walnutEnabled.value=1-walnutEnabled.value;$('wood-texture').setAttribute('aria-pressed',String(!!walnutEnabled.value));};$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('parts-filter').oninput=partsList;$('python').onclick=()=>{if(source!=='python')switchSource('python');};$('dxf').onclick=()=>{if(source!=='dxf')switchSource('dxf');};$('stp').onclick=()=>{if(source!=='stp')switchSource('stp');};$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));tree();};
-try{manifest=await json('manifest.json?v=history-23');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
+try{manifest=await json('manifest.json?v=selection-24');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
 manifest.labels.forEach((name,i)=>{const label=document.createElement('label'),out=document.createElement('output'),input=document.createElement('input');input.type='range';input.min=0;input.max=1;input.step=.01;input.value=values[i];out.value=`${Math.round(values[i]*100)}%`;input.setAttribute('aria-label',name);input.oninput=()=>{values[i]=+input.value;out.value=`${Math.round(values[i]*100)}%`;motion();};label.append(document.createTextNode(name),out,input);$('sliders').append(label);});
 partsList();files();for(const f of manifest.files.filter(f=>f.kind==='csv')){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=f.name;details.append(summary,table(await data(f.preview)));$('plans').append(details);}manifest.plans.forEach((url,i)=>$('plans').append(cuttingPlan(url,i)));const report=await fetch('comparison/comparison.txt');if(!report.ok)throw Error('Cannot load comparison report');$('report').textContent=await report.text();await switchSource('python');await restoreNavigation(history.state||navigationFromUrl());history.replaceState(navigationState(),'',navigationUrl(navigationState()));}catch(e){fail(e);}

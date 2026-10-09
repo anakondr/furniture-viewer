@@ -13,3 +13,5 @@
 .plan-toolbar a{color:#173c32;border:1px solid #b6c7c2;border-radius:5px;padding:5px 11px;text-decoration:none}.plan-toolbar a:hover{background:#e6eee9}
 
 .plan-viewport .plan-part-hit{pointer-events:all;cursor:pointer;fill:transparent;stroke:none}.plan-viewport .plan-part-hit:hover,.plan-viewport .plan-part-hit:focus{fill:#29796220;outline:none}.plan-part-tooltip{position:absolute;z-index:5;max-width:calc(100% - 16px);padding:7px 10px;border-radius:5px;background:#203d36;color:white;font-size:12px;pointer-events:none;overflow-wrap:anywhere;box-shadow:0 2px 8px #0002}.parts-table tbody tr.part-selected{background:#d9eee2;outline:2px solid #297962;outline-offset:-2px}
+
+.parts-table tbody tr[data-part]{cursor:pointer}.parts-table tbody tr[data-part]:focus-visible{outline:2px solid #297962;outline-offset:-2px}.plan-viewport .plan-part-hit.plan-part-selected{fill:#edac354a;stroke:#b96a0b;stroke-width:2px;vector-effect:non-scaling-stroke}.plan-viewport .plan-part-hit.plan-part-selected:hover{fill:#edac3566}
