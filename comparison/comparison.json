@@ -4,7 +4,7 @@
     {
       "file": "walnut_19/Chest_Side_1_Left.dxf",
       "name": "Chest Side 1 Left",
-      "sha256": "1a6ef4a99b04663cfe94e8e802e5fe3c291fcbd1c6643cdbc19c6c49e479f074",
+      "sha256": "1ae9721272baf7600558ee064a99137c4ca536ff6409e3ef2e65b8fcb005c6e5",
       "extra_mm3": 1230.4990105580482,
       "missing_mm3": 0.0,
       "python_volume_mm3": 7975616.642823249,
@@ -16,7 +16,7 @@
     {
       "file": "walnut_19/Chest_Side_1_Right.dxf",
       "name": "Chest Side 1 Right",
-      "sha256": "fe81471a289108ab443467c9d8c2b91ec49995e6bbdab8af6096bef76eda4c4a",
+      "sha256": "1a8ee58a39424651eed594872b9a18f1e6e7c163e0542e094e834a271f261b70",
       "extra_mm3": 1230.499010558049,
       "missing_mm3": 0.0,
       "python_volume_mm3": 7975616.642823258,
@@ -28,7 +28,7 @@
     {
       "file": "walnut_19/Chest_Middle_1.dxf",
       "name": "Chest Middle 1",
-      "sha256": "8424e2844788d0bf098e798cea8e7a10dda34e0298bbfd185f173f7fa3052e5a",
+      "sha256": "6693e40007cd300ce46e1a2be45c56b57e40f3db3dcf42f9b725c74996bb0b5b",
       "extra_mm3": 3392.920065876986,
       "missing_mm3": 0.0,
       "python_volume_mm3": 14247136.327894595,
@@ -40,7 +40,7 @@
     {
       "file": "walnut_19/Chest_Bottom_1.dxf",
       "name": "Chest Bottom 1",
-      "sha256": "5c3e9e42f72f8c21e1b90539ff8fc4d142710ff0a1e421ea42c72df9b26c2eda",
+      "sha256": "33e6e7cf58c1d195784a40197fea5edc2fa71cd345592cc4adb42f44ea40b6df",
       "extra_mm3": 2261.946710584687,
       "missing_mm3": 0.0,
       "python_volume_mm3": 7756595.469276238,
@@ -52,7 +52,7 @@
     {
       "file": "walnut_19/Chest_Bottom_2.dxf",
       "name": "Chest Bottom 2",
-      "sha256": "1d2bed978dfe7dec3827f10769e4eb272c336f9bcf7fe6ef0543a6335e810130",
+      "sha256": "c6e5266b1452c78d88e20c8345e41af37108a9c56ca98a4bb5c0327d7b8b596b",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 419843.0,
@@ -63,7 +63,7 @@
     {
       "file": "walnut_19/Chest_Side_2.dxf",
       "name": "Chest Side 2",
-      "sha256": "a40a82eee848dd410fb4295e07dcaaea842d3406fb5274854bdbe905834f4e51",
+      "sha256": "f62c5a65f3e51ff802db747cb13ad84d7add09eb87a78ac6bfa996f5f57b7c0f",
       "extra_mm3": 2827.4333882308224,
       "missing_mm3": 0.0,
       "python_volume_mm3": 4061573.876351351,
@@ -75,7 +75,7 @@
     {
       "file": "walnut_19/Chest_Middle_2.dxf",
       "name": "Chest Middle 2",
-      "sha256": "32aea8e04099b70b9a2960686112e2ccda2754ea1b3cd6469612b21aa56e5890",
+      "sha256": "d4bb995fd578c5d639e15d470e49c9eb4c4c4910b6020f69b38abee7e09cd8d8",
       "extra_mm3": 3392.920065876986,
       "missing_mm3": 0.0,
       "python_volume_mm3": 14248154.203914361,
@@ -87,7 +87,7 @@
     {
       "file": "oak_13/Chest_Top_Drawer_Side_Left.dxf",
       "name": "Chest Top Drawer Side Left",
-      "sha256": "b28bbca1fe8883ccb7363b3e3bd8403b218b5ba45650b03461d8c6870c1ae2cf",
+      "sha256": "6b5fba68a88d66d7aca6cc68331b1176ef9e9daa03a1b4daee8c3eb945091a43",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1303086.3849616207,
@@ -98,7 +98,7 @@
     {
       "file": "oak_13/Chest_Top_Drawer_Side_Right.dxf",
       "name": "Chest Top Drawer Side Right",
-      "sha256": "0610c6c5020f08f8b56e48e11cb3fe02274a83226b7899d3ac08c88d100b9fb2",
+      "sha256": "e40f1e5867bd7a440ddb01591dc7c67ae7a084c0c9ddcfcd19c285dae0da842e",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1303086.3849616207,
@@ -109,7 +109,7 @@
     {
       "file": "oak_13/Chest_Top_Drawer_Back.dxf",
       "name": "Chest Top Drawer Back",
-      "sha256": "e2e6178722de8af05557689da41cfe95368de249ab44bcf23fae1b67a0c498c5",
+      "sha256": "1e3ca1f2e5b4f16d0d4fee25904acc437c3a66baec9c06c1195222c1be6ac368",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2446612.75,
@@ -120,7 +120,7 @@
     {
       "file": "oak_7/Chest_Top_Drawer_Bottom.dxf",
       "name": "Chest Top Drawer Bottom",
-      "sha256": "07aa6b490bb893359c0496913a6832abf9ef324c27540654b07cffcc75a319a7",
+      "sha256": "f3b08de398e4290ba3290d82c9af9a733408afbcfb5686791eafa775d58b924c",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 4544358.0,
@@ -131,7 +131,7 @@
     {
       "file": "oak_13/Chest_Bottom_Left_Drawer_Side_Left.dxf",
       "name": "Chest Bottom Left Drawer Side Left",
-      "sha256": "20ae7f06e178bc46a4cc0e780d8c0d09c1761c1220c95296dcc89d934c82f9d9",
+      "sha256": "6de3d4d5e47cc567eca51c247ac8ce3206949eff709eb3a1bb3fdcd56442afbd",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 640761.3849616211,
@@ -142,7 +142,7 @@
     {
       "file": "oak_13/Chest_Bottom_Left_Drawer_Side_Right.dxf",
       "name": "Chest Bottom Left Drawer Side Right",
-      "sha256": "42849cf24dd6939b817ffb75fd1f3c648de87a6ff9e7d42d1dae569a361611a5",
+      "sha256": "d02032bd554fc25a076331bcf1efeae0a4794e7056c26745fcc14ee3e475ef04",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 640761.3849616211,
@@ -153,7 +153,7 @@
     {
       "file": "oak_13/Chest_Bottom_Left_Drawer_Back.dxf",
       "name": "Chest Bottom Left Drawer Back",
-      "sha256": "5846fb6c56dac2f2cf8a33c69c6f76ff9de69e51f620251cdda976ba71422891",
+      "sha256": "6eeb00269ebee4fe45b802b847113f1aaa757ff9094b38097b7d616a6843c1b9",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1141832.5,
@@ -164,7 +164,7 @@
     {
       "file": "oak_7/Chest_Bottom_Left_Drawer_Bottom.dxf",
       "name": "Chest Bottom Left Drawer Bottom",
-      "sha256": "1d4eb675ad65b849cf60879734668042f5518fa0f62b1eba074e786d121aa558",
+      "sha256": "87e86d23aa7fd1c6cdfa779bfd7d9c9afe37a2293bb93fe64dda4b73dcec673a",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1035720.0,
@@ -175,7 +175,7 @@
     {
       "file": "oak_13/Chest_Bottom_Right_Drawer_Side_Left.dxf",
       "name": "Chest Bottom Right Drawer Side Left",
-      "sha256": "9d7faa4528bba1133d319714d2a5a41eb0344c10d831abdcf4812be5c4b5645a",
+      "sha256": "33ccffb3ad24017ec96e293bf3293c2d5b4eb29be2e622ac57a9741c50a138a4",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 640761.3849616211,
@@ -186,7 +186,7 @@
     {
       "file": "oak_13/Chest_Bottom_Right_Drawer_Side_Right.dxf",
       "name": "Chest Bottom Right Drawer Side Right",
-      "sha256": "e56d0327ee57216573d7012164cc6fb47f9a9830cc7cb1beaa88f0a523f49d95",
+      "sha256": "bd61bf00dc291479f42f7c8cbe4bd1dcda11c197864084582cd4196e7b390542",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 640761.3849616211,
@@ -197,7 +197,7 @@
     {
       "file": "oak_13/Chest_Bottom_Right_Drawer_Back.dxf",
       "name": "Chest Bottom Right Drawer Back",
-      "sha256": "6ba796805762a43e14dc919e0fa8eff662b7751a90be56760d8a387d3d935188",
+      "sha256": "dea2bf5cdef918a6925f0117ac6836dca6cd1d3ef943575434a9a169ca00d5ba",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1141832.5,
@@ -208,7 +208,7 @@
     {
       "file": "oak_7/Chest_Bottom_Right_Drawer_Bottom.dxf",
       "name": "Chest Bottom Right Drawer Bottom",
-      "sha256": "fc11ca16ee4143231051a50fb045d59ae3a1cd86f68c8dbb69383403791a2d07",
+      "sha256": "d3bdf460a8ff1046ac25af0773c626d095e4b85b38d694951e081eded974d64e",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1035720.0,
@@ -219,7 +219,7 @@
     {
       "file": "oak_13/Chest_Middle_Left_Drawer_Side_Left.dxf",
       "name": "Chest Middle Left Drawer Side Left",
-      "sha256": "8a430d7893fff1a069e65270e015aff957f2413578fa6a26c535e3b613164789",
+      "sha256": "dd7b20f5999c59c5302ed4f5f88f0fe1c60835ad558dea45f2b91d0bad7ab33c",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1333766.3849616207,
@@ -230,7 +230,7 @@
     {
       "file": "oak_13/Chest_Middle_Left_Drawer_Side_Right.dxf",
       "name": "Chest Middle Left Drawer Side Right",
-      "sha256": "de9dff2cb8d7c5c460a5d0709f018ff0ad7445954a2bf54a60fb6e886f5e2262",
+      "sha256": "f89bf8ec35c5ccaf798893e85dcfd887fce68181be4e7a7ade2aa81a0775b42a",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1333766.3849616207,
@@ -241,7 +241,7 @@
     {
       "file": "oak_13/Chest_Middle_Left_Drawer_Back.dxf",
       "name": "Chest Middle Left Drawer Back",
-      "sha256": "796e510a5eb8311955562ac1f9e3dc44b83cbd75d4724798f726d09579460579",
+      "sha256": "a219f62e356235d1e83f8cb017661a3aaa0b939ff5752bcc1ffb60650cb3d477",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1169392.5,
@@ -252,7 +252,7 @@
     {
       "file": "oak_7/Chest_Middle_Left_Drawer_Bottom.dxf",
       "name": "Chest Middle Left Drawer Bottom",
-      "sha256": "15acce465822bb10888d0c8933ed050dcc5dd5838b182a2080779e0360296711",
+      "sha256": "ef137b312131f0f45a9d4437a12c3fe0df025b0040617016a7ece73f2612a333",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2169720.0,
@@ -263,7 +263,7 @@
     {
       "file": "oak_13/Chest_Middle_Right_Drawer_Side_Left.dxf",
       "name": "Chest Middle Right Drawer Side Left",
-      "sha256": "29435eb99de447e0f0b336ef98494943948085d24882f0f67e879a8f330ac0ce",
+      "sha256": "3db2c12225983f6e764db6cdbb5a63ae9651b8dda4291c9c5c945884650c63af",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1333766.3849616207,
@@ -274,7 +274,7 @@
     {
       "file": "oak_13/Chest_Middle_Right_Drawer_Side_Right.dxf",
       "name": "Chest Middle Right Drawer Side Right",
-      "sha256": "0fe4037e8ab0e2084389c08442eaa4ef01abdbc2579bfe51b910d7148e925803",
+      "sha256": "c250e8de125e9e7eb9e727b0c0f62e1dde52f8dcd9ae5cc278a1fc1b5f0c18a5",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1333766.3849616207,
@@ -285,7 +285,7 @@
     {
       "file": "oak_13/Chest_Middle_Right_Drawer_Back.dxf",
       "name": "Chest Middle Right Drawer Back",
-      "sha256": "4332caf6cd7d94a489142e3ce8c7ad94d13c34b5cadc6b72e5b03fd41d3794d4",
+      "sha256": "fd7db0d95dc298b18d37906ec6447f786b41eb58891fa0d9725957c25a294e1e",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1169392.5,
@@ -296,7 +296,7 @@
     {
       "file": "oak_7/Chest_Middle_Right_Drawer_Bottom.dxf",
       "name": "Chest Middle Right Drawer Bottom",
-      "sha256": "52556ad4d8c1869e7eace634f5697fb1bd22c8e7b5536ef8825659bb144c3d38",
+      "sha256": "897a7715fd82e30e5be00823e30f887d27efd9e12c01c7b8210b644ee2ade58c",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2169720.0,
@@ -307,7 +307,7 @@
     {
       "file": "walnut_19/Chest_Facade_1.dxf",
       "name": "Chest Facade 1",
-      "sha256": "c88893d9af830dc493c47ae13dd0e3b72b07eab64ad33305d21bb68c72c11401",
+      "sha256": "ed0e1df552ea7d8fe7c4976575101bf39952ef9a81121c876b9f7e906301d617",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2374658.0,
@@ -318,7 +318,7 @@
     {
       "file": "walnut_19/Chest_Top_1.dxf",
       "name": "Chest Top 1",
-      "sha256": "fd2db4790aec7e493326a7aaeb67f2c87c036511a34c0b05a8cd7af51715cd4c",
+      "sha256": "310d718b7e8598f780a3d6f93b8232d58eaec7d6ed399cd8845be358c02b6df8",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 15516920.0,
@@ -329,7 +329,7 @@
     {
       "file": "oak_13/Chest_Top_Bearing_Side_1.dxf",
       "name": "Chest Top Bearing Side 1",
-      "sha256": "3c7d642aa5fbe3e9e7b5627fabb193215dfb902fe7fccc32b5c31d938c7916e5",
+      "sha256": "b53589d14dde088ec7e4dabe6a19815c39fcc6f88663845808fc6eae465b0de7",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 397800.0,
@@ -340,7 +340,7 @@
     {
       "file": "oak_13/Chest_Top_Bearing_Side_2.dxf",
       "name": "Chest Top Bearing Side 2",
-      "sha256": "a665199f5f7ff3b6cb7c2c991611a4d2e6a354e5fb09460328bddc241c54a476",
+      "sha256": "cd581fe13ee04d0898a0369f51e7501f50f5bf4dd132618bea8c668e5c7267ab",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 56419.999999999985,
@@ -351,7 +351,7 @@
     {
       "file": "walnut_19/Chest_Side_3_Left.dxf",
       "name": "Chest Side 3 Left",
-      "sha256": "dfa93cc13d40c6da6d31033a55d74ad3109d574a6286a86f5f9a3dcddb81b01a",
+      "sha256": "56d5d32063aa1a2f8a570b5b77b427ee8d4c5faf4249d17a2bcec6f9027a832b",
       "extra_mm3": 1696.4600329384893,
       "missing_mm3": 0.0,
       "python_volume_mm3": 696838.5399670615,
@@ -363,7 +363,7 @@
     {
       "file": "walnut_19/Chest_Side_3_Right.dxf",
       "name": "Chest Side 3 Right",
-      "sha256": "bf9170394f43f1c29acb85f6e065b554fea2e21ff2f6849df2e16add11ce5f5a",
+      "sha256": "1fdf5cd5f65873ce232a94197ae8588424286bd6d97c7b5070d4289df1fc00a3",
       "extra_mm3": 1696.4600329384882,
       "missing_mm3": 0.0,
       "python_volume_mm3": 696838.5399670615,
@@ -375,7 +375,7 @@
     {
       "file": "oak_13/Chest_Shallow_Drawer_Side_1_Left.dxf",
       "name": "Chest Shallow Drawer Side 1 Left",
-      "sha256": "c396c127d6b3aa4b77486254f436331cc4f6c50266b4b2f4ca72e90983ab2093",
+      "sha256": "4f7d1ea1813de315a18b2fb3dbac1bcd96452a75951ba33d705b989cb9eff417",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 331832.6349616209,
@@ -386,7 +386,7 @@
     {
       "file": "oak_13/Chest_Shallow_Drawer_Side_1_Right.dxf",
       "name": "Chest Shallow Drawer Side 1 Right",
-      "sha256": "487140aa70485effef307256472b81b8c454c392dda149fba4e4abe4c05ca51c",
+      "sha256": "b22ad3f40e603253a51ac5fc93d2ac1c28750363eaa5bb01f156c46493585762",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 331832.6349616209,
@@ -397,7 +397,7 @@
     {
       "file": "oak_13/Chest_Shallow_Drawer_Back.dxf",
       "name": "Chest Shallow Drawer Back",
-      "sha256": "4abc546055a0c35672ea5e46be480521502cca9e2de5f0b759ebde2aaecdc3fc",
+      "sha256": "71b5be5593026a171b7bace77557dfcb09101a154f6ec42f3a4886682a0bb5d8",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 415119.0199232418,
@@ -408,7 +408,7 @@
     {
       "file": "oak_13/Chest_Shallow_Drawer_Side_3.dxf",
       "name": "Chest Shallow Drawer Side 3",
-      "sha256": "aeb2fabcb49b8a22f27d09ac467ce36367966c101fc199f32984dfd1a7dd4e64",
+      "sha256": "4d135d70a5b23b986eab931ef7352ba0f0af115fe1aaa7ad63fb03cbda1f547d",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 348444.9999999999,
@@ -419,7 +419,7 @@
     {
       "file": "oak_7/Chest_Shallow_Drawer_Side_Bottom.dxf",
       "name": "Chest Shallow Drawer Side Bottom",
-      "sha256": "804002678f00191f155a924853c41dd592af1d2fa79df85aad1e644b52438915",
+      "sha256": "a9a9b7c564aa8ae7b725bd0a04fbcbb9cf621c1e26cef868797ce602013e3395",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 659568.0,
@@ -430,7 +430,7 @@
     {
       "file": "oak_7/Chest_Shallow_Drawer_Middle_Bottom.dxf",
       "name": "Chest Shallow Drawer Middle Bottom",
-      "sha256": "53f2e6b53896650e56b6cbf2be0fb9611ec55c81e68c7f455b7cfd03a3efe434",
+      "sha256": "12e1bcd371826f4f3478d7d54b2928d2c68226bc8c8723d8199aabd75fb256dc",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1978704.0,
@@ -441,7 +441,7 @@
     {
       "file": "walnut_19/Chest_Facade_2.dxf",
       "name": "Chest Facade 2",
-      "sha256": "f6d5b2b6e5f3f224db083276232bc489b90c7f79f25dad09d915545ec33ebb0f",
+      "sha256": "094c46dffb9d410183ccd0d0ceec47d896cb8f33e639d1a6b8c17d226b9df86d",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 244416.0,
@@ -452,7 +452,7 @@
     {
       "file": "walnut_19/Chest_Facade_3.dxf",
       "name": "Chest Facade 3",
-      "sha256": "6b2e4ffcfe847ba7b328609650654ea98be97d37c35e418c3ebbcd826e913d04",
+      "sha256": "94fdf1c386bdeb9a947db7dd23c3ff9c5af36aa866d774360866604162d23933",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 1029856.9999999998,
@@ -463,7 +463,7 @@
     {
       "file": "oak_13/Chest_Back_1.dxf",
       "name": "Chest Back 1",
-      "sha256": "e25e60b4937be0acbe9e0cc1c0b844d1994070725c0314bd598c5abd6f9a1ba0",
+      "sha256": "63ddb1c8bad1eb02cb1fece3368e5be99cd3dc285515c26a2831f10168a147d3",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 8410744.716947323,
@@ -474,7 +474,7 @@
     {
       "file": "oak_13/Chest_Back_2.dxf",
       "name": "Chest Back 2",
-      "sha256": "aec7f844dbbb29ebf3c94335ef9952d2431eefe2d3536cb7cc6a97e04074c95a",
+      "sha256": "d20a8c425e61bea892df34035321284e136997f23f44b1caa40d14e1a3d2e4ce",
       "extra_mm3": 1914.109571979201,
       "missing_mm3": 0.0,
       "python_volume_mm3": 4411231.57720695,
@@ -486,7 +486,7 @@
     {
       "file": "oak_13/Chest_Back_3.dxf",
       "name": "Chest Back 3",
-      "sha256": "88accab10ce84633e7dab4a6b0274e5fda55e4ea56f54b6b0393e5d1a7560104",
+      "sha256": "d9d53e341746f841edcc67bda9a3d61df57e44e2e43a650adc0ec4f3cc853dd2",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2644037.9257613756,
@@ -497,7 +497,7 @@
     {
       "file": "walnut_19/Shelves_Side_2.dxf",
       "name": "Shelves Side 2",
-      "sha256": "3787778e55c7fbe40c06d48ae2ad616c134bcdd065064307a9c4ef080584f02d",
+      "sha256": "7257a12c269f766efad5270d4f0df34bf74f6102760cc7a4e723d42d554483af",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2010580.0,
@@ -508,7 +508,7 @@
     {
       "file": "walnut_19/Shelves_Top_3.dxf",
       "name": "Shelves Top 3",
-      "sha256": "8998eeb4bc7616e447ab587d5364e01bcb40351c9a0c09beb9e98e2a77cbae4a",
+      "sha256": "8d01de4ec96833349f1c0829aecf54828ce1e3cae1f39d88d276d3c9f65884ed",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 2299000.0,
@@ -519,7 +519,7 @@
     {
       "file": "walnut_19/Shelves_Side_1.dxf",
       "name": "Shelves Side 1",
-      "sha256": "0b7199771018a9c7d973cf39852d30ca29f84d658a0299db6352c48f5443f30c",
+      "sha256": "4d67e06c792875b1737efed9b1e80d510569aa4c57f2e0504701a4e2d87f4272",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 4154920.0,
@@ -530,7 +530,7 @@
     {
       "file": "walnut_19/Shelves_Top_2.dxf",
       "name": "Shelves Top 2",
-      "sha256": "6bcb8e4e4f0216dee292e3717a4eb69773fc6ae5f8098483c228738a582299ef",
+      "sha256": "29f9d402797a5bde53cfed9746ffeb54ab8326f587a7322c690c235f4fc8f111",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 7744254.0,
@@ -541,7 +541,7 @@
     {
       "file": "walnut_19/Shelves_Middle_2.dxf",
       "name": "Shelves Middle 2",
-      "sha256": "d1e54494b2d4792f868bb3bfd05b2763879a8a66bd2dfdf4fc24e24fe0006c9f",
+      "sha256": "6c0763510feff4825d6c1b22bf189edc25f3739bfa7b8470fe8a2f2acf529c27",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 7777839.999999998,
@@ -552,7 +552,7 @@
     {
       "file": "walnut_19/Shelves_Top_1.dxf",
       "name": "Shelves Top 1",
-      "sha256": "5f20c9ac4e2982a2919dbe6e5505c463e23797203db878028b63d8346a491333",
+      "sha256": "958dc22e7523e6c7877aaf73b88f73c0ad7b9bf33cd4cf9c63ccb4315e2a7df0",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 6404202.0,
@@ -563,7 +563,7 @@
     {
       "file": "walnut_19/Shelves_Middle_1.dxf",
       "name": "Shelves Middle 1",
-      "sha256": "bb15d5192b3534f04baed4a48e3241ac6c13d07e69323cfd9f1eb500904e66b9",
+      "sha256": "41b6c24774622723f102a8e3ce78d389dbd1157aba37b823122f596d114a4c44",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 6410600.0,
@@ -574,7 +574,7 @@
     {
       "file": "walnut_19/Table_Top_1.dxf",
       "name": "Table Top 1",
-      "sha256": "4ce590f2dcca87f331670634e65667364d66c7a786719377962659bcd709e841",
+      "sha256": "5e0dcc91c072e4c1d665711f156fed1f612efa39218e87685c86fd678891e5ff",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 19898615.362319164,
@@ -585,7 +585,7 @@
     {
       "file": "walnut_19/Table_Side_1_Left_19mm.dxf",
       "name": "Table Side 1 Left 19mm",
-      "sha256": "5d0612083fdb0f64640176a57e3ecb133556f884fea5c2d0072ff20cb4c43c93",
+      "sha256": "91f21c1a816441cf8c23f58b921836f058c2fcffe352a4551b0bc92034a1bee8",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 304883.1868088897,
@@ -596,7 +596,7 @@
     {
       "file": "walnut_19/Table_Side_1_Left_19mm_2.dxf",
       "name": "Table Side 1 Left 19mm",
-      "sha256": "43fa04a8095d6b07d7e8f892c870ff66a0fa7cd5d21438efc98c9114aae33250",
+      "sha256": "364503556575036c3c9ac08909667d1a7e73e5eb72a363263274756e8f9dc54a",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 303568.4302833624,
@@ -607,7 +607,7 @@
     {
       "file": "walnut_19/Table_Side_1_Left_19mm_3.dxf",
       "name": "Table Side 1 Left 19mm",
-      "sha256": "46d37f36dd9b7ab5d36e72a6c88df15ad280dc0b3bb06cb0ccd4ec8f4e9ea96d",
+      "sha256": "fd6243b7c5d4bee522fc31864aed21ce635db67b9e568458a8e1dcf3c7ef8620",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 303568.4302833624,
@@ -618,7 +618,7 @@
     {
       "file": "walnut_19/Table_Side_1_Left_14mm.dxf",
       "name": "Table Side 1 Left 14mm",
-      "sha256": "3da81fd11f98ab9dfad0124cbfa833fdca329cf14c4d2e769a8d8e94f700a9a3",
+      "sha256": "31ae25fbd901139529555a5060d627d61bdb9f1d179738f2dd5db02196b33bee",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 223244.49314766712,
@@ -629,7 +629,7 @@
     {
       "file": "walnut_19/Table_Side_1_Right_19mm.dxf",
       "name": "Table Side 1 Right 19mm",
-      "sha256": "a01ac846792b9f29ddf34157c9227fe0c9893a3bba857cc5b1a85c808d5e889c",
+      "sha256": "f4605fa703e995e5d326d119d261484eed8c88f8481b08b96b61294614acf6ab",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 304883.1868088897,
@@ -640,7 +640,7 @@
     {
       "file": "walnut_19/Table_Side_1_Right_19mm_2.dxf",
       "name": "Table Side 1 Right 19mm",
-      "sha256": "41ecd998ea881a7d9e841fea025cb4fd651e6bc0fb3101fa8b2d08dd5d4a7033",
+      "sha256": "bd7beec53ac29a7c43767e02159af8e0208a1e264bc4701264ba9a2231002d44",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 303568.4302833624,
@@ -651,7 +651,7 @@
     {
       "file": "walnut_19/Table_Side_1_Right_19mm_3.dxf",
       "name": "Table Side 1 Right 19mm",
-      "sha256": "24cafd8c87e7cf54fbfb6f9da30d2e72645293bc439c8aea1b91919111d1f876",
+      "sha256": "056f9dcdcdb16a3fe3aa31e1eff7b46195b241615021552d7988e728253d3314",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 303568.4302833624,
@@ -662,7 +662,7 @@
     {
       "file": "walnut_19/Table_Side_1_Right_14mm.dxf",
       "name": "Table Side 1 Right 14mm",
-      "sha256": "e688f356dd717acd6d2fadd9adc54525896118e4b12c10b605f031f65bc32cae",
+      "sha256": "a86ef50cfd1fff8b0da36102d7b7f6ad6fcdbb5777640c97e0813779aa7398f3",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 223244.49314766712,
@@ -673,7 +673,7 @@
     {
       "file": "walnut_19/Table_Side_2.dxf",
       "name": "Table Side 2",
-      "sha256": "8f74e71b3723cab3c15daabee5ad6b9849a32aa870b32f5fc31c0af0429da6e1",
+      "sha256": "5a789d2c480fb12270cb20777152726dcfff53aa7e9c7cae16d899d63beb0920",
       "extra_mm3": 1130.9733552923258,
       "missing_mm3": 0.0,
       "python_volume_mm3": 336119.02664470766,
@@ -685,7 +685,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_1_Side_1_Left.dxf",
       "name": "Table Shallow Drawer 1 Side 1 Left",
-      "sha256": "6fa5beab185be6cf167eb5b344d708297e089b3fd963217cf2feb53ab444a5ff",
+      "sha256": "cb969fa4ffd5917cb233cb6dc297bd0b81940ea05617536b480977e7a7723768",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 146572.63496162105,
@@ -696,7 +696,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_1_Side_1_Right.dxf",
       "name": "Table Shallow Drawer 1 Side 1 Right",
-      "sha256": "316f6dff97fbe810a91ecb26a1c9789e38d788e18d67b679b43aaac51166f76b",
+      "sha256": "811a1b6480150239552ec773d5540d26c143835f57a3515985eb0f88af4393dc",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 146572.63496162105,
@@ -707,7 +707,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_1_Back.dxf",
       "name": "Table Shallow Drawer 1 Back",
-      "sha256": "4faa89224e39633f6378f0f0d57542f2f7053f572319a3968c5e900fc7edbee2",
+      "sha256": "2c46f3546d432a7f041661b41c0022aae9316002194b3c0ffc229081b39c28ec",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 356805.2699232422,
@@ -718,7 +718,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_1_Side_3.dxf",
       "name": "Table Shallow Drawer 1 Side 3",
-      "sha256": "9c1f791962d3c74ab180130993d6c9cfca834a516a4c8a8395337b588b275e9d",
+      "sha256": "4763a82069f42b6c0a582381611d47252296db95168b3a8cacd69fa45ec9d9e4",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 140919.0,
@@ -729,7 +729,7 @@
     {
       "file": "oak_7/Table_Shallow_Drawer_1_Side_Bottom.dxf",
       "name": "Table Shallow Drawer 1 Side Bottom",
-      "sha256": "ac59da07b6ea90e153960026ca77da2b111c14bd6be920ef792eee68cbbee005",
+      "sha256": "89185c5a1ea1cc4175c06d3be0e0be99470e439e8f1334cebf29ea147fd809bd",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 236767.99999999994,
@@ -740,7 +740,7 @@
     {
       "file": "oak_7/Table_Shallow_Drawer_1_Middle_Bottom.dxf",
       "name": "Table Shallow Drawer 1 Middle Bottom",
-      "sha256": "3ecf006799cb2a5a8141de20e727672520d202525a1b091a222b80af7bdc629a",
+      "sha256": "d7de20816533f3b8d1537f80ac73bee3caccd46002962649c291a39eb24e6138",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 426496.00000000006,
@@ -751,7 +751,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_2_Side_1_Left.dxf",
       "name": "Table Shallow Drawer 2 Side 1 Left",
-      "sha256": "7c26b03c0a4b6bbb25b448d095c3263f5a168a72ef21dcbb49e84efd7cbdfced",
+      "sha256": "eb7474383e1711d7c7718dc6eaed45c4f626658f0f8492dc9da4c8e8bbd4e489",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 146572.63496162105,
@@ -762,7 +762,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_2_Side_1_Right.dxf",
       "name": "Table Shallow Drawer 2 Side 1 Right",
-      "sha256": "3186d003fce42af916804bd01782c066aed4ee6dc952fa1764727b11076c450b",
+      "sha256": "2469ede466d1467c9ef162c4e6505b87709864ffc4c7b7e76612e81bbc38342a",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 146572.63496162105,
@@ -773,7 +773,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_2_Back.dxf",
       "name": "Table Shallow Drawer 2 Back",
-      "sha256": "d7e4130b3f398e397bb950e84814b04e15d9b3ad07ad9d5d43d7f9414bad0980",
+      "sha256": "cfd70610ca2b768aa4f5fcfb8255cd55098fe315c7695ab48dc4918e4c71f93d",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 356805.2699232422,
@@ -784,7 +784,7 @@
     {
       "file": "oak_13/Table_Shallow_Drawer_2_Side_3.dxf",
       "name": "Table Shallow Drawer 2 Side 3",
-      "sha256": "cd8960e2c3aece370383b55c4470c5c71c2c3530eb924413976e10dfb4be3051",
+      "sha256": "6ff56110bbbf3d2ef6f299d9269929dbd7d555bccf207f7046fdac7e20b0a9ac",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 140919.0,
@@ -795,7 +795,7 @@
     {
       "file": "oak_7/Table_Shallow_Drawer_2_Side_Bottom.dxf",
       "name": "Table Shallow Drawer 2 Side Bottom",
-      "sha256": "706ee16e2e82bfe749c51f18576a72b4436a0e7c0b7f3bdbe9586bec3c2d9800",
+      "sha256": "94712393c07dcd59e59420b6012db56fda8fff5eb9b11712b90f810f4c9dd1a5",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 236767.99999999994,
@@ -806,7 +806,7 @@
     {
       "file": "oak_7/Table_Shallow_Drawer_2_Middle_Bottom.dxf",
       "name": "Table Shallow Drawer 2 Middle Bottom",
-      "sha256": "875d69fae87a5fa0292637cdda818641394f397b7112a62c2f418d8ecffa63fc",
+      "sha256": "36f3e217417eb336ad8866ff6234efb43c12ec947990e8b79cf87ab3850a3f6c",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 426496.00000000006,
@@ -817,7 +817,7 @@
     {
       "file": "walnut_19/Table_Facade_1.dxf",
       "name": "Table Facade 1",
-      "sha256": "0b0a258bff4bdf720a43994eec2772ffe6e361b62551187207beb54005354959",
+      "sha256": "f4472005fa62a04b666ff1fac35c4276088c1b4f6a9a7aed27fcf4778af22382",
       "extra_mm3": 0.0,
       "missing_mm3": 0.0,
       "python_volume_mm3": 841452.9999999999,
@@ -827,7 +827,7 @@
     }
   ],
   "unmapped_files": [],
-  "model_sha256": "5a94cddb2c9e573fcba56cde3d940015dda3f66d48465de2206789b608e6ea73",
+  "model_sha256": "06c751f984d8f6eb4147b1c442f1939a6e3b803b9baa09a9cf163ca86924d0fb",
   "scope": "DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF hardware. Geometry comparison only; DXF EDGE_BANDING controls preview side-face colours.",
   "instances": [
     {
