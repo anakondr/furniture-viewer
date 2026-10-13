@@ -3747,7 +3747,7 @@
           "label": 11
         },
         {
-          "part": "walnut_19/Corner_Form_Layer.dxf",
+          "part": "walnut_19/Corner_Form_Layer_1.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -3774,12 +3774,14 @@
             95.5
           ],
           "handles": [
-            "102"
+            "103",
+            "104",
+            "105"
           ],
           "label": 12
         },
         {
-          "part": "walnut_19/Corner_Form_Layer.dxf",
+          "part": "walnut_19/Corner_Form_Layer_2.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -3806,7 +3808,11 @@
             95.5
           ],
           "handles": [
-            "105"
+            "10A",
+            "10B",
+            "10C",
+            "10D",
+            "10E"
           ],
           "label": 13
         }
@@ -4269,7 +4275,7 @@
           "label": 11
         },
         {
-          "part": "walnut_19/Corner_Form_Layer.dxf",
+          "part": "walnut_19/Corner_Form_Layer_3.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -4296,12 +4302,16 @@
             95.5
           ],
           "handles": [
-            "D4"
+            "D6",
+            "D7",
+            "D8",
+            "D9",
+            "DA"
           ],
           "label": 12
         },
         {
-          "part": "walnut_19/Corner_Form_Layer.dxf",
+          "part": "walnut_19/Corner_Form_Layer_4.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -4328,7 +4338,9 @@
             95.5
           ],
           "handles": [
-            "D7"
+            "DE",
+            "DF",
+            "E0"
           ],
           "label": 13
         }
