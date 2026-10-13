@@ -19,3 +19,5 @@
 .part-dimensions{white-space:nowrap;font-variant-numeric:tabular-nums}
 
 .parts-table .part-drilling{min-width:380px;vertical-align:top}.parts-table .part-drilling img{width:380px;height:auto;max-height:none;background:white;border:1px solid #c8d3cd;border-radius:4px}.part-drilling a{display:block;color:#173c32;text-decoration:none}.part-drilling span{display:block;font-size:12px;padding:6px 0}.part-drilling a:focus-visible{outline:2px solid #297962}
+
+.part-finish{white-space:nowrap}
