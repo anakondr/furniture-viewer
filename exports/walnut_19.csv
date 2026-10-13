@@ -34,5 +34,7 @@ L,W,Q,Name,Banding,Finish,CanRotate
 431,428,1,Small Chest Side 1 Left,",1mm,,",#595235,
 431,428,1,Small Chest Side 1 Right,",1mm,,",#595235,
 262,415,1,Small Chest Middle 1,",1mm,,",#595235,
-296,209.5,2,Small Chest Facade 1,"1mm,1mm,1mm,1mm",#595235,
+296,174,2,Small Chest Facade 1,"1mm,1mm,1mm,1mm",#C8A2C8,
 262,50,1,Small Chest Bottom 2,",1mm,,",#595235,
+262,415,1,Small Chest Middle 2,",1mm,,",#595235,
+296,67,1,Small Chest Facade 2,"1mm,1mm,1mm,1mm",#595235,
