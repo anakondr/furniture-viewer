@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {VisibilityPreferences} from './visibility.js?v=projections-68';
+import {VisibilityPreferences} from './visibility.js?v=perspective-69';
 import {OrbitControls} from './vendor/OrbitControls.js';
 const $ = id => document.getElementById(id);
 const status = message => { $('status').textContent=message; $('status').classList.remove('error'); };
@@ -14,8 +14,11 @@ $('canvas').append(renderer.domElement);
 const scene=new THREE.Scene();scene.background=new THREE.Color('#f4f1eb');
 scene.add(new THREE.HemisphereLight(0xffffff,0xaaa69f,2));
 const light=new THREE.DirectionalLight(0xffffff,2);light.position.set(1,2,3);scene.add(light);
-const camera=new THREE.OrthographicCamera(-1,1,1,-1,.1,100000);
+const perspectiveCamera=new THREE.PerspectiveCamera(35,1,.1,100000);
+const orthographicCamera=new THREE.OrthographicCamera(-1,1,1,-1,.1,100000);
+let camera=perspectiveCamera;
 let viewMode='isometric',viewHeight=2;
+function selectCamera(){camera=viewMode==='isometric'?perspectiveCamera:orthographicCamera;}
 camera.up.set(0,1,0);
 let controls=new OrbitControls(camera,renderer.domElement);
 function configureControls(){
@@ -34,7 +37,7 @@ const previewCameras=new Map();
 function isAssemblyTab(name){return name==='assembly'||name==='clamps';}
 function inAssembly(id){if(id==='/clamp-reference'||id.startsWith('/clamp-reference/'))return previewAssembly==='clamps';const groups=manifest?.assemblies||[];const entries=groups.filter(entry=>previewAssembly==='clamps'?entry.name.startsWith('Round Clamp'):!entry.name.startsWith('Round Clamp'));return !groups.length||entries.some(entry=>entry.roots.some(root=>id===root||id.startsWith(root+'/')));}
 function savePreviewCamera(){previewCameras.set(tab,{position:camera.position.clone(),target:controls.target.clone(),up:camera.up.clone(),near:camera.near,far:camera.far,zoom:camera.zoom,viewMode,viewHeight});}
-function restorePreviewCamera(){const saved=previewCameras.get(tab);if(!saved){viewMode='isometric';fit(assembly);return;}viewMode=saved.viewMode;viewHeight=saved.viewHeight;camera.position.copy(saved.position);camera.up.copy(saved.up);camera.zoom=saved.zoom;camera.near=saved.near;camera.far=saved.far;controls.target.copy(saved.target);resize();configureControls();}
+function restorePreviewCamera(){const saved=previewCameras.get(tab);if(!saved){viewMode='isometric';fit(assembly);return;}viewMode=saved.viewMode;selectCamera();viewHeight=saved.viewHeight;camera.position.copy(saved.position);camera.up.copy(saved.up);camera.zoom=saved.zoom;camera.near=saved.near;camera.far=saved.far;controls.target.copy(saved.target);resize();configureControls();}
 const geometryCache=new Map();
 const walnutEnabled={value:0},finishEnabled={value:0};
 function colorAttribute(bytes){
@@ -61,21 +64,22 @@ function clear(group){for(const child of [...group.children]){child.traverse(o=>
 function fit(group=tab==='files'?fileGroup:assembly){
  const box=new THREE.Box3();group.updateMatrixWorld(true);
  if(group===assembly){for(const [id,obj] of objects)if(inAssembly(id)&&obj.visible)box.expandByObject(obj);}else box.setFromObject(group);
- if(box.isEmpty())return;
+ if(box.isEmpty())return;selectCamera();
  const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3()),radius=size.length()/2;
- const direction=new THREE.Vector3(...({isometric:[1,1,1],front:[0,0,1],side:[1,0,0],top:[0,1,0]}[viewMode])).normalize();
+ const direction=new THREE.Vector3(...({isometric:[1,.65,1],front:[0,0,1],side:[1,0,0],top:[0,1,0]}[viewMode])).normalize();
  camera.up.set(...(viewMode==='top'?[0,0,-1]:[0,1,0]));
  const right=new THREE.Vector3().crossVectors(camera.up,direction).normalize(),up=new THREE.Vector3().crossVectors(direction,right);
  let width=0,height=0;
  for(const x of [-.5,.5])for(const y of [-.5,.5])for(const z of [-.5,.5]){const corner=new THREE.Vector3(size.x*x,size.y*y,size.z*z);width=Math.max(width,2*Math.abs(corner.dot(right)));height=Math.max(height,2*Math.abs(corner.dot(up)));}
  const rect=$('canvas').getBoundingClientRect(),aspect=rect.width/rect.height||1;
  viewHeight=Math.max(height,width/aspect,1)*1.18;camera.zoom=1;
- controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,Math.max(radius*3,100));
- camera.near=.01;camera.far=Math.max(10000,radius*10);resize();configureControls();
+ const distance=camera.isPerspectiveCamera?radius/Math.sin(THREE.MathUtils.degToRad(camera.fov/2))/Math.min(1,aspect)*1.12:Math.max(radius*3,100);
+ controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,distance);
+ camera.near=Math.max(.01,radius/1000);camera.far=Math.max(10000,distance*20);resize();configureControls();
 }
 // Peel the nearest surface exactly, then blend the remaining transparent layers.
 // No random pixel discard and no whole-object depth ordering are involved.
-const transparencyPass={value:0}, transparencyDistance={value:1},transparencyRange={value:new THREE.Vector2()};
+const transparencyPass={value:0}, transparencyDistance={value:1},transparencyRange={value:new THREE.Vector2()},transparencyOrthographic={value:0};
 const accumulation=new THREE.WebGLRenderTarget(1,1,{type:THREE.HalfFloatType,depthBuffer:false});
 const revealage=new THREE.WebGLRenderTarget(1,1,{type:THREE.HalfFloatType,depthBuffer:false});
 const frontSurface=new THREE.WebGLRenderTarget(1,1,{type:THREE.HalfFloatType});
@@ -131,9 +135,9 @@ function prepareTransparency(material){
    shader.fragmentShader=shader.fragmentShader.replace('#include <roughnessmap_fragment>', '#include <roughnessmap_fragment>\nif(walnutEnabled>.5&&walnutFace>.99){roughnessFactor=(walnutFace>1.5?.62:.48)+.12*walnutNoise(walnutPosition.xy*vec2(.02,.8));}\nif(finishEnabled>.5&&finishFace>-.5){roughnessFactor=finishFace>.5?.25:.9;}');
   }
   shader.uniforms.transparencyPass=transparencyPass;
-  shader.uniforms.transparencyDistance=transparencyDistance;shader.uniforms.transparencyRange=transparencyRange;
+  shader.uniforms.transparencyDistance=transparencyDistance;shader.uniforms.transparencyRange=transparencyRange;shader.uniforms.transparencyOrthographic=transparencyOrthographic;
   shader.uniforms.frontDepth=frontDepth;shader.uniforms.transparencySize=transparencySize;
-  shader.fragmentShader='uniform sampler2D frontDepth;uniform vec2 transparencySize;uniform int transparencyPass;uniform float transparencyDistance;uniform vec2 transparencyRange;\n'+shader.fragmentShader;
+  shader.fragmentShader='uniform sampler2D frontDepth;uniform vec2 transparencySize;uniform int transparencyPass;uniform float transparencyDistance;uniform vec2 transparencyRange;uniform float transparencyOrthographic;\n'+shader.fragmentShader;
   const end=shader.fragmentShader.lastIndexOf('}');
   shader.fragmentShader=shader.fragmentShader.slice(0,end)+`
    if(transparencyPass==1||transparencyPass==2){
@@ -143,7 +147,7 @@ function prepareTransparency(material){
    if(transparencyPass==3){gl_FragColor.a=opacity;}
    else if(transparencyPass==1){
     float alpha=opacity;
-    float depth=mix(transparencyRange.x,transparencyRange.y,gl_FragCoord.z);
+    float depth=transparencyOrthographic>.5?mix(transparencyRange.x,transparencyRange.y,gl_FragCoord.z):1.0/gl_FragCoord.w;
     float weight=clamp(pow(transparencyDistance/max(depth,0.001),4.0),0.01,100.0);
     gl_FragColor=vec4(gl_FragColor.rgb*alpha,alpha)*weight;
    }else if(transparencyPass==2){gl_FragColor=vec4(opacity);}
@@ -168,7 +172,7 @@ function renderView(){
  }
  const size=renderer.getDrawingBufferSize(new THREE.Vector2());
  if(accumulation.width!==size.x||accumulation.height!==size.y){accumulation.setSize(size.x,size.y);revealage.setSize(size.x,size.y);frontSurface.setSize(size.x,size.y);}
- transparencyDistance.value=camera.position.distanceTo(controls.target);transparencyRange.value.set(camera.near,camera.far);
+ transparencyDistance.value=camera.position.distanceTo(controls.target);transparencyRange.value.set(camera.near,camera.far);transparencyOrthographic.value=camera.isOrthographicCamera?1:0;
  const background=scene.background;scene.background=null;
  transparencySize.value.copy(size);
  // Do not sample a depth texture while it is attached to the drawing target.
@@ -257,7 +261,7 @@ function cuttingPlan(url,index){
  const tooltip=document.createElement('div');tooltip.className='plan-part-tooltip';tooltip.hidden=true;viewport.append(tooltip);
  let svg=null,planWidth=0,planHeight=0;card.append(toolbar,viewport);
  const layout=(manifest.sheetLayouts||[]).find(s=>'exports/'+s.file===sheetFile?.url);if(layout){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=`Parts on this sheet (${layout.placements.length})`;details.append(summary,table([['Label','Part','Rotated'],...layout.placements.map(p=>[p.label,p.part.split('/').pop().replace(/\.dxf$/,''),p.rotated?'Yes':'No'])]));card.append(details);}
- fetch(url+'?v=projections-68').then(r=>{if(!r.ok)throw Error('Cannot load cutting plan');return r.text();}).then(text=>{const doc=new DOMParser().parseFromString(text,'image/svg+xml');svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid cutting plan SVG');const box=svg.viewBox.baseVal;planWidth=box.width;planHeight=box.height;svg.removeAttribute('width');svg.removeAttribute('height');svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('role','group');svg.setAttribute('aria-label',`Cutting layout ${index+1}`);viewport.append(svg);syncPartSelection();fitPlan();}).catch(fail);
+ fetch(url+'?v=perspective-69').then(r=>{if(!r.ok)throw Error('Cannot load cutting plan');return r.text();}).then(text=>{const doc=new DOMParser().parseFromString(text,'image/svg+xml');svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid cutting plan SVG');const box=svg.viewBox.baseVal;planWidth=box.width;planHeight=box.height;svg.removeAttribute('width');svg.removeAttribute('height');svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('role','group');svg.setAttribute('aria-label',`Cutting layout ${index+1}`);viewport.append(svg);syncPartSelection();fitPlan();}).catch(fail);
  let scale=1,x=0,y=0,base=0,lastWidth=0,lastHeight=0,drag=null;
  function draw(){if(svg&&base)svg.setAttribute('viewBox',`${-x/scale} ${-y/scale} ${viewport.clientWidth/scale} ${viewport.clientHeight/scale}`);percent.textContent=base?`${Math.round(scale/base*100)}%`:'';}
  function fitPlan(){if(!planWidth||!viewport.clientWidth)return;lastWidth=viewport.clientWidth;lastHeight=viewport.clientHeight;base=Math.min(lastWidth/planWidth,lastHeight/planHeight);scale=base;x=(lastWidth-planWidth*scale)/2;y=(lastHeight-planHeight*scale)/2;draw();}
@@ -305,10 +309,10 @@ function zoom(factor,x,y){if(!svg)return;const old=view[2];const width=Math.min(
 $('drawing').addEventListener('wheel',e=>{if(!svg)return;e.preventDefault();zoom(Math.exp(Math.max(-100,Math.min(100,e.deltaY*(e.deltaMode===1?16:1)))*.002),e.clientX,e.clientY);},{passive:false});
 $('drawing').onpointerdown=e=>{if(!svg)return;drag=point(e.clientX,e.clientY);$('drawing').setPointerCapture(e.pointerId);};$('drawing').onpointermove=e=>{if(!drag)return;const p=point(e.clientX,e.clientY);view[0]+=drag.x-p.x;view[1]+=drag.y-p.y;drawDxf();};$('drawing').onpointerup=$('drawing').onpointercancel=()=>drag=null;
 $('zoom-in').onclick=()=>zoom(1/1.25);$('zoom-out').onclick=()=>zoom(1.25);$('zoom-fit').onclick=()=>{view=[...full];drawDxf();};for(const [id,checked] of [['layers-all',true],['layers-none',false]])$(id).onclick=()=>{for(const c of $('layers').querySelectorAll('input')){c.checked=checked;c.onchange();}};
-function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);camera.left=-viewHeight*r.width/r.height/2;camera.right=-camera.left;camera.top=viewHeight/2;camera.bottom=-camera.top;camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
+function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);if(camera.isPerspectiveCamera)camera.aspect=r.width/r.height;else{camera.left=-viewHeight*r.width/r.height/2;camera.right=-camera.left;camera.top=viewHeight/2;camera.bottom=-camera.top;}camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
 renderer.setAnimationLoop(()=>{if(['assembly','clamps','files'].includes(tab)&&!document.hidden){controls.update();renderView();}});
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{viewMode=b.dataset.view;fit(assembly);});
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>navigateTab(b.dataset.tab));$('fit').onclick=()=>fit();for(const mode of ['preview','wood','finish'])$('appearance-'+mode).onclick=()=>{walnutEnabled.value=mode==='preview'?0:1;finishEnabled.value=mode==='finish'?1:0;for(const name of ['preview','wood','finish'])$('appearance-'+name).setAttribute('aria-pressed',String(name===mode));};$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('parts-filter').oninput=partsList;$('python').onclick=()=>{if(source!=='python')switchSource('python');};$('dxf').onclick=()=>{if(source!=='dxf')switchSource('dxf');};$('stp').onclick=()=>{if(source!=='stp')switchSource('stp');};$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));tree();};
-try{manifest=await json('manifest.json?v=projections-68');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
+try{manifest=await json('manifest.json?v=perspective-69');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
 manifest.labels.forEach((name,i)=>{const label=document.createElement('label'),out=document.createElement('output'),input=document.createElement('input');input.type='range';input.min=0;input.max=1;input.step=.01;input.value=values[i];out.value=`${Math.round(values[i]*100)}%`;input.setAttribute('aria-label',name);input.oninput=()=>{values[i]=+input.value;out.value=`${Math.round(values[i]*100)}%`;motion();};label.append(document.createTextNode(name),out,input);$('sliders').append(label);});
 partsList();files();for(const f of manifest.files.filter(f=>f.kind==='csv')){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=f.name;details.append(summary,table(await data(f.preview)));$('plans').append(details);}manifest.plans.forEach((url,i)=>$('plans').append(cuttingPlan(url,i)));const report=await fetch('comparison/comparison.txt');if(!report.ok)throw Error('Cannot load comparison report');$('report').textContent=await report.text();await switchSource('python');await restoreNavigation(history.state||navigationFromUrl());history.replaceState(navigationState(),'',navigationUrl(navigationState()));}catch(e){fail(e);}
