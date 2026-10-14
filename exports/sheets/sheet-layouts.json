@@ -3747,7 +3747,7 @@
           "label": 11
         },
         {
-          "part": "walnut_19/Corner_Form_Layer_1.dxf",
+          "part": "walnut_19/Round_Clamp_1_Layer_1.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -3770,8 +3770,8 @@
           "envelope": [
             2291.01,
             708.0,
-            95.5,
-            95.5
+            115.5,
+            115.5
           ],
           "handles": [
             "103",
@@ -3781,7 +3781,7 @@
           "label": 12
         },
         {
-          "part": "walnut_19/Corner_Form_Layer_2.dxf",
+          "part": "walnut_19/Round_Clamp_1_Layer_2.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -3797,15 +3797,15 @@
             1.0,
             0.0,
             2291.01,
-            807.5,
+            827.5,
             0.0,
             1.0
           ],
           "envelope": [
             2291.01,
-            807.5,
-            95.5,
-            95.5
+            827.5,
+            115.5,
+            115.5
           ],
           "handles": [
             "10A",
@@ -4275,7 +4275,7 @@
           "label": 11
         },
         {
-          "part": "walnut_19/Corner_Form_Layer_3.dxf",
+          "part": "walnut_19/Round_Clamp_1_Layer_3.dxf",
           "rotated": false,
           "matrix": [
             1.0,
@@ -4290,16 +4290,16 @@
             0.0,
             1.0,
             0.0,
-            1091.01,
-            684.0,
+            602.0,
+            970.01,
             0.0,
             1.0
           ],
           "envelope": [
-            1091.01,
-            684.0,
-            95.5,
-            95.5
+            602.0,
+            970.01,
+            115.5,
+            115.5
           ],
           "handles": [
             "D6",
@@ -4309,40 +4309,6 @@
             "DA"
           ],
           "label": 12
-        },
-        {
-          "part": "walnut_19/Corner_Form_Layer_4.dxf",
-          "rotated": false,
-          "matrix": [
-            1.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            1.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            1.0,
-            0.0,
-            1091.01,
-            783.5,
-            0.0,
-            1.0
-          ],
-          "envelope": [
-            1091.01,
-            783.5,
-            95.5,
-            95.5
-          ],
-          "handles": [
-            "DE",
-            "DF",
-            "E0"
-          ],
-          "label": 13
         }
       ]
     },
@@ -4904,6 +4870,40 @@
             "102"
           ],
           "label": 13
+        },
+        {
+          "part": "walnut_19/Round_Clamp_1_Layer_4.dxf",
+          "rotated": false,
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            2306.0,
+            704.0,
+            0.0,
+            1.0
+          ],
+          "envelope": [
+            2306.0,
+            704.0,
+            115.5,
+            115.5
+          ],
+          "handles": [
+            "106",
+            "107",
+            "108"
+          ],
+          "label": 14
         }
       ]
     },
