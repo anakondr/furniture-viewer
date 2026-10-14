@@ -1,4 +1,4 @@
-DXF reconstruction: 82/105 unique parts match.
+DXF reconstruction: 85/108 unique parts match.
 DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF hardware. Geometry comparison only; DXF EDGE_BANDING controls preview side-face colours.
 145 sheet instances; 66 non-DXF instances.
 Boolean-difference tolerance: 0.00001 mm³ in each direction.

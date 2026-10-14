@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461328.4865046297
+2461328.5558564817
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461328.4865046297
+2461328.5558564817
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-FD
+10F
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{2EF85737-A977-4C47-A234-861DE7408A9B}
+{05CCEE6E-98D4-453C-B829-CB5A35816BEF}
   9
 $VERSIONGUID
   2
-{DFEDE68A-8C4D-4584-AC97-0C581BBE25B6}
+{E3B6D24C-A021-43E0-A9B4-10889A4C8B7D}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1915,7 +1915,7 @@ Continuous
   0
 LAYER
   5
-E7
+F9
 330
 1
 100
@@ -1941,7 +1941,7 @@ Continuous
   0
 LAYER
   5
-E8
+FA
 330
 1
 100
@@ -2065,7 +2065,7 @@ ACAD
   0
 APPID
   5
-FA
+10C
 330
 3
 100
@@ -2079,7 +2079,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-FB
+10D
 330
 3
 100
@@ -5227,7 +5227,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-DD
+DE
 330
 17
 100
@@ -5263,9 +5263,49 @@ AcDbPolyline
  20
 757.5
   0
-LWPOLYLINE
+CIRCLE
+  5
+DF
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+709.0
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
   5
 E0
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+742.5
+ 30
+0.0
+ 40
+3.0
+  0
+LWPOLYLINE
+  5
+E5
 330
 17
 100
@@ -5301,9 +5341,89 @@ AcDbPolyline
  20
 835.0
   0
+CIRCLE
+  5
+E6
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+786.5
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+E7
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+820.0
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+E8
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+786.5
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+E9
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+820.0
+ 30
+0.0
+ 40
+3.0
+  0
 LWPOLYLINE
   5
-E3
+EE
 330
 17
 100
@@ -5339,9 +5459,89 @@ AcDbPolyline
  20
 912.5
   0
+CIRCLE
+  5
+EF
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+864.0
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+F0
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+897.5
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+F1
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+864.0
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+F2
+330
+17
+100
+AcDbEntity
+  8
+A_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+897.5
+ 30
+0.0
+ 40
+3.0
+  0
 LWPOLYLINE
   5
-E6
+F6
 330
 17
 100
@@ -5377,9 +5577,49 @@ AcDbPolyline
  20
 990.0
   0
+CIRCLE
+  5
+F7
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1116.01
+ 20
+941.5
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+F8
+330
+17
+100
+AcDbEntity
+  8
+B_SIDE_HOLES_15.5
+100
+AcDbCircle
+ 10
+1149.51
+ 20
+975.0
+ 30
+0.0
+ 40
+3.0
+  0
 LWPOLYLINE
   5
-E9
+FB
 330
 17
 100
@@ -5411,7 +5651,7 @@ AcDbPolyline
   0
 TEXT
   5
-EA
+FC
 330
 17
 100
@@ -5435,7 +5675,7 @@ AcDbText
   0
 TEXT
   5
-EB
+FD
 330
 17
 100
@@ -5459,7 +5699,7 @@ AcDbText
   0
 TEXT
   5
-EC
+FE
 330
 17
 100
@@ -5483,7 +5723,7 @@ AcDbText
   0
 TEXT
   5
-ED
+FF
 330
 17
 100
@@ -5507,7 +5747,7 @@ AcDbText
   0
 TEXT
   5
-EE
+100
 330
 17
 100
@@ -5531,7 +5771,7 @@ AcDbText
   0
 TEXT
   5
-EF
+101
 330
 17
 100
@@ -5555,7 +5795,7 @@ AcDbText
   0
 TEXT
   5
-F0
+102
 330
 17
 100
@@ -5579,7 +5819,7 @@ AcDbText
   0
 TEXT
   5
-F1
+103
 330
 17
 100
@@ -5603,7 +5843,7 @@ AcDbText
   0
 TEXT
   5
-F2
+104
 330
 17
 100
@@ -5627,7 +5867,7 @@ AcDbText
   0
 TEXT
   5
-F3
+105
 330
 17
 100
@@ -5651,7 +5891,7 @@ AcDbText
   0
 TEXT
   5
-F4
+106
 330
 17
 100
@@ -5675,7 +5915,7 @@ AcDbText
   0
 TEXT
   5
-F5
+107
 330
 17
 100
@@ -5699,7 +5939,7 @@ AcDbText
   0
 TEXT
   5
-F6
+108
 330
 17
 100
@@ -5723,7 +5963,7 @@ AcDbText
   0
 TEXT
   5
-F7
+109
 330
 17
 100
@@ -5747,7 +5987,7 @@ AcDbText
   0
 TEXT
   5
-F8
+10A
 330
 17
 100
@@ -5771,7 +6011,7 @@ AcDbText
   0
 TEXT
   5
-F9
+10B
 330
 17
 100
@@ -6783,7 +7023,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-FC
+10E
   0
 DICTIONARYVAR
   5
@@ -6795,11 +7035,11 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-14T10:40:34.254650+00:00
+1.4.4 @ 2026-10-14T12:20:26.509485+00:00
   0
 DICTIONARYVAR
   5
-FC
+10E
 330
 2D
 100
@@ -6807,7 +7047,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-14T10:40:34.262285+00:00
+1.4.4 @ 2026-10-14T12:20:26.517473+00:00
   0
 ENDSEC
   0
