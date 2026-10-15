@@ -22,20 +22,20 @@ L,W,Q,Name,Banding,Finish,CanRotate
 1233,280,1,Shelves Top 1,"1mm,1mm,1mm,",#595235,
 1205,280,1,Shelves Middle 1,"1mm,1mm,,",#595235,
 1462,280,1,Shelves Bottom 1,"1mm,1mm,,",#595235,
-1500,800,1,Table Top 1,"1mm,1mm,1mm,1mm",#595235,
-800,82,3,Table Side 1 Left 19mm,",,,",#595235,Y
-800,82,1,Table Side 1 Left 14mm,",,,",#595235,Y
-800,82,3,Table Side 1 Right 19mm,",,,",#595235,Y
-800,82,1,Table Side 1 Right 14mm,",,,",#595235,Y
+1500,750,1,Table Top 1,"1mm,1mm,1mm,1mm",#595235,
+750,82,3,Table Side 1 Left 19mm,",,,",#595235,Y
+750,82,1,Table Side 1 Left 14mm,",,,",#595235,Y
+750,82,3,Table Side 1 Right 19mm,",,,",#595235,Y
+750,82,1,Table Side 1 Right 14mm,",,,",#595235,Y
 270,71,4,Table Side 2,"1mm,,1mm,1mm",#595235,
 661,67,2,Table Facade 1,"1mm,1mm,1mm,1mm",#595235,
-262,428,1,Small Chest Bottom 1,",1mm,,",#595235,
-300,450,1,Small Chest Top 1,"1mm,1mm,1mm,1mm",#595235,
-431,428,1,Small Chest Side 1 Left,",1mm,,",#595235,
-431,428,1,Small Chest Side 1 Right,",1mm,,",#595235,
-296,160.75,2,Small Chest Facade 1,"1mm,1mm,1mm,1mm",#C8A2C8,
-262,50,1,Small Chest Bottom 2,",1mm,,",#595235,
-296,67,1,Small Chest Facade 2,"1mm,1mm,1mm,1mm",#595235,
+232,478,1,Small Chest Bottom 1,",1mm,,",#595235,
+270,500,1,Small Chest Top 1,"1mm,1mm,1mm,1mm",#595235,
+431,478,1,Small Chest Side 1 Left,",1mm,,",#595235,
+431,478,1,Small Chest Side 1 Right,",1mm,,",#595235,
+266,160.75,2,Small Chest Facade 1,"1mm,1mm,1mm,1mm",#C8A2C8,
+232,50,1,Small Chest Bottom 2,",1mm,,",#595235,
+266,67,1,Small Chest Facade 2,"1mm,1mm,1mm,1mm",#595235,
 115.5,115.5,1,Round Clamp 1 Layer 1,",,,",#595235,Y
 115.5,115.5,1,Round Clamp 1 Layer 2,",,,",#595235,Y
 115.5,115.5,1,Round Clamp 1 Layer 3,",,,",#595235,Y

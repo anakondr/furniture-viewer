@@ -31,16 +31,30 @@ Stand reference: https://c1.neweggimages.com/ProductImageCompressAll1280/24-011-
 BackFlip: one opening 138 mm right of centre, 80 mm from the rear edge.
 The body clears the centre frame plank by 10.5 mm. The owner-requested rear
 margin is below EVOline's stated >90 mm installation clearance.
-Circle80 holes: equal 50 mm margins from the nearest side and rear edges;
-centres are 90 mm from both edges. Monitor placement:
+Circle80 holes: equal 100 mm margins from the nearest side and rear edges;
+centres are 140 mm from both edges. Monitor placement:
 rear edges 27 mm (Dell) and 67 mm (Acer) from the tabletop rear.
-The Dell outline and the Acer stand below 25 mm clear the closed socket
-covers by at least 10 mm. The raised Acer screen may overhang this area.
+Both monitor stands below 25 mm clear the closed socket
+covers by at least 10 mm. The raised screens may overhang this area.
 Monitor models are approximate; opened mechanisms and cables are not modelled.
-Wood Texture mode shows monitor model colours; other modes keep pale ghosts.
+Texture mode shows monitor model colours; other modes keep pale ghosts.
 Monitors remain excluded from all manufacturing lists and exports.
 
-Tabletop: 1500 x 800 mm. IkeaLegs dimensions remain unchanged.
+Tabletop: 1500 x 750 mm. IkeaLegs dimensions remain unchanged.
 Shallow table drawers use 270 mm MOVENTO runners (760H2700S), replacing 250 mm.
-The available mounting depth ahead of the frame is 298 mm; 300 mm runners
+The available mounting depth ahead of the frame is 273 mm; 300 mm runners
 need 303 mm. Drawer boxes and mounting panels follow the new runner length.
+
+Small Chest: 270 x 450 x 500 mm (width x height x depth), 450 mm runners.
+It sits 11 mm beside the left Ikea leg. Lian Li PC-O11 Dynamic: 272 x 446 x
+445 mm, 11 mm inside the right leg. Both dimensions and placement are editable.
+The official Herman Miller Mirra 2 polymer-back, adjustable-arm model is a
+ghost in front of the desk, facing it. Manufacturer planning model:
+https://www.hermanmiller.com/en_gb/resources/3d-models-and-planning-tools/product-models/individual/mirra-2-chair-polymer-back-adjustable-arms/
+No chair or computer parts enter cutting plans or manufacturing lists.
+
+PC-O11 Dynamic: official Lian Li STEP planning model, converted to a display
+mesh. Front faces the user; its glass side faces the seated user on the left.
+https://www.lian-li.com/es/product/pc-o11-dynamic/
+The PC case mesh retains CAD protrusions: overall display envelope is
+273.6 x 446.17 x 458.10 mm; the published nominal case size is 272 x 446 x 445 mm.
