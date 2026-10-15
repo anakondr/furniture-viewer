@@ -58,3 +58,5 @@ mesh. Front faces the user; its glass side faces the seated user on the left.
 https://www.lian-li.com/es/product/pc-o11-dynamic/
 The PC case mesh retains CAD protrusions: overall display envelope is
 273.6 x 446.17 x 458.10 mm; the published nominal case size is 272 x 446 x 445 mm.
+
+Chest Back 2: underside 234 mm, top 247 mm, raised 47 mm to the fixed middle-drawer runner floor. Outer Side 1 step height remains 187 mm. Back 3 and the centre divider notch meet the raised panel; internal side grooves capture its ends.
