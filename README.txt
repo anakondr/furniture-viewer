@@ -28,10 +28,9 @@ Housing/stand details are illustrative. This is not an exact clearance model.
 Dimensions: https://www.acer.com/ro-ro/predator/monitors/xb1/pdp/UM.HX1EE.A01
 Stand reference: https://c1.neweggimages.com/ProductImageCompressAll1280/24-011-082_R09.jpg
 
-BackFlip placement (requested layout): through-openings are 50 mm from each
-side edge and 60 mm from the rear edge. Flush recess edges are consequently
-44.5 mm and 51.25 mm away. Circle80 centres share the BackFlip centreline at
-104 mm from the rear, retaining the 60 mm inter-cutout gap.
-These offsets are below the mounting drawing's >50 mm short-end and >90 mm
-long-side margins. Confirm suitability before manufacturing this layout.
+BackFlip placement: one opening 130 mm left of centre, 60 mm from the rear edge.
+Circle80: two rear-corner holes, 50 mm from the nearest side to the hole edge;
+centres share the BackFlip centreline 104 mm from the rear edge.
+The BackFlip rear margin remains below the drawing's >90 mm recommendation.
+Confirm mounting clearance before manufacturing this layout.
 https://www.evoline.com/fileadmin/Medien/Produkte/Systeme/EVOline_BackFlip/404015500006-EVOline_BackFlip-BMA-10-2025_Web.pdf
