@@ -45,7 +45,7 @@ Shallow table drawers use 270 mm MOVENTO runners (760H2700S), replacing 250 mm.
 The available mounting depth ahead of the frame is 273 mm; 300 mm runners
 need 303 mm. Drawer boxes and mounting panels follow the new runner length.
 
-Small Chest: 270 x 450 x 500 mm (width x height x depth), 450 mm runners.
+Small Chest: 270 x 450 x 550 mm (width x height x depth), 500 mm runners.
 It sits 11 mm beside the left Ikea leg. Lian Li PC-O11 Dynamic: 272 x 446 x
 445 mm, 11 mm inside the right leg. Both dimensions and placement are editable.
 The official Herman Miller Mirra 2 polymer-back, adjustable-arm model is a
