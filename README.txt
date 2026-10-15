@@ -32,9 +32,15 @@ BackFlip: one opening 138 mm right of centre, 80 mm from the rear edge.
 The body clears the centre frame plank by 10.5 mm. The owner-requested rear
 margin is below EVOline's stated >90 mm installation clearance.
 Circle80 holes: equal 50 mm margins from the nearest side and rear edges;
-centres are 90 mm from both edges. Monitor positions remain unchanged:
-rear edges 27 mm (Dell) and 143 mm (Acer) from the tabletop rear.
-Projected monitor outlines clear the socket covers by at least 10 mm.
+centres are 90 mm from both edges. Monitor placement:
+rear edges 27 mm (Dell) and 67 mm (Acer) from the tabletop rear.
+The Dell outline and the Acer stand below 25 mm clear the closed socket
+covers by at least 10 mm. The raised Acer screen may overhang this area.
 Monitor models are approximate; opened mechanisms and cables are not modelled.
 Wood Texture mode shows monitor model colours; other modes keep pale ghosts.
 Monitors remain excluded from all manufacturing lists and exports.
+
+Tabletop: 1500 x 800 mm. IkeaLegs dimensions remain unchanged.
+Shallow table drawers use 270 mm MOVENTO runners (760H2700S), replacing 250 mm.
+The available mounting depth ahead of the frame is 298 mm; 300 mm runners
+need 303 mm. Drawer boxes and mounting panels follow the new runner length.
