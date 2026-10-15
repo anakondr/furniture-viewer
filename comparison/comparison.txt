@@ -1,6 +1,6 @@
-DXF reconstruction: 85/108 unique parts match.
+DXF reconstruction: 86/110 unique parts match.
 DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF hardware. Geometry comparison only; DXF EDGE_BANDING controls preview side-face colours.
-145 sheet instances; 66 non-DXF instances.
+147 sheet instances; 66 non-DXF instances.
 Boolean-difference tolerance: 0.00001 mm³ in each direction.
 
 walnut_19/Chest_Side_1_Left.dxf
@@ -27,9 +27,12 @@ walnut_19/Chest_Side_3_Left.dxf
 walnut_19/Chest_Side_3_Right.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
-oak_13/Chest_Back_2.dxf
-  Extra material: 5307.029638 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 20; matches after those drills: True.
+oak_13/Chest_Back_2_Left.dxf
+  Extra material: 4486.696964 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 14; matches after those drills: True.
+oak_13/Chest_Back_2_Right.dxf
+  Extra material: 4486.696964 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 14; matches after those drills: True.
 walnut_19/Shelves_Side_2.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.

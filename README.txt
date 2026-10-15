@@ -59,4 +59,4 @@ https://www.lian-li.com/es/product/pc-o11-dynamic/
 The PC case mesh retains CAD protrusions: overall display envelope is
 273.6 x 446.17 x 458.10 mm; the published nominal case size is 272 x 446 x 445 mm.
 
-Chest Back 2: underside 234 mm, top 247 mm, raised 47 mm to the fixed middle-drawer runner floor. Outer Side 1 step height remains 187 mm. Back 3 and the centre divider notch meet the raised panel; three 6 mm alignment dowels per end connect Back 2 to the sides without horizontal grooves. Back 1 starts at 234 mm; seven 3.2 mm screw holes join each vertical back to Back 2.
+Chest Back 2: underside 234 mm, top 247 mm. Both Back 2 and Back 3 are split into left/right parts around Side 2. Side 2's original step top is 200 mm; outer Side 1 steps remain 187 mm. Back 3 halves have inner top notches for Side 2. Back 2 uses three 6 mm dowels per end with staggered bores in the divider, and four 3.2 mm screws per half at each back-to-back joint.
