@@ -28,10 +28,13 @@ Housing/stand details are illustrative. This is not an exact clearance model.
 Dimensions: https://www.acer.com/ro-ro/predator/monitors/xb1/pdp/UM.HX1EE.A01
 Stand reference: https://c1.neweggimages.com/ProductImageCompressAll1280/24-011-082_R09.jpg
 
-BackFlip: one opening 180 mm right of centre, 100 mm from the rear edge.
-Circle80 holes: 50 mm from the nearest side to the hole edge, centres at
-144 mm from the rear, aligned with BackFlip. Monitor rear edges are 27 mm
-(Dell) and 143 mm (Acer) from the tabletop rear. These are the nearest
-whole-mm positions maintaining 10 mm clearance between projected monitor
-outlines and the BackFlip recess / Circle80 covers. Monitor models are
-approximate; this does not model the opened socket mechanism or cables.
+BackFlip: one opening 138 mm right of centre, 80 mm from the rear edge.
+The body clears the centre frame plank by 10.5 mm. The owner-requested rear
+margin is below EVOline's stated >90 mm installation clearance.
+Circle80 holes: equal 50 mm margins from the nearest side and rear edges;
+centres are 90 mm from both edges. Monitor positions remain unchanged:
+rear edges 27 mm (Dell) and 143 mm (Acer) from the tabletop rear.
+Projected monitor outlines clear the socket covers by at least 10 mm.
+Monitor models are approximate; opened mechanisms and cables are not modelled.
+Wood Texture mode shows monitor model colours; other modes keep pale ghosts.
+Monitors remain excluded from all manufacturing lists and exports.
