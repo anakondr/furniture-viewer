@@ -20,3 +20,10 @@ Converted locally with OpenSKP 1.3.0, uniformly scaled to 646.71 mm overall widt
 The community stand proportions differ from Dell's published dimensions;
 this is a visual reference, not a manufacturing or exact clearance model.
 Monitor ghosts are excluded from parts lists, cutting plans and CNC exports.
+
+Right monitor reference: approximate Acer Predator XB271HU 27-inch, modelled
+locally from published dimensions and product photographs, not downloaded CAD.
+Envelope: 614 mm wide, 551 mm high, 268 mm deep; 27-inch 16:9 active screen.
+Housing/stand details are illustrative. This is not an exact clearance model.
+Dimensions: https://www.acer.com/ro-ro/predator/monitors/xb1/pdp/UM.HX1EE.A01
+Stand reference: https://c1.neweggimages.com/ProductImageCompressAll1280/24-011-082_R09.jpg
