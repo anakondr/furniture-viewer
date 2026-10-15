@@ -28,8 +28,10 @@ Housing/stand details are illustrative. This is not an exact clearance model.
 Dimensions: https://www.acer.com/ro-ro/predator/monitors/xb1/pdp/UM.HX1EE.A01
 Stand reference: https://c1.neweggimages.com/ProductImageCompressAll1280/24-011-082_R09.jpg
 
-BackFlip: one opening 180 mm left of centre, 100 mm from the rear edge.
-Circle80 hole edges are 200 mm from the nearest side; their centres share
-BackFlip's centreline 144 mm from the rear. Monitor footprints start 210 mm
-from the rear, leaving 13.25 mm behind them to the BackFlip recess and
-20 mm to the Circle80 covers. Reference monitor shapes are approximate.
+BackFlip: one opening 180 mm right of centre, 100 mm from the rear edge.
+Circle80 holes: 50 mm from the nearest side to the hole edge, centres at
+144 mm from the rear, aligned with BackFlip. Monitor rear edges are 27 mm
+(Dell) and 143 mm (Acer) from the tabletop rear. These are the nearest
+whole-mm positions maintaining 10 mm clearance between projected monitor
+outlines and the BackFlip recess / Circle80 covers. Monitor models are
+approximate; this does not model the opened socket mechanism or cables.
