@@ -12,3 +12,11 @@ edge drilling that is not represented in the DXF machining layers.
 The publication date and design fingerprint appear at the bottom of the viewer.
 Changing this snapshot does not change the editable Python design.
 Three.js is vendored under its MIT licence in vendor/THREE-LICENSE.txt.
+
+Left monitor reference: Dell UltraSharp U2711 27-inch, community model by
+therealguy419, supplied as SketchUp by the project owner.
+https://3dwarehouse.sketchup.com/model/742705ebaa879604f2e5d34c7b677bc4/Dell-UltraSharp-U2711-27
+Converted locally with OpenSKP 1.3.0, uniformly scaled to 646.71 mm overall width.
+The community stand proportions differ from Dell's published dimensions;
+this is a visual reference, not a manufacturing or exact clearance model.
+Monitor ghosts are excluded from parts lists, cutting plans and CNC exports.
