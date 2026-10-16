@@ -64,3 +64,5 @@ Chest Back 2: underside 234 mm, top 247 mm. Both Back 2 and Back 3 are split int
 Chest Bottom 3: 339 x 19 x 19 mm floor support beneath Side 2 and Bottom 1, meeting the existing front Bottom 2 strip without overlap; its rear end aligns with Back 2's front edge at 300 mm.
 
 Chest Side 1 Back 3 rebates: continuous 13 x 219 mm pockets with 15 x 4 mm reliefs at their lower open corners (2 mm cutter radius).
+
+Cable passages: 20 x 20 mm through-notches at upper rear corners of Chest Side 1 Left/Right and Side 2, plus Shelves Side 1 Left/Middle/Right and Side 2; controlled by Parameters.cable_notch_size.
