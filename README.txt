@@ -65,4 +65,4 @@ Chest Bottom 3: 339 x 19 x 19 mm floor support beneath Side 2 and Bottom 1, meet
 
 Chest Side 1 Back 3 rebates: continuous 13 x 219 mm pockets with 15 x 4 mm reliefs at their lower open corners (2 mm cutter radius).
 
-Cable passages: 20 x 20 mm through-notches at upper rear corners of Chest Side 1 Left/Right and Side 2, plus Shelves Side 1 Left/Middle/Right and Side 2; controlled by Parameters.cable_notch_size.
+Cable passages: 20 x 20 mm through-notches at bottom rear corners (Chest: solid foot beyond the step) of Chest Side 1 Left/Right and Side 2, plus Shelves Side 1 Left/Middle/Right and Side 2; controlled by Parameters.cable_notch_size.
