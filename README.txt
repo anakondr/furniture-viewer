@@ -61,6 +61,6 @@ The PC case mesh retains CAD protrusions: overall display envelope is
 
 Chest Back 2: underside 234 mm, top 247 mm. Both Back 2 and Back 3 are split into left/right parts around Side 2. Side 2 and both outer Side 1 step tops align at 187 mm. Back 3 halves have 9.5 x 60 mm inner top notches for Side 2. Back 2 uses three 6 mm dowels per end with staggered bores in the divider, and four 3.2 mm screws per half at each back-to-back joint.
 
-Chest Bottom 3: 326 x 19 x 19 mm floor support beneath Side 2 and Bottom 1, meeting the existing front Bottom 2 strip without overlap.
+Chest Bottom 3: 339 x 19 x 19 mm floor support beneath Side 2 and Bottom 1, meeting the existing front Bottom 2 strip without overlap; its rear end aligns with Back 2's front edge at 300 mm.
 
 Chest Side 1 Back 3 rebates: continuous 13 x 219 mm pockets with 15 x 4 mm reliefs at their lower open corners (2 mm cutter radius).
