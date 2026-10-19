@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461333.6763657406
+2461333.696226852
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461333.6763657406
+2461333.696226852
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-4F
+3F
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{119A39E9-D09E-4C91-B6D2-89D2259F01B0}
+{38B9BD6F-DB9A-4092-BBC1-2A515A5986F8}
   9
 $VERSIONGUID
   2
-{4B804F59-9951-4988-B166-49379FA380AA}
+{B5ABE135-A761-4CD5-AB50-6B418BBBA165}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1549,7 +1549,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-8
+7
   0
 LAYER
   5
@@ -1683,30 +1683,6 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-B_SIDE_HOLES_13
- 70
-0
- 62
-7
-  6
-Continuous
-370
--3
-390
-13
-347
-21
-  0
-LAYER
-  5
-46
-330
-1
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
 EDGE_BANDING
  70
 0
@@ -1723,7 +1699,7 @@ Continuous
   0
 LAYER
   5
-48
+38
 330
 1
 100
@@ -1845,7 +1821,7 @@ ACAD
   0
 APPID
   5
-4C
+3C
 330
 3
 100
@@ -1859,7 +1835,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-4D
+3D
 330
 3
 100
@@ -2295,309 +2271,9 @@ AcDbCircle
  40
 3.0
   0
-CIRCLE
-  5
-37
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-76.0
- 20
-500.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-38
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-76.0
- 20
-491.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-39
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-76.0
- 20
-459.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3A
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-76.0
- 20
-267.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3B
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-76.0
- 20
-235.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3C
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-237.0
- 20
-500.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3D
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-237.0
- 20
-491.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3E
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-237.0
- 20
-459.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-3F
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-237.0
- 20
-267.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-40
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-237.0
- 20
-235.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-41
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-398.0
- 20
-500.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-42
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-398.0
- 20
-491.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-43
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-398.0
- 20
-459.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-44
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-398.0
- 20
-267.0
- 30
-0.0
- 40
-1.5
-  0
-CIRCLE
-  5
-45
-330
-17
-100
-AcDbEntity
-  8
-B_SIDE_HOLES_13
-100
-AcDbCircle
- 10
-398.0
- 20
-235.0
- 30
-0.0
- 40
-1.5
-  0
 LINE
   5
-47
+37
 330
 17
 100
@@ -2621,7 +2297,7 @@ AcDbLine
   0
 LINE
   5
-49
+39
 330
 17
 100
@@ -2645,7 +2321,7 @@ AcDbLine
   0
 LINE
   5
-4A
+3A
 330
 17
 100
@@ -2669,7 +2345,7 @@ AcDbLine
   0
 LINE
   5
-4B
+3B
 330
 17
 100
@@ -3681,7 +3357,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-4E
+3E
   0
 DICTIONARYVAR
   5
@@ -3693,11 +3369,11 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-19T15:13:58.073590+00:00
+1.4.4 @ 2026-10-19T15:42:34.107674+00:00
   0
 DICTIONARYVAR
   5
-4E
+3E
 330
 2D
 100
@@ -3705,7 +3381,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-19T15:13:58.075014+00:00
+1.4.4 @ 2026-10-19T15:42:34.109602+00:00
   0
 ENDSEC
   0
