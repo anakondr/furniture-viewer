@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {CameraPreferences} from './camera.js';
 import {VisibilityPreferences} from './visibility.js?v=monitors-75';
 import {OrbitControls} from './vendor/OrbitControls.js';
 const $ = id => document.getElementById(id);
@@ -25,6 +26,7 @@ function configureControls(){
  const target=controls.target.clone();controls.dispose();controls=new OrbitControls(camera,renderer.domElement);
  controls.target.copy(target);controls.enableDamping=true;controls.zoomToCursor=true;
  controls.enableRotate=viewMode==='isometric';controls.mouseButtons.LEFT=controls.enableRotate?THREE.MOUSE.ROTATE:THREE.MOUSE.PAN;
+ controls.addEventListener('end',()=>{if(isAssemblyTab(tab)&&objects.size)savePreviewCamera();});
  controls.update();
  document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===viewMode)));
 }
@@ -33,11 +35,14 @@ const assembly=new THREE.Group(), fileGroup=new THREE.Group();scene.add(assembly
 let tab='assembly', source='python', manifest, rows=[], objects=new Map(), values=[], collapsed=new Set(), visibility=new Map(), sourceRequest=0, fileRequest=0, selectedFile=null;
 const visibilityPreferences=new VisibilityPreferences('furniture-visibility-v1:'+location.pathname.replace(/index\.html$/, ''));
 let previewAssembly='assembly';
-const previewCameras=new Map();
+const cameraPreferences=new CameraPreferences('furniture-camera-v1:'+location.pathname.replace(/index\.html$/, ''));
+const previewCameras=cameraPreferences.load();
+window.addEventListener('pagehide',()=>{if(isAssemblyTab(tab)&&objects.size)savePreviewCamera();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&isAssemblyTab(tab)&&objects.size)savePreviewCamera();});
 function isAssemblyTab(name){return name==='assembly'||name==='clamps';}
 function inAssembly(id){if(id==='/clamp-reference'||id.startsWith('/clamp-reference/'))return previewAssembly==='clamps';const groups=manifest?.assemblies||[];const entries=groups.filter(entry=>previewAssembly==='clamps'?entry.name.startsWith('Round Clamp'):!entry.name.startsWith('Round Clamp'));return !groups.length||entries.some(entry=>entry.roots.some(root=>id===root||id.startsWith(root+'/')));}
-function savePreviewCamera(){previewCameras.set(tab,{position:camera.position.clone(),target:controls.target.clone(),up:camera.up.clone(),near:camera.near,far:camera.far,zoom:camera.zoom,viewMode,viewHeight});}
-function restorePreviewCamera(){const saved=previewCameras.get(tab);if(!saved){viewMode='isometric';fit(assembly);return;}viewMode=saved.viewMode;selectCamera();viewHeight=saved.viewHeight;camera.position.copy(saved.position);camera.up.copy(saved.up);camera.zoom=saved.zoom;camera.near=saved.near;camera.far=saved.far;controls.target.copy(saved.target);resize();configureControls();}
+function savePreviewCamera(){previewCameras.set(tab,{position:camera.position.toArray(),target:controls.target.toArray(),up:camera.up.toArray(),near:camera.near,far:camera.far,zoom:camera.zoom,viewMode,viewHeight});cameraPreferences.save(previewCameras);}
+function restorePreviewCamera(){const saved=previewCameras.get(tab);if(!saved){viewMode='isometric';fit(assembly);return;}viewMode=saved.viewMode;selectCamera();viewHeight=saved.viewHeight;camera.position.fromArray(saved.position);camera.up.fromArray(saved.up);camera.zoom=saved.zoom;camera.near=saved.near;camera.far=saved.far;controls.target.fromArray(saved.target);resize();configureControls();}
 const geometryCache=new Map(),ghostGeometryCache=new Map();
 const walnutEnabled={value:0},finishEnabled={value:0};
 function colorAttribute(bytes){
@@ -206,7 +211,7 @@ function withClampReference(sourceRows){
  const copies=sourceRows.filter(r=>r.id===root||r.id.startsWith(root+'/')).map(r=>({...r,id:copyRoot+r.id.slice(root.length),name:r.id===root?layout.referenceName:r.name,depth:r.depth-rootRow.depth,ghost:layout.ghost===true,matrix:layout.matrices[r.id]||r.matrix,tracks:{}}));
  return [...sourceRows.map(r=>layout.matrices[r.id]&&!(r.id===root||r.id.startsWith(root+'/'))?{...r,matrix:layout.matrices[r.id],tracks:{}}:r),...copies];
 }
-async function switchSource(next){const request=++sourceRequest;status(`Loading ${next.toUpperCase()} assembly…`);try{const nextRows=withClampReference(await data(manifest.sources[next]));const built=await Promise.all(nextRows.filter(r=>!r.group).map(async r=>[r.id,await mesh(r.mesh,r.ghost,r.fullColourGhost)]));if(request!==sourceRequest){for(const [,o] of built)o.traverse(x=>x.material?.dispose());return;}const firstLoad=objects.size===0;clear(assembly);objects=new Map(built);rows=nextRows;if(firstLoad)collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));visibility=visibilityPreferences.restore(rows);for(const row of rows){if(!row.group){const o=objects.get(row.id);o.matrixAutoUpdate=false;assembly.add(o);}}source=next;motion();style();tree();$('python').setAttribute('aria-pressed',String(next==='python'));$('dxf').setAttribute('aria-pressed',String(next==='dxf'));$('stp').setAttribute('aria-pressed',String(next==='stp'));if(firstLoad)fit(assembly);status(`${next.toUpperCase()} assembly · ${built.length} part instances`);}catch(e){fail(e);}}
+async function switchSource(next){const request=++sourceRequest;status(`Loading ${next.toUpperCase()} assembly…`);try{const nextRows=withClampReference(await data(manifest.sources[next]));const built=await Promise.all(nextRows.filter(r=>!r.group).map(async r=>[r.id,await mesh(r.mesh,r.ghost,r.fullColourGhost)]));if(request!==sourceRequest){for(const [,o] of built)o.traverse(x=>x.material?.dispose());return;}const firstLoad=objects.size===0;clear(assembly);objects=new Map(built);rows=nextRows;if(firstLoad)collapsed=new Set(rows.filter(r=>r.group).map(r=>r.id));visibility=visibilityPreferences.restore(rows);for(const row of rows){if(!row.group){const o=objects.get(row.id);o.matrixAutoUpdate=false;assembly.add(o);}}source=next;motion();style();tree();$('python').setAttribute('aria-pressed',String(next==='python'));$('dxf').setAttribute('aria-pressed',String(next==='dxf'));$('stp').setAttribute('aria-pressed',String(next==='stp'));if(firstLoad)restorePreviewCamera();status(`${next.toUpperCase()} assembly · ${built.length} part instances`);}catch(e){fail(e);}}
 function tree(){const root=$('tree');root.replaceChildren();for(const row of rows){if(!inAssembly(row.id))continue;if([...collapsed].some(id=>row.id.startsWith(id+'/')))continue;const div=document.createElement('div');div.className='tree-row';div.style.paddingLeft=`${row.depth*12}px`;const toggle=document.createElement('button');toggle.textContent=row.group?(collapsed.has(row.id)?'▸':'▾'):'';toggle.disabled=!row.group;toggle.setAttribute('aria-label',`${collapsed.has(row.id)?'Expand':'Collapse'} ${row.name}`);toggle.onclick=()=>{collapsed.has(row.id)?collapsed.delete(row.id):collapsed.add(row.id);tree();};div.append(toggle);const label=document.createElement('label'),check=document.createElement('input');check.type='checkbox';const descendants=row.group?rows.filter(r=>!r.group&&r.id.startsWith(row.id+'/')):[row];check.checked=descendants.every(r=>visibility.get(r.id));check.indeterminate=!check.checked&&descendants.some(r=>visibility.get(r.id));check.onchange=()=>{for(const d of descendants)visibility.set(d.id,check.checked);visibilityPreferences.save(rows,visibility);style();tree();};label.append(check,document.createTextNode(row.name));div.append(label);root.append(div);}}
 function showTab(next){
  const previous=tab;if(isAssemblyTab(previous)&&next!==previous)savePreviewCamera();tab=next;if(tab==='files')viewMode='isometric';

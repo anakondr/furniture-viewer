@@ -1,14 +1,8 @@
-DXF reconstruction: 87/111 unique parts match.
+DXF reconstruction: 89/111 unique parts match.
 DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF hardware. Geometry comparison only; DXF EDGE_BANDING controls preview side-face colours.
 148 sheet instances; 66 non-DXF instances.
 Boolean-difference tolerance: 0.00001 mm³ in each direction.
 
-walnut_19/Chest_Side_1_Left.dxf
-  Extra material: 820.332674 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 6; matches after those drills: True.
-walnut_19/Chest_Side_1_Right.dxf
-  Extra material: 820.332674 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 6; matches after those drills: True.
 walnut_19/Chest_Middle_1.dxf
   Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 6; matches after those drills: True.
@@ -28,11 +22,11 @@ walnut_19/Chest_Side_3_Right.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
 oak_13/Chest_Back_2_Left.dxf
-  Extra material: 4486.696964 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 14; matches after those drills: True.
+  Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 6; matches after those drills: True.
 oak_13/Chest_Back_2_Right.dxf
-  Extra material: 4486.696964 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 14; matches after those drills: True.
+  Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 6; matches after those drills: True.
 walnut_19/Shelves_Side_2.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
@@ -70,8 +64,8 @@ walnut_19/Small_Chest_Bottom_1.dxf
   Extra material: 2261.946711 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 4; matches after those drills: True.
 walnut_19/Small_Chest_Side_1_Left.dxf
-  Extra material: 1404.417580 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 4; matches after those drills: True.
+  Extra material: 1130.973355 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 2; matches after those drills: True.
 walnut_19/Small_Chest_Side_1_Right.dxf
-  Extra material: 1404.417580 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 4; matches after those drills: True.
+  Extra material: 1130.973355 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 2; matches after those drills: True.
