@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {CameraPreferences} from './camera.js';
+import {CameraPreferences} from './camera.js?v=layout-106';
 import {VisibilityPreferences,visibilityRows} from './visibility.js?v=layout-105';
 import {OrbitControls} from './vendor/OrbitControls.js';
 const $ = id => document.getElementById(id);
@@ -39,8 +39,8 @@ const cameraPreferences=new CameraPreferences('furniture-camera-v1:'+location.pa
 const previewCameras=cameraPreferences.load();
 window.addEventListener('pagehide',()=>{if(isAssemblyTab(tab)&&objects.size)savePreviewCamera();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&isAssemblyTab(tab)&&objects.size)savePreviewCamera();});
-function isAssemblyTab(name){return name==='assembly'||name==='clamps';}
-function inAssembly(id){if(id==='/clamp-reference'||id.startsWith('/clamp-reference/'))return previewAssembly==='clamps';const groups=manifest?.assemblies||[];const entries=groups.filter(entry=>previewAssembly==='clamps'?entry.name.startsWith('Round Clamp'):!entry.name.startsWith('Round Clamp'));return !groups.length||entries.some(entry=>entry.roots.some(root=>id===root||id.startsWith(root+'/')));}
+function isAssemblyTab(name){return name==='assembly'||name==='clamps'||name==='storage';}
+function inAssembly(id){if(id==='/clamp-reference'||id.startsWith('/clamp-reference/'))return previewAssembly==='clamps';const groups=manifest?.assemblies||[];const entries=groups.filter(entry=>previewAssembly==='clamps'?entry.name.startsWith('Round Clamp'):previewAssembly==='storage'?entry.name==='Storage Chest':entry.name==='Furniture');return !groups.length||entries.some(entry=>entry.roots.some(root=>id===root||id.startsWith(root+'/')));}
 function savePreviewCamera(){previewCameras.set(tab,{position:camera.position.toArray(),target:controls.target.toArray(),up:camera.up.toArray(),near:camera.near,far:camera.far,zoom:camera.zoom,viewMode,viewHeight});cameraPreferences.save(previewCameras);}
 function restorePreviewCamera(){const saved=previewCameras.get(tab);if(!saved){viewMode='isometric';fit(assembly);return;}viewMode=saved.viewMode;selectCamera();viewHeight=saved.viewHeight;camera.position.fromArray(saved.position);camera.up.fromArray(saved.up);camera.zoom=saved.zoom;camera.near=saved.near;camera.far=saved.far;controls.target.fromArray(saved.target);resize();configureControls();}
 const geometryCache=new Map(),ghostGeometryCache=new Map();
@@ -202,7 +202,7 @@ function renderView(){
  scene.background=background;transparencyPass.value=0;
 }
 function style(){const alpha=+$('alpha').value;for(const [id,obj] of objects){obj.visible=inAssembly(id)&&(visibility.get(id)??true);for(const child of obj.children){if(child.userData.monitorGeometries)child.geometry=child.userData.monitorGeometries[walnutEnabled.value&&!finishEnabled.value?'colour':'preview'];child.visible=!child.isLineSegments||$('edges').checked;opacity(child.material,child.isLineSegments?Math.min(1,alpha*1.5):alpha);}}$('alpha-value').value=`${Math.round(alpha*100)}%`;}
-function motion(){for(const row of rows){if(row.group)continue;const obj=objects.get(row.id),m=[...row.matrix];for(const [index,track] of Object.entries(row.tracks)){const p=track[Math.round(values[+index]*100)];for(let j=0;j<3;j++)m[12+j]+=p[j];}obj.matrix.fromArray(m);obj.matrixWorldNeedsUpdate=true;}}
+function motion(){for(const row of rows){if(row.group)continue;const obj=objects.get(row.id),m=[...row.matrix];for(const [index,track] of Object.entries(row.tracks)){const p=track[Math.round(values[+index]*100)];for(let j=0;j<3;j++)m[12+j]+=p[j];}obj.matrix.fromArray(m);const hinged=manifest.storageChestPreview;if(hinged?.moving.includes(row.id)){const [x,y,z]=hinged.pivot;const turn=new THREE.Matrix4().makeTranslation(x,y,z).multiply(new THREE.Matrix4().makeRotationX(-Number($('lid-angle').value)*Math.PI/180)).multiply(new THREE.Matrix4().makeTranslation(-x,-y,-z));obj.matrix.premultiply(turn);}obj.matrixWorldNeedsUpdate=true;}}
 function withClampReference(sourceRows){
  const layout=manifest.clampPreview;if(!layout)return sourceRows;
  const root=layout.referenceRoot,copyRoot='/clamp-reference';
@@ -217,7 +217,7 @@ function showTab(next){
  const previous=tab;if(isAssemblyTab(previous)&&next!==previous)savePreviewCamera();tab=next;if(tab==='files')viewMode='isometric';
  const preview=isAssemblyTab(tab);if(preview)previewAssembly=tab;
  document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));
- $('assembly-panel').hidden=!preview;$('positions').hidden=tab==='clamps';$('files-panel').hidden=tab!=='files';
+ $('assembly-panel').hidden=!preview;$('positions').hidden=tab!=='assembly';$('storage-positions').hidden=tab!=='storage';$('files-panel').hidden=tab!=='files';
  $('viewport').hidden=!preview&&tab!=='files';$('source-control').hidden=!preview;$('projection-control').hidden=!preview;
  $('appearance-control').hidden=!preview&&!(tab==='files'&&selectedFile&&['stp','step','stl'].includes(selectedFile.kind));
  $('comparison').hidden=tab!=='comparison';$('plans').hidden=tab!=='plans';$('parts').hidden=tab!=='parts';
@@ -238,7 +238,7 @@ function navigationFromUrl(){const hash=new URLSearchParams(location.hash.slice(
 function navigateTab(next){if(next===tab)return;++fileRequest;pushNavigation({...navigationState(),tab:next});showTab(next);syncPartSelection();}
 async function restoreNavigation(state){
  if(!manifest)return;++fileRequest;
- state=state||navigationFromUrl();const next=['assembly','clamps','plans','parts','files','comparison'].includes(state.tab)?state.tab:'assembly';
+ state=state||navigationFromUrl();const next=['assembly','clamps','storage','plans','parts','files','comparison'].includes(state.tab)?state.tab:'assembly';
  if(next==='plans'&&tab==='parts'&&selectedPart){state={...state,part:selectedPart};history.replaceState(state,'',navigationUrl(state));}
  $('parts-filter').value=state.partsFilter||'';$('filter').value=state.fileFilter||'';selectedPart=state.part||null;
  if(next==='parts'&&selectedPart){openPlanPart(selectedPart,false,true);}
@@ -324,9 +324,11 @@ $('drawing').addEventListener('wheel',e=>{if(!svg)return;e.preventDefault();zoom
 $('drawing').onpointerdown=e=>{if(!svg)return;drag=point(e.clientX,e.clientY);$('drawing').setPointerCapture(e.pointerId);};$('drawing').onpointermove=e=>{if(!drag)return;const p=point(e.clientX,e.clientY);view[0]+=drag.x-p.x;view[1]+=drag.y-p.y;drawDxf();};$('drawing').onpointerup=$('drawing').onpointercancel=()=>drag=null;
 $('zoom-in').onclick=()=>zoom(1/1.25);$('zoom-out').onclick=()=>zoom(1.25);$('zoom-fit').onclick=()=>{view=[...full];drawDxf();};for(const [id,checked] of [['layers-all',true],['layers-none',false]])$(id).onclick=()=>{for(const c of $('layers').querySelectorAll('input')){c.checked=checked;c.onchange();}};
 function resize(){const r=$('canvas').getBoundingClientRect();if(r.width&&r.height){renderer.setSize(r.width,r.height);if(camera.isPerspectiveCamera)camera.aspect=r.width/r.height;else{camera.left=-viewHeight*r.width/r.height/2;camera.right=-camera.left;camera.top=viewHeight/2;camera.bottom=-camera.top;}camera.updateProjectionMatrix();}drawDxf();}new ResizeObserver(resize).observe($('viewport'));
-renderer.setAnimationLoop(()=>{if(['assembly','clamps','files'].includes(tab)&&!document.hidden){controls.update();renderView();}});
+renderer.setAnimationLoop(()=>{if(['assembly','clamps','storage','files'].includes(tab)&&!document.hidden){controls.update();renderView();}});
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{viewMode=b.dataset.view;fit(assembly);});
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>navigateTab(b.dataset.tab));$('fit').onclick=()=>fit();for(const mode of ['preview','wood','finish'])$('appearance-'+mode).onclick=()=>{walnutEnabled.value=mode==='preview'?0:1;finishEnabled.value=mode==='finish'?1:0;for(const name of ['preview','wood','finish'])$('appearance-'+name).setAttribute('aria-pressed',String(name===mode));style();};$('alpha').oninput=style;$('edges').onchange=style;$('file-alpha').oninput=fileOpacity;$('filter').oninput=files;$('parts-filter').oninput=partsList;$('python').onclick=()=>{if(source!=='python')switchSource('python');};$('dxf').onclick=()=>{if(source!=='dxf')switchSource('dxf');};$('stp').onclick=()=>{if(source!=='stp')switchSource('stp');};$('expand').onclick=()=>{collapsed.clear();tree();};$('collapse').onclick=()=>{collapsed=new Set(visibilityRows(rows).filter(r=>r.group).map(r=>r.id));tree();};
 try{manifest=await json('manifest.json?v=monitors-75');values=[...manifest.values];$('alpha').value=1;$('build-info').textContent=`Published ${new Date(manifest.built).toLocaleString()} · design ${manifest.modelSha256.slice(0,12)} · generated locally, viewed entirely in your browser`;
 manifest.labels.forEach((name,i)=>{const label=document.createElement('label'),out=document.createElement('output'),input=document.createElement('input');input.type='range';input.min=0;input.max=1;input.step=.01;input.value=values[i];out.value=`${Math.round(values[i]*100)}%`;input.setAttribute('aria-label',name);input.oninput=()=>{values[i]=+input.value;out.value=`${Math.round(values[i]*100)}%`;motion();};label.append(document.createTextNode(name),out,input);$('sliders').append(label);});
 partsList();files();for(const f of manifest.files.filter(f=>f.kind==='csv')){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=f.name;details.append(summary,table(await data(f.preview)));$('plans').append(details);}manifest.plans.forEach((url,i)=>$('plans').append(cuttingPlan(url,i)));const report=await fetch('comparison/comparison.txt');if(!report.ok)throw Error('Cannot load comparison report');$('report').textContent=await report.text();await switchSource('python');await restoreNavigation(history.state||navigationFromUrl());history.replaceState(navigationState(),'',navigationUrl(navigationState()));}catch(e){fail(e);}
+
+$('lid-angle').oninput=()=>{$('lid-value').value=$('lid-angle').value+'°';motion();};

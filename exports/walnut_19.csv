@@ -45,3 +45,9 @@ L,W,Q,Name,Banding,Finish,CanRotate
 73.5,73.5,1,Round Clamp 2 Layer 2,",,,",#595235,Y
 73.5,73.5,1,Round Clamp 2 Layer 3,",,,",#595235,Y
 73.5,73.5,1,Round Clamp 2 Layer 4,",,,",#595235,Y
+962,262,1,Storage Chest Bottom 1,",,,",#595235,
+962,379,1,Storage Chest Front 1,",1mm,,",#595235,
+962,379,1,Storage Chest Back 1,",1mm,,",#595235,
+379,300,1,Storage Chest Side 1 Left,"1mm,1mm,1mm,",#595235,
+379,300,1,Storage Chest Side 1 Right,"1mm,1mm,1mm,",#595235,
+1000,300,1,Storage Chest Lid 1,"1mm,1mm,1mm,1mm",#595235,
