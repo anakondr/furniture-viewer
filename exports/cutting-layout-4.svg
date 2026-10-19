@@ -3,7 +3,7 @@
   <rdf:RDF>
    <ns2:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:date>2026-10-19T22:34:44.307225</dc:date>
+    <dc:date>2026-10-19T23:00:31.331841</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <ns2:Agent>
@@ -25,40 +25,61 @@
     <path d="M 53.650781 269.869414  L 380.808438 269.869414  L 380.808438 106.290586  L 53.650781 106.290586  z " style="fill: #ffffff" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_3">
-    <path d="M 53.650781 269.869414  L 380.808438 269.869414  L 380.808438 106.290586  L 53.650781 106.290586  L 53.650781 269.869414  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 53.650781 269.869414  L 380.808438 269.869414  L 380.808438 106.290586  L 53.650781 106.290586  L 53.650781 269.869414  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_4">
-    <path d="M 54.991591 268.528604  L 83.014522 268.528604  L 83.014522 188.348162  L 54.991591 188.348162  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 54.991591 268.528604  L 184.245682 268.528604  L 184.245682 217.309659  L 54.991591 217.309659  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_5">
-    <path d="M 54.991591 187.007352  L 135.172033 187.007352  L 135.172033 158.984422  L 54.991591 158.984422  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 54.991591 215.968849  L 184.245682 215.968849  L 184.245682 164.749905  L 54.991591 164.749905  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_6">
-    <path d="M 84.355332 268.528604  L 112.378262 268.528604  L 112.378262 188.348162  L 84.355332 188.348162  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 54.991591 163.409095  L 184.245682 163.409095  L 184.245682 128.011709  L 54.991591 128.011709  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_7">
-    <path d="M 113.719072 268.528604  L 141.742003 268.528604  L 141.742003 188.348162  L 113.719072 188.348162  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 185.586492 268.528604  L 319.667498 268.528604  L 319.667498 240.639755  L 185.586492 240.639755  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_8">
-    <path d="M 54.991591 157.643611  L 135.172033 157.643611  L 135.172033 129.620681  L 54.991591 129.620681  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 321.008309 268.528604  L 349.031239 268.528604  L 349.031239 188.348162  L 321.008309 188.348162  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_9">
-    <path d="M 136.512843 187.007352  L 216.693285 187.007352  L 216.693285 158.984422  L 136.512843 158.984422  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 350.372049 268.528604  L 378.394979 268.528604  L 378.394979 188.348162  L 350.372049 188.348162  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_10">
-    <path d="M 136.512843 157.643611  L 158.066365 157.643611  L 158.066365 121.978064  L 136.512843 121.978064  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 185.586492 187.007352  L 265.766934 187.007352  L 265.766934 158.984422  L 185.586492 158.984422  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-patch_11">
-    <path d="M 159.407175 157.643611  L 180.960697 157.643611  L 180.960697 121.978064  L 159.407175 121.978064  z " clip-path="url(#cutting-layout-4-pf792135d77)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+    <path d="M 185.586492 157.643611  L 265.766934 157.643611  L 265.766934 129.620681  L 185.586492 129.620681  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_12">
+    <path d="M 185.586492 239.298945  L 265.766934 239.298945  L 265.766934 211.276014  L 185.586492 211.276014  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_13">
+    <path d="M 267.107744 239.298945  L 295.130674 239.298945  L 295.130674 159.118503  L 267.107744 159.118503  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_14">
+    <path d="M 267.107744 157.777692  L 318.326688 157.777692  L 318.326688 117.55339  L 267.107744 117.55339  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_15">
+    <path d="M 319.667498 187.007352  L 370.886443 187.007352  L 370.886443 146.78305  L 319.667498 146.78305  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_16">
+    <path d="M 54.991591 126.670899  L 189.072598 126.670899  L 189.072598 114.603608  L 54.991591 114.603608  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #f5f1e8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_17">
+    <path d="M 185.586492 209.935204  L 221.25204 209.935204  L 221.25204 188.381682  L 185.586492 188.381682  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
+   </g>
+   <g id="cutting-layout-4-patch_18">
+    <path d="M 222.59285 209.935204  L 258.258397 209.935204  L 258.258397 188.381682  L 222.59285 188.381682  z " clip-path="url(#cutting-layout-4-p0f27772b83)" style="fill: #c8a2c8; opacity: 0.55; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-matplotlib.axis_1">
     <g id="cutting-layout-4-xtick_1">
      <g id="cutting-layout-4-line2d_1">
       <defs>
-       <path id="cutting-layout-4-ma81e88b982" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-mfbe95e940b" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </defs>
       <g>
-       <use xlink:href="#cutting-layout-4-ma81e88b982" x="53.650781" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-mfbe95e940b" x="53.650781" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_1">
@@ -74,7 +95,7 @@
     <g id="cutting-layout-4-xtick_2">
      <g id="cutting-layout-4-line2d_2">
       <g>
-       <use xlink:href="#cutting-layout-4-ma81e88b982" x="120.691285" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-mfbe95e940b" x="120.691285" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_2">
@@ -92,7 +113,7 @@
     <g id="cutting-layout-4-xtick_3">
      <g id="cutting-layout-4-line2d_3">
       <g>
-       <use xlink:href="#cutting-layout-4-ma81e88b982" x="187.731788" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-mfbe95e940b" x="187.731788" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_3">
@@ -111,7 +132,7 @@
     <g id="cutting-layout-4-xtick_4">
      <g id="cutting-layout-4-line2d_4">
       <g>
-       <use xlink:href="#cutting-layout-4-ma81e88b982" x="254.772291" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-mfbe95e940b" x="254.772291" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_4">
@@ -127,7 +148,7 @@
     <g id="cutting-layout-4-xtick_5">
      <g id="cutting-layout-4-line2d_5">
       <g>
-       <use xlink:href="#cutting-layout-4-ma81e88b982" x="321.812795" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-mfbe95e940b" x="321.812795" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_5">
@@ -188,10 +209,10 @@
     <g id="cutting-layout-4-ytick_1">
      <g id="cutting-layout-4-line2d_6">
       <defs>
-       <path id="cutting-layout-4-m0aae40edfc" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-m83daaea986" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </defs>
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="269.869414" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_7">
@@ -204,7 +225,7 @@
     <g id="cutting-layout-4-ytick_2">
      <g id="cutting-layout-4-line2d_7">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="243.053213" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="243.053213" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_8">
@@ -219,7 +240,7 @@
     <g id="cutting-layout-4-ytick_3">
      <g id="cutting-layout-4-line2d_8">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="216.237011" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="216.237011" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_9">
@@ -237,7 +258,7 @@
     <g id="cutting-layout-4-ytick_4">
      <g id="cutting-layout-4-line2d_9">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="189.42081" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="189.42081" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_10">
@@ -255,7 +276,7 @@
     <g id="cutting-layout-4-ytick_5">
      <g id="cutting-layout-4-line2d_10">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="162.604609" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="162.604609" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_11">
@@ -273,7 +294,7 @@
     <g id="cutting-layout-4-ytick_6">
      <g id="cutting-layout-4-line2d_11">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="135.788407" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="135.788407" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_12">
@@ -289,7 +310,7 @@
     <g id="cutting-layout-4-ytick_7">
      <g id="cutting-layout-4-line2d_12">
       <g>
-       <use xlink:href="#cutting-layout-4-m0aae40edfc" x="53.650781" y="108.972206" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
+       <use xlink:href="#cutting-layout-4-m83daaea986" x="53.650781" y="108.972206" style="stroke: #000000; stroke-width: 0.8" vector-effect="non-scaling-stroke" />
       </g>
      </g>
      <g id="cutting-layout-4-text_13">
@@ -340,26 +361,195 @@
      </g>
     </g>
    </g>
-   <g id="cutting-layout-4-patch_12">
+   <g id="cutting-layout-4-patch_19">
     <path d="M 53.650781 269.869414  L 53.650781 106.290586  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
-   <g id="cutting-layout-4-patch_13">
+   <g id="cutting-layout-4-patch_20">
     <path d="M 380.808438 269.869414  L 380.808438 106.290586  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
-   <g id="cutting-layout-4-patch_14">
+   <g id="cutting-layout-4-patch_21">
     <path d="M 53.650781 269.869414  L 380.808438 269.869414  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
-   <g id="cutting-layout-4-patch_15">
+   <g id="cutting-layout-4-patch_22">
     <path d="M 53.650781 106.290586  L 380.808438 106.290586  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" vector-effect="non-scaling-stroke" />
    </g>
    <g id="cutting-layout-4-text_15">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(49.899932 226.736918) scale(0.05 -0.05)">
+     <g transform="translate(92.388949 241.217667) scale(0.05 -0.05)">
       <defs>
+       <path id="cutting-layout-4-DejaVuSans-36" d="M 3425 4513  L 3425 3897  Q 3066 4069 2747 4153  Q 2428 4238 2131 4238  Q 1616 4238 1336 4038  Q 1056 3838 1056 3469  Q 1056 3159 1242 3001  Q 1428 2844 1947 2747  L 2328 2669  Q 3034 2534 3370 2195  Q 3706 1856 3706 1288  Q 3706 609 3251 259  Q 2797 -91 1919 -91  Q 1588 -91 1214 -16  Q 841 59 441 206  L 441 856  Q 825 641 1194 531  Q 1563 422 1919 422  Q 2459 422 2753 634  Q 3047 847 3047 1241  Q 3047 1584 2836 1778  Q 2625 1972 2144 2069  L 1759 2144  Q 1053 2284 737 2584  Q 422 2884 422 3419  Q 422 4038 858 4394  Q 1294 4750 2059 4750  Q 2388 4750 2728 4690  Q 3069 4631 3425 4513  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
        <path id="cutting-layout-4-DejaVuSans-26" d="M 4122 4306  L 4122 3641  Q 3803 3938 3442 4084  Q 3081 4231 2675 4231  Q 1875 4231 1450 3742  Q 1025 3253 1025 2328  Q 1025 1406 1450 917  Q 1875 428 2675 428  Q 3081 428 3442 575  Q 3803 722 4122 1019  L 4122 359  Q 3791 134 3420 21  Q 3050 -91 2638 -91  Q 1578 -91 968 557  Q 359 1206 359 2328  Q 359 3453 968 4101  Q 1578 4750 2638 4750  Q 3056 4750 3426 4639  Q 3797 4528 4122 4306  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
        <path id="cutting-layout-4-DejaVuSans-29" d="M 628 4666  L 3309 4666  L 3309 4134  L 1259 4134  L 1259 2759  L 3109 2759  L 3109 2228  L 1259 2228  L 1259 0  L 628 0  L 628 4666  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
       </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(791.109375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(830.015625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-51" transform="translate(891.203125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(954.578125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(993.78125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(1025.5625 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(107.979965 247.218643) scale(0.05 -0.05)">
+      <defs>
+       <path id="cutting-layout-4-DejaVuSans-1c" d="M 703 97  L 703 672  Q 941 559 1184 500  Q 1428 441 1663 441  Q 2288 441 2617 861  Q 2947 1281 2994 2138  Q 2813 1869 2534 1725  Q 2256 1581 1919 1581  Q 1219 1581 811 2004  Q 403 2428 403 3163  Q 403 3881 828 4315  Q 1253 4750 1959 4750  Q 2769 4750 3195 4129  Q 3622 3509 3622 2328  Q 3622 1225 3098 567  Q 2575 -91 1691 -91  Q 1453 -91 1209 -44  Q 966 3 703 97  z M 1959 2075  Q 2384 2075 2632 2365  Q 2881 2656 2881 3163  Q 2881 3666 2632 3958  Q 2384 4250 1959 4250  Q 1534 4250 1286 3958  Q 1038 3666 1038 3163  Q 1038 2656 1286 2365  Q 1534 2075 1959 2075  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-DejaVuSans-99" d="M 4488 3438  L 3059 2003  L 4488 575  L 4116 197  L 2681 1631  L 1247 197  L 878 575  L 2303 2003  L 878 3438  L 1247 3816  L 2681 2381  L 4116 3816  L 4488 3438  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-DejaVuSans-16" d="M 2597 2516  Q 3050 2419 3304 2112  Q 3559 1806 3559 1356  Q 3559 666 3084 287  Q 2609 -91 1734 -91  Q 1441 -91 1130 -33  Q 819 25 488 141  L 488 750  Q 750 597 1062 519  Q 1375 441 1716 441  Q 2309 441 2620 675  Q 2931 909 2931 1356  Q 2931 1769 2642 2001  Q 2353 2234 1838 2234  L 1294 2234  L 1294 2753  L 1863 2753  Q 2328 2753 2575 2939  Q 2822 3125 2822 3475  Q 2822 3834 2567 4026  Q 2313 4219 1838 4219  Q 1578 4219 1281 4162  Q 984 4106 628 3988  L 628 4550  Q 988 4650 1302 4700  Q 1616 4750 1894 4750  Q 2613 4750 3031 4423  Q 3450 4097 3450 3541  Q 3450 3153 3228 2886  Q 3006 2619 2597 2516  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+      </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-17" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_16">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(92.642074 188.657912) scale(0.05 -0.05)">
+      <defs>
+       <path id="cutting-layout-4-DejaVuSans-25" d="M 1259 2228  L 1259 519  L 2272 519  Q 2781 519 3026 730  Q 3272 941 3272 1375  Q 3272 1813 3026 2020  Q 2781 2228 2272 2228  L 1259 2228  z M 1259 4147  L 1259 2741  L 2194 2741  Q 2656 2741 2882 2914  Q 3109 3088 3109 3444  Q 3109 3797 2882 3972  Q 2656 4147 2194 4147  L 1259 4147  z M 628 4666  L 2241 4666  Q 2963 4666 3353 4366  Q 3744 4066 3744 3513  Q 3744 3084 3544 2831  Q 3344 2578 2956 2516  Q 3422 2416 3680 2098  Q 3938 1781 3938 1306  Q 3938 681 3513 340  Q 3088 0 2303 0  L 628 0  L 628 4666  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-DejaVuSans-4e" d="M 581 4863  L 1159 4863  L 1159 1991  L 2875 3500  L 3609 3500  L 1753 1863  L 3688 0  L 2938 0  L 1159 1709  L 1159 0  L 581 0  L 581 4863  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+      </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-25" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(809.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(870.765625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4e" transform="translate(925.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(983.65625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(1015.4375 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(107.979965 194.658889) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-17" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_17">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(89.541683 144.008937) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-25" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(809.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(870.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(909.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(949.078125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-50" transform="translate(1010.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(1107.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(1139.453125 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(107.979965 150.009914) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-17" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-17" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_18">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(228.045355 252.882714) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-2f" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4c" transform="translate(796.59375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(824.375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(887.859375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(919.640625 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(239.397698 258.883691) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(254.5 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_19">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(315.916649 226.736918) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
@@ -376,12 +566,10 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(54.474932 232.737895) scale(0.05 -0.05)">
+     <g transform="translate(320.491649 232.737895) scale(0.05 -0.05)">
       <defs>
-       <path id="cutting-layout-4-DejaVuSans-1c" d="M 703 97  L 703 672  Q 941 559 1184 500  Q 1428 441 1663 441  Q 2288 441 2617 861  Q 2947 1281 2994 2138  Q 2813 1869 2534 1725  Q 2256 1581 1919 1581  Q 1219 1581 811 2004  Q 403 2428 403 3163  Q 403 3881 828 4315  Q 1253 4750 1959 4750  Q 2769 4750 3195 4129  Q 3622 3509 3622 2328  Q 3622 1225 3098 567  Q 2575 -91 1691 -91  Q 1453 -91 1209 -44  Q 966 3 703 97  z M 1959 2075  Q 2384 2075 2632 2365  Q 2881 2656 2881 3163  Q 2881 3666 2632 3958  Q 2384 4250 1959 4250  Q 1534 4250 1286 3958  Q 1038 3666 1038 3163  Q 1038 2656 1286 2365  Q 1534 2075 1959 2075  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
-       <path id="cutting-layout-4-DejaVuSans-99" d="M 4488 3438  L 3059 2003  L 4488 575  L 4116 197  L 2681 1631  L 1247 197  L 878 575  L 2303 2003  L 878 3438  L 1247 3816  L 2681 2381  L 4116 3816  L 4488 3438  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
        <path id="cutting-layout-4-DejaVuSans-c45" d="M 3763 3334  L 4138 3709  Q 4425 3413 4566 3078  Q 4709 2728 4709 2331  Q 4709 1944 4566 1594  Q 4416 1241 4138 963  Q 3863 691 3513 541  Q 3175 397 2775 397  Q 2359 397 2038 541  Q 1675 703 1413 963  Q 1134 1241 984 1594  Q 841 1944 841 2331  Q 841 2728 984 3078  Q 1131 3428 1413 3709  L 1522 3819  L 491 3819  L 491 4350  L 2228 4350  L 2428 4150  L 2428 2413  L 1897 2413  L 1897 3444  L 1788 3334  Q 1581 3128 1475 2875  Q 1372 2622 1372 2331  Q 1372 2050 1475 1797  Q 1578 1544 1784 1338  Q 1984 1141 2241 1031  Q 2484 928 2781 928  Q 3078 928 3309 1031  Q 3578 1153 3766 1338  Q 3972 1544 4075 1797  Q 4178 2050 4178 2331  Q 4178 2622 4075 2875  Q 3975 3128 3763 3334  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
       </defs>
       <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
@@ -396,146 +584,10 @@
      </g>
     </g>
    </g>
-   <g id="cutting-layout-4-text_16">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(75.978687 171.294422) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(83.44314 177.295398) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-   </g>
-   <g id="cutting-layout-4-text_17">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(79.263672 226.736918) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(83.838672 232.737895) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-   </g>
-   <g id="cutting-layout-4-text_18">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(108.627412 226.736918) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(113.202412 232.737895) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-   </g>
-   <g id="cutting-layout-4-text_19">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(75.978687 141.930681) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
-     
-     <g transform="translate(83.44314 147.931658) scale(0.05 -0.05)">
-      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
-     </g>
-    </g>
-   </g>
    <g id="cutting-layout-4-text_20">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(157.499939 171.294422) scale(0.05 -0.05)">
+     <g transform="translate(345.280389 226.736918) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
@@ -552,9 +604,9 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(164.964392 177.295398) scale(0.05 -0.05)">
+     <g transform="translate(349.855389 232.737895) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
@@ -562,15 +614,298 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
    </g>
    <g id="cutting-layout-4-text_21">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(120.448589 138.109373) scale(0.05 -0.05)">
+     <g transform="translate(206.573588 171.294422) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(214.038041 177.295398) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_22">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(206.573588 141.930681) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(214.038041 147.931658) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_23">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(206.573588 223.586015) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(214.038041 229.586991) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_24">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(262.016084 197.507259) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(69.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(133.203125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(194.734375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(246.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(286.03125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-29" transform="translate(317.8125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(366.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-46" transform="translate(427.4375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(482.421875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(543.703125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(607.1875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(668.71875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(700.5 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(266.591084 203.508235) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-18" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_25">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(260.904716 135.964077) scale(0.05 -0.05)">
       <defs>
-       <path id="cutting-layout-4-DejaVuSans-36" d="M 3425 4513  L 3425 3897  Q 3066 4069 2747 4153  Q 2428 4238 2131 4238  Q 1616 4238 1336 4038  Q 1056 3838 1056 3469  Q 1056 3159 1242 3001  Q 1428 2844 1947 2747  L 2328 2669  Q 3034 2534 3370 2195  Q 3706 1856 3706 1288  Q 3706 609 3251 259  Q 2797 -91 1919 -91  Q 1588 -91 1214 -16  Q 841 59 441 206  L 441 856  Q 825 641 1194 531  Q 1563 422 1919 422  Q 2459 422 2753 634  Q 3047 847 3047 1241  Q 3047 1584 2836 1778  Q 2625 1972 2144 2069  L 1759 2144  Q 1053 2284 737 2584  Q 422 2884 422 3419  Q 422 4038 858 4394  Q 1294 4750 2059 4750  Q 2388 4750 2728 4690  Q 3069 4631 3425 4513  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-DejaVuSans-49" d="M 2375 4863  L 2375 4384  L 1825 4384  Q 1516 4384 1395 4259  Q 1275 4134 1275 3809  L 1275 3500  L 2222 3500  L 2222 3053  L 1275 3053  L 1275 0  L 697 0  L 697 3053  L 147 3053  L 147 3500  L 697 3500  L 697 3744  Q 697 4328 969 4595  Q 1241 4863 1831 4863  L 2375 4863  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+      </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4c" transform="translate(804.359375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(832.140625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(895.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(957.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(988.9375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(1052.5625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-2f" transform="translate(1084.34375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(1138.3125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-49" transform="translate(1199.84375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(1233.296875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(281.078544 141.965053) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_26">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(311.585174 165.193736) scale(0.05 -0.05)">
+      <defs>
+       <path id="cutting-layout-4-DejaVuSans-35" d="M 2841 2188  Q 3044 2119 3236 1894  Q 3428 1669 3622 1275  L 4263 0  L 3584 0  L 2988 1197  Q 2756 1666 2539 1819  Q 2322 1972 1947 1972  L 1259 1972  L 1259 0  L 628 0  L 628 4666  L 2053 4666  Q 2853 4666 3247 4331  Q 3641 3997 3641 3322  Q 3641 2881 3436 2590  Q 3231 2300 2841 2188  z M 1259 4147  L 1259 2491  L 2053 2491  Q 2509 2491 2742 2702  Q 2975 2913 2975 3322  Q 2975 3731 2742 3939  Q 2509 4147 2053 4147  L 1259 4147  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+      </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4c" transform="translate(804.359375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(832.140625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(895.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(957.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(988.9375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(1052.5625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-35" transform="translate(1084.34375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4c" transform="translate(1153.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(1181.609375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(1245.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(1308.46875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(333.638299 171.194713) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-16" transform="translate(274.671875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_27">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(83.717251 118.935789) scale(0.05 -0.05)">
+      <defs>
+       <path id="cutting-layout-4-DejaVuSans-37" d="M -19 4666  L 3928 4666  L 3928 4134  L 2272 4134  L 2272 0  L 1638 0  L 1638 4134  L -19 4134  L -19 4666  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+       <path id="cutting-layout-4-DejaVuSans-53" d="M 1159 525  L 1159 -1331  L 581 -1331  L 581 3500  L 1159 3500  L 1159 2969  Q 1341 3281 1617 3432  Q 1894 3584 2278 3584  Q 2916 3584 3314 3078  Q 3713 2572 3713 1747  Q 3713 922 3314 415  Q 2916 -91 2278 -91  Q 1894 -91 1617 61  Q 1341 213 1159 525  z M 3116 1747  Q 3116 2381 2855 2742  Q 2594 3103 2138 3103  Q 1681 3103 1420 2742  Q 1159 2381 1159 1747  Q 1159 1113 1420 752  Q 1681 391 2138 391  Q 2594 391 2855 752  Q 3116 1113 3116 1747  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
+      </defs>
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(102.6875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(163.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(204.984375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4a" transform="translate(266.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(329.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(391.28125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-26" transform="translate(423.0625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4b" transform="translate(492.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(556.265625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-56" transform="translate(617.796875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(669.890625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(709.09375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-37" transform="translate(740.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-52" transform="translate(784.96875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-53" transform="translate(846.15625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(909.640625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(941.421875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(1005.046875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-35" transform="translate(1036.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-48" transform="translate(1101.828125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(1163.359375 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(1224.640625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(1265.75 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-36" transform="translate(1297.53125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-57" transform="translate(1361.015625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-55" transform="translate(1400.21875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-4c" transform="translate(1441.328125 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-53" transform="translate(1469.109375 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(110.393423 124.936765) scale(0.05 -0.05)">
+      <use xlink:href="#cutting-layout-4-DejaVuSans-14" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(190.875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-99" transform="translate(254.5 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(338.296875 0)" vector-effect="non-scaling-stroke" />
+      <use xlink:href="#cutting-layout-4-DejaVuSans-13" transform="translate(401.921875 0)" vector-effect="non-scaling-stroke" />
+     </g>
+    </g>
+   </g>
+   <g id="cutting-layout-4-text_28">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
+     
+     <g transform="translate(176.57825 197.456978) scale(0.05 -0.05)">
+      <defs>
        <path id="cutting-layout-4-DejaVuSans-4f" d="M 603 4863  L 1178 4863  L 1178 0  L 603 0  L 603 4863  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
       </defs>
       <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
@@ -595,9 +930,9 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(1010.015625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(128.785698 144.110349) scale(0.05 -0.05)">
+     <g transform="translate(187.804813 203.457955) scale(0.05 -0.05)">
       <defs>
        <path id="cutting-layout-4-DejaVuSans-11" d="M 684 794  L 1344 794  L 1344 0  L 684 0  L 684 794  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
        <path id="cutting-layout-4-DejaVuSans-1a" d="M 525 4666  L 3525 4666  L 3525 4397  L 1831 0  L 1172 0  L 2766 4134  L 525 4134  L 525 4666  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
@@ -612,15 +947,13 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-11" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-1a" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-18" transform="translate(560.953125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(624.578125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(656.359375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
    </g>
-   <g id="cutting-layout-4-text_22">
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+   <g id="cutting-layout-4-text_29">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(143.342921 138.109373) scale(0.05 -0.05)">
+     <g transform="translate(213.584608 197.456978) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-4-DejaVuSans-36" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-50" transform="translate(63.484375 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-44" transform="translate(160.890625 0)" vector-effect="non-scaling-stroke" />
@@ -643,9 +976,9 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-14" transform="translate(1010.015625 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
-    <g clip-path="url(#cutting-layout-4-pf792135d77)">
+    <g clip-path="url(#cutting-layout-4-p0f27772b83)">
      
-     <g transform="translate(151.68003 144.110349) scale(0.05 -0.05)">
+     <g transform="translate(224.81117 203.457955) scale(0.05 -0.05)">
       <use xlink:href="#cutting-layout-4-DejaVuSans-15" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(63.625 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-19" transform="translate(127.25 0)" vector-effect="non-scaling-stroke" />
@@ -656,12 +989,10 @@
       <use xlink:href="#cutting-layout-4-DejaVuSans-11" transform="translate(465.546875 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-1a" transform="translate(497.328125 0)" vector-effect="non-scaling-stroke" />
       <use xlink:href="#cutting-layout-4-DejaVuSans-18" transform="translate(560.953125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(624.578125 0)" vector-effect="non-scaling-stroke" />
-      <use xlink:href="#cutting-layout-4-DejaVuSans-c45" transform="translate(656.359375 0)" vector-effect="non-scaling-stroke" />
      </g>
     </g>
    </g>
-   <g id="cutting-layout-4-text_23">
+   <g id="cutting-layout-4-text_30">
     
     <g transform="translate(154.672109 100.290586) scale(0.12 -0.12)">
      <defs>
@@ -679,8 +1010,8 @@
      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(384.53125 0)" vector-effect="non-scaling-stroke" />
      <use xlink:href="#cutting-layout-4-DejaVuSans-af6" transform="translate(416.3125 0)" vector-effect="non-scaling-stroke" />
      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(516.3125 0)" vector-effect="non-scaling-stroke" />
-     <use xlink:href="#cutting-layout-4-DejaVuSans-15" transform="translate(548.09375 0)" vector-effect="non-scaling-stroke" />
-     <use xlink:href="#cutting-layout-4-DejaVuSans-1b" transform="translate(611.71875 0)" vector-effect="non-scaling-stroke" />
+     <use xlink:href="#cutting-layout-4-DejaVuSans-1a" transform="translate(548.09375 0)" vector-effect="non-scaling-stroke" />
+     <use xlink:href="#cutting-layout-4-DejaVuSans-1c" transform="translate(611.71875 0)" vector-effect="non-scaling-stroke" />
      <use xlink:href="#cutting-layout-4-DejaVuSans-8" transform="translate(675.34375 0)" vector-effect="non-scaling-stroke" />
      <use xlink:href="#cutting-layout-4-DejaVuSans-3" transform="translate(770.359375 0)" vector-effect="non-scaling-stroke" />
      <use xlink:href="#cutting-layout-4-DejaVuSans-58" transform="translate(802.140625 0)" vector-effect="non-scaling-stroke" />
@@ -690,13 +1021,9 @@
     </g>
    </g>
   </g>
-  <g id="cutting-layout-4-text_24">
+  <g id="cutting-layout-4-text_31">
    
    <g transform="translate(81.583281 17.837812) scale(0.14 -0.14)">
-    <defs>
-     <path id="cutting-layout-4-DejaVuSans-49" d="M 2375 4863  L 2375 4384  L 1825 4384  Q 1516 4384 1395 4259  Q 1275 4134 1275 3809  L 1275 3500  L 2222 3500  L 2222 3053  L 1275 3053  L 1275 0  L 697 0  L 697 3053  L 147 3053  L 147 3500  L 697 3500  L 697 3744  Q 697 4328 969 4595  Q 1241 4863 1831 4863  L 2375 4863  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
-     <path id="cutting-layout-4-DejaVuSans-53" d="M 1159 525  L 1159 -1331  L 581 -1331  L 581 3500  L 1159 3500  L 1159 2969  Q 1341 3281 1617 3432  Q 1894 3584 2278 3584  Q 2916 3584 3314 3078  Q 3713 2572 3713 1747  Q 3713 922 3314 415  Q 2916 -91 2278 -91  Q 1894 -91 1617 61  Q 1341 213 1159 525  z M 3116 1747  Q 3116 2381 2855 2742  Q 2594 3103 2138 3103  Q 1681 3103 1420 2742  Q 1159 2381 1159 1747  Q 1159 1113 1420 752  Q 1681 391 2138 391  Q 2594 391 2855 752  Q 3116 1113 3116 1747  z " transform="scale(0.015625)" vector-effect="non-scaling-stroke" />
-    </defs>
     <use xlink:href="#cutting-layout-4-DejaVuSans-50" vector-effect="non-scaling-stroke" />
     <use xlink:href="#cutting-layout-4-DejaVuSans-47" transform="translate(97.40625 0)" vector-effect="non-scaling-stroke" />
     <use xlink:href="#cutting-layout-4-DejaVuSans-49" transform="translate(160.890625 0)" vector-effect="non-scaling-stroke" />
@@ -729,7 +1056,7 @@
   </g>
  </g>
  <defs>
-  <clipPath id="cutting-layout-4-pf792135d77">
+  <clipPath id="cutting-layout-4-p0f27772b83">
    <rect x="53.650781" y="106.290586" width="327.157656" height="163.578828" vector-effect="non-scaling-stroke" />
   </clipPath>
  </defs>
