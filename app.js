@@ -216,6 +216,7 @@ function tree(){const root=$('tree');root.replaceChildren();const displayRows=vi
 function showTab(next){
  const previous=tab;if(isAssemblyTab(previous)&&next!==previous)savePreviewCamera();tab=next;if(tab==='files')viewMode='isometric';
  const preview=isAssemblyTab(tab);if(preview)previewAssembly=tab;
+ const selectedGroups=(manifest?.assemblies||[]).filter(g=>tab==='clamps'?g.name.startsWith('Round Clamp'):tab==='storage'?g.name==='Storage Chest':tab==='assembly'&&g.name==='Furniture');$('excluded-notice').hidden=!preview||!selectedGroups.some(g=>g.included===false);
  document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));
  $('assembly-panel').hidden=!preview;$('positions').hidden=tab!=='assembly';$('storage-positions').hidden=tab!=='storage';$('files-panel').hidden=tab!=='files';
  $('viewport').hidden=!preview&&tab!=='files';$('source-control').hidden=!preview;$('projection-control').hidden=!preview;
