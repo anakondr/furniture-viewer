@@ -36,3 +36,14 @@ export class VisibilityPreferences {
     catch { /* Continue with in-memory preferences if storage is unavailable. */ }
   }
 }
+
+// A display-only group keeps original IDs, motion paths and saved preferences intact.
+export function visibilityRows(rows) {
+  const references = rows.filter(row => !row.group && row.fullColourGhost);
+  if (!references.length) return rows;
+  const ids = new Set(references.map(row => row.id));
+  return [...rows.filter(row => !ids.has(row.id)),
+    {id:'/non-manufactured', name:'Non-manufactured items', depth:0, group:true,
+     members:references},
+    ...references.map(row => ({...row, depth:1, displayParent:'/non-manufactured'}))];
+}
