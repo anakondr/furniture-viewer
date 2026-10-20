@@ -1,10 +1,10 @@
 L,W,Q,Name,Banding,Finish,CanRotate
 598,209,6,Chest Facade 1,"1mm,1mm,1mm,1mm",#C8A2C8,Y
 266,160.75,2,Small Chest Facade 1,"1mm,1mm,1mm,1mm",#C8A2C8,Y
-964,264,1,Storage Chest Bottom 1,",,,",#F5F1E8,
-964,382,1,Storage Chest Front 1,",1mm,,",#F5F1E8,
-964,382,1,Storage Chest Back 1,",1mm,,",#F5F1E8,
-382,300,1,Storage Chest Side 1 Left,"1mm,1mm,1mm,",#F5F1E8,
-382,300,1,Storage Chest Side 1 Right,"1mm,1mm,1mm,",#F5F1E8,
-1000,208,1,Storage Chest Lid 1,"1mm,1mm,1mm,1mm",#F5F1E8,
-1000,90,1,Storage Chest Top 1 Rear Strip,"1mm,1mm,1mm,1mm",#F5F1E8,
+964,264,1,Storage Chest Bottom 1,",,,",#F5F1E8,Y
+964,382,1,Storage Chest Front 1,",1mm,,",#F5F1E8,Y
+964,382,1,Storage Chest Back 1,",1mm,,",#F5F1E8,Y
+382,300,1,Storage Chest Side 1 Left,"1mm,1mm,1mm,",#F5F1E8,Y
+382,300,1,Storage Chest Side 1 Right,"1mm,1mm,1mm,",#F5F1E8,Y
+1000,208,1,Storage Chest Lid 1,"1mm,1mm,1mm,1mm",#F5F1E8,Y
+1000,90,1,Storage Chest Top 1 Rear Strip,"1mm,1mm,1mm,1mm",#F5F1E8,Y
