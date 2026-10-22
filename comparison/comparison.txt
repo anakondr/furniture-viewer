@@ -1,6 +1,6 @@
-DXF reconstruction: 93/123 unique parts match.
+DXF reconstruction: 91/123 unique parts match.
 DXF sheet geometry; Python stock thickness, assembly transforms, and non-DXF hardware. Geometry comparison only; DXF EDGE_BANDING controls preview side-face colours.
-157 sheet instances; 66 non-DXF instances.
+159 sheet instances; 66 non-DXF instances.
 Boolean-difference tolerance: 0.00001 mm³ in each direction.
 
 walnut_19/Chest_Side_1_Left.dxf
@@ -21,6 +21,15 @@ walnut_19/Chest_Side_2.dxf
 walnut_19/Chest_Middle_2.dxf
   Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 6; matches after those drills: True.
+oak_13/Chest_Top_Bearing_Side_Left.dxf
+  Extra material: 1130.973355 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 2; matches after those drills: True.
+oak_13/Chest_Top_Bearing_Side_Right.dxf
+  Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 3; matches after those drills: True.
+oak_13/Chest_Top_Bearing_Side_Middle.dxf
+  Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 3; matches after those drills: True.
 walnut_19/Chest_Side_3_Left.dxf
   Extra material: 1696.460033 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 3; matches after those drills: True.
@@ -87,9 +96,6 @@ mdf/Storage_Chest_Side_1_Left.dxf
 mdf/Storage_Chest_Side_1_Right.dxf
   Extra material: 1130.973355 mm³; missing material: 0.000000 mm³.
   Omitted edge holes: 2; matches after those drills: True.
-mdf/Storage_Chest_Bottom_2_Rear_Support.dxf
-  Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 6; matches after those drills: True.
-mdf/Storage_Chest_Bottom_3_Front_Support.dxf
-  Extra material: 3392.920066 mm³; missing material: 0.000000 mm³.
-  Omitted edge holes: 6; matches after those drills: True.
+mdf/Storage_Chest_Bottom_Support.dxf
+  Extra material: 2261.946711 mm³; missing material: 0.000000 mm³.
+  Omitted edge holes: 4; matches after those drills: True.
